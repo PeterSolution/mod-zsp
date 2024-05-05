@@ -1,0 +1,50 @@
+﻿
+units= {
+
+	fleet = {
+		name = "Battle Force"			
+		naval_base = 8113 									
+		task_force = {					
+			name = "Cruisers, Battle Force"
+			location = 8113
+			# Cruiser Division 2 #			
+			ship = { name = "USS Omaha" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }				
+			ship = { name = "USS New Orleans" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }										
+		}					
+		task_force = {					
+			name = "Cruiser Division 3"				
+			base = 8113
+			location = 1562 # San Diego
+			ship = { name = "USS Trenton" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }				
+			ship = { name = "USS Concord" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }				
+		}					
+		### Destroyer Flotilla 1 ###				
+		task_force = {					
+			name = "Destroyer Flotilla 1"				
+			location = 8113
+			ship = { name = "USS Raleigh" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }				
+			### Destroyer Squadron 1 ###				
+			# 1st Destroyer Division				
+			ship = { name = "USS Dewey" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "Farragut Class" } } }
+			ship = { name = "USS Hull" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "Farragut Class" } } }
+			ship = { name = "USS MacDonough" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "Farragut Class" } } }
+			ship = { name = "USS Worden" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "Farragut Class" } } }			
+			### Destroyer Squadron 9 ###				
+			# 17th Destroyer Division				
+			ship = { name = "USS Hatfield" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+			ship = { name = "USS Brooks" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+			ship = { name = "USS Fox" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+			ship = { name = "USS Kane" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+			# 19th Destroyer Division		
+			ship = { name = "USS Rathburne" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+			ship = { name = "USS Talbot" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+			ship = { name = "USS Waters" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+			ship = { name = "USS Dent" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+			### Destroyer Squadron 11 ###				
+			ship = { name = "USS MacLeish" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+			# 25th Destroyer Division				
+			ship = { name = "USS McCormick" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+			ship = { name = "USS Sturtevant" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			
+		}					
+	}							
+} 

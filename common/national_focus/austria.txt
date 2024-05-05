@@ -1,0 +1,213 @@
+focus_tree = {
+	id = AUS_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = AUS
+
+		}
+	}
+	
+	default = no
+
+
+
+
+
+
+
+
+focus = {
+	id = BOOST_GERMANY_1
+	icon = GFX_goal_support_fascism
+	x = 0
+	y = 0
+	cost = 0
+	ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state ={
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+
+
+				}
+			set_country_flag = AUS_BOOST_1
+				}}}
+
+
+
+
+
+focus = {
+	id = BOOST_GERMANY_2
+	icon = GFX_goal_support_fascism
+	prerequisite = { focus = BOOST_GERMANY_1}
+	x = 3
+	y = 0
+	cost = 0
+	relative_position_id = BOOST_GERMANY_1
+	ai_will_do = {
+			factor = 1		
+		}
+
+		available={has_country_flag = {
+				flag = AUS_BOOST_1
+				days > 180
+			}}
+
+		completion_reward = {
+			random_owned_controlled_state ={
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes}
+					set_country_flag = AUS_BOOST_2
+				}}}
+
+				
+				focus = {
+	id = BOOST_GERMANY_3
+	icon = GFX_goal_support_fascism
+	prerequisite = { focus = BOOST_GERMANY_2}
+	x = 0
+	y = 2
+	cost = 0
+	relative_position_id = BOOST_GERMANY_2
+	ai_will_do = {
+			factor = 1		
+		}
+
+		available={has_country_flag = {
+				flag = AUS_BOOST_2
+				days > 180
+			}}
+
+		completion_reward = {
+			random_owned_controlled_state ={
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes}}
+
+					random_owned_controlled_state ={
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes}}
+
+					set_country_flag = AUS_BOOST_3
+					
+				}}
+
+				
+				
+				focus = {
+	id = BOOST_GERMANY_4
+	icon = GFX_goal_support_fascism
+	prerequisite = { focus = BOOST_GERMANY_3}
+	x = 0
+	y = 2
+	cost = 0
+	relative_position_id = BOOST_GERMANY_3
+	ai_will_do = {
+			factor = 1		
+		}
+
+		available={has_country_flag = {
+				flag = AUS_BOOST_3
+				days > 180
+			}}
+
+		completion_reward = {
+			random_owned_controlled_state ={
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes}}
+					
+
+					random_owned_controlled_state ={
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes}}
+							random_owned_controlled_state ={
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes}}
+							random_owned_controlled_state ={
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes}}
+							random_owned_controlled_state ={
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes}}
+					set_country_flag = AUS_BOOST_4
+				}}
+
+
+				focus = {
+	id = BOOST_GERMANY_5
+	icon = GFX_goal_support_fascism
+	prerequisite = { focus = BOOST_GERMANY_4}
+	x = 3
+	y = 0
+	cost = 0
+	relative_position_id = BOOST_GERMANY_4
+	ai_will_do = {
+			factor = 1		
+		}
+
+		available={has_country_flag = {
+				flag = AUS_BOOST_4
+				days > 180
+			}}
+
+		completion_reward = {
+			random_owned_controlled_state ={
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}}
+				random_owned_controlled_state ={
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}}
+					random_owned_controlled_state ={
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 2
+					instant_build = yes
+				}}
+
+
+				}}
+				
+				
+}

@@ -1,0 +1,430 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_faction_bul_agrarian_union"
+		texturefile = "gfx/texticons/faction_bul_agrarian_union.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_bul_kings_party"
+		texturefile = "gfx/texticons/faction_bul_kings_party.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_gre_army"
+		texturefile = "gfx/texticons/faction_gre_army.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_gre_public"
+		texturefile = "gfx/texticons/faction_gre_public.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_fra_national_bloc"
+		texturefile = "gfx/texticons/faction_fra_national_bloc.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_fra_cgt"
+		texturefile = "gfx/texticons/faction_fra_cgt.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_fra_French_Industrialists"
+		texturefile = "gfx/texticons/faction_fra_French_Industrialists.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_fra_Far_Right_Leagues"
+		texturefile = "gfx/texticons/faction_fra_Far_Right_Leagues.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_ita_bourgeoisie"
+		texturefile = "gfx/texticons/faction_ita_bourgeoisie.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_ita_proletariat"
+		texturefile = "gfx/texticons/faction_ita_proletariat.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_ita_vatican"
+		texturefile = "gfx/texticons/faction_ita_vatican.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_ITA_pci"
+		texturefile = "gfx/texticons/faction_ITA_pci.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_jap_kantaiha"
+		texturefile = "gfx/texticons/faction_jap_kantaiha.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_jap_kodoha"
+		texturefile = "gfx/texticons/faction_jap_kodoha.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_jap_toseiha"
+		texturefile = "gfx/texticons/faction_jap_toseiha.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_jap_yasuda"
+		texturefile = "gfx/texticons/faction_jap_yasuda.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_jap_mitsubishi"
+		texturefile = "gfx/texticons/faction_jap_mitsubishi.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_jap_sumitomo"
+		texturefile = "gfx/texticons/faction_jap_sumitomo.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_jap_mitsui"
+		texturefile = "gfx/texticons/faction_jap_mitsui.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_jap_zaibatsus"
+		texturefile = "gfx/texticons/faction_jap_zaibatsus.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_ger_wehrmacht"
+		texturefile = "gfx/texticons/faction_ger_wehrmacht.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_ger_ss"
+		texturefile = "gfx/texticons/faction_ger_ss.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_ger_industrialists"
+		texturefile = "gfx/texticons/faction_ger_industrialists.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_ger_public_support"
+		texturefile = "gfx/texticons/faction_ger_public_support.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_sov_commissars"
+		texturefile = "gfx/texticons/faction_sov_commissars.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_sov_army"
+		texturefile = "gfx/texticons/faction_sov_army.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_sov_workers"
+		texturefile = "gfx/texticons/faction_sov_workers.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_sov_peasants"
+		texturefile = "gfx/texticons/faction_sov_peasants.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_air_experience_20x20"
+		texturefile = "gfx/texticons/air_experience_20x20.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_eng_labour"
+		texturefile = "gfx/texticons/faction_eng_labour.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_eng_conservative"
+		texturefile = "gfx/texticons/faction_eng_conservative.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_eng_british_royalists"
+		texturefile = "gfx/texticons/faction_eng_british_royalists.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_eng_british_radicalists"
+		texturefile = "gfx/texticons/faction_eng_british_radicalists.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_usa_kaiser"
+		texturefile = "gfx/texticons/faction_usa_kaiser.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_usa_chrysler_ford"
+		texturefile = "gfx/texticons/faction_usa_chrysler_ford.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_usa_chrysler"
+		texturefile = "gfx/texticons/faction_usa_chrysler.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_usa_ford"
+		texturefile = "gfx/texticons/faction_usa_ford.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_usa_gm_dupont"
+		texturefile = "gfx/texticons/faction_usa_gm_dupont.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_usa_jpmorgan"
+		texturefile = "gfx/texticons/faction_usa_jpmorgan.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_usa_public_support"
+		texturefile = "gfx/texticons/faction_usa_public_support.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_usa_democrats"
+		texturefile = "gfx/texticons/faction_usa_democrats.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_faction_usa_republicans"
+		texturefile = "gfx/texticons/faction_usa_republicans.dds"
+		legacy_lazy_load = no
+	}
+
+	###################################################################################################################
+
+	spriteType = {
+		name = "GFX_idea_SPA_spanish_marquis"
+		texturefile = "gfx/texticons/political_violence.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_nazi_activity"
+		texturefile = "gfx/texticons/GER_nazi_activity.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_nazi_remnants"
+		texturefile = "gfx/texticons/GER_nazi_remnants.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_island_state_icon"
+		texturefile = "gfx/texticons/island_state.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_island_province_icon"
+		texturefile = "gfx/texticons/island_province.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_enclave_province_icon"
+		texturefile = "gfx/texticons/enclave_province.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_island_province_ai_icon"
+		texturefile = "gfx/texticons/island_province_ai.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_agrarian_state_icon"
+		texturefile = "gfx/texticons/agrarian_state.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_modifiers_vic_french_state_unification"
+		texturefile = "gfx/texticons/vic_french_state_unification.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_hm_state_icon"
+		texturefile = "gfx/texticons/hm_state.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_indian_national_congress_state_icon"
+		texturefile = "gfx/texticons/indian_national_congress_state.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_princley_state_icon"
+		texturefile = "gfx/texticons/princley_state.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_great_depression_icon"
+		texturefile = "gfx/texticons/great_depression.dds"
+		legacy_lazy_load = no
+	}
+
+	# spriteType = {
+	# 	name = "GFX_great_depression_state_icon"
+	# 	texturefile = "gfx/texticons/great_depression_state.dds"
+	# 	legacy_lazy_load = no
+	# }
+
+	spriteType = {
+		name = "GFX_arrow_corner_1_white"
+		textureFile = "gfx//interface//arrow_corner_1_white.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_arrow_corner_2_white"
+		textureFile = "gfx//interface//arrow_corner_2_white.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_arrow_corner_3_white"
+		textureFile = "gfx//interface//arrow_corner_3_white.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_arrow_corner_4_white"
+		textureFile = "gfx//interface//arrow_corner_4_white.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_arrow_down_white"
+		textureFile = "gfx//interface//arrow_down_white.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_arrow_up_white"
+		textureFile = "gfx//interface//arrow_up_white.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_arrow_horizontal_double_large_white"
+		textureFile = "gfx//interface//arrow_horizontal_double_large_white.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_arrow_horizontal_double_white"
+		textureFile = "gfx//interface//arrow_horizontal_double_white.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_arrow_vertical_double_large_white"
+		textureFile = "gfx//interface//arrow_vertical_double_large_white.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_arrow_vertical_double_white"
+		textureFile = "gfx//interface//arrow_vertical_double_white.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_arrow_star_1_white"
+		textureFile = "gfx//interface//arrow_star_1_white.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_arrow_star_2_white"
+		textureFile = "gfx//interface//arrow_star_2_white.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_arrow_star_3_white"
+		textureFile = "gfx//interface//arrow_star_3_white.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_arrow_star_4_white"
+		textureFile = "gfx//interface//arrow_star_4_white.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_arrow_star_white"
+		textureFile = "gfx//interface//arrow_star_white.dds"
+		alwaystransparent = yes
+	}
+}

@@ -1,0 +1,24 @@
+VEN_fight_the_crisis_after_crash = { 
+	icon = decision_category_ITA_missiolinis
+	picture = GFX_decision_cat_picture_ITA_missiolinis
+	
+	allowed = {
+		original_tag = VEN
+	}
+	
+	priority = 100
+
+	visible_when_empty = no
+}
+VEN_develop_oil_fields = { 
+	icon = decision_category_ITA_missiolinis
+	picture = GFX_decision_cat_picture_ITA_missiolinis
+	
+	allowed = {
+		original_tag = VEN
+	}
+	
+	priority = 80
+
+	visible_when_empty = no
+}

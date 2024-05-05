@@ -1,0 +1,59 @@
+#######################
+##### Operations ######
+#######################
+
+USA_operations = {
+	icon = military_operation
+
+	allowed = {
+		original_tag = USA
+	}
+
+	priority = 100
+
+	visible = {
+		date > 1940.1.24
+	}
+}
+
+ENG_operations = {
+	icon = military_operation
+
+	allowed = {
+		original_tag = ENG
+	}
+
+	priority = 100
+
+	visible = {
+		date > 1939.4.24
+	}
+}
+
+GER_operations = {
+	icon = military_operation
+
+	allowed = {
+		original_tag = GER
+	}
+
+	priority = 100
+
+	visible = {
+		date > 1939.1.24
+	}
+}
+
+SOV_operations = {
+	icon = military_operation
+
+	allowed = {
+		original_tag = SOV
+	}
+
+	priority = 100
+
+	visible = {
+		date > 1940.8.24
+	}
+}

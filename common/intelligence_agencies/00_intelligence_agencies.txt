@@ -1,0 +1,1762 @@
+# List of names and logos for intelligence agencies
+# available trigger will determine if the logo is in the list of available logos or not
+# names is a list of names. Can be a localization entry, or the name directly. A random name will be picked from them.
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_arg
+	names = { "Secretaría de Inteligencia" }
+	
+	default = { tag = ARG }
+	available = { original_tag = ARG }
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_ast
+	names = { "Australian Secret Intelligence Service" }
+	
+	default = { tag = AST }
+	available = { original_tag = AST }
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_bel
+	names = { "Algemene Dienst Inlichting en Veiligheid" }
+	
+	default = { tag = BEL }
+	available = { original_tag = BEL }
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_bra
+	names = { "Agência Brasileira de Inteligência" }
+	
+	default = { tag = BRA }
+	available = { 
+		original_tag = BRA 
+		OR = {
+			NOT = { has_government = communism }
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_bra_communism
+	names = { "Agência Brasileira de Inteligência" }
+	
+	default = { tag = BRA }
+	available = { 
+		original_tag = BRA 
+		OR = {
+			has_government = communism
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_can
+	names = { "Royal Canadian Mounted Police" }
+	
+	default = { tag = CAN }
+	available = { 
+		original_tag = CAN 
+		OR = {
+			NOT = { has_government = communism }
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_can_communism
+	names = { "People's Canadian Mounted Militia" }
+	
+	default = { tag = CAN }
+	available = { 
+		original_tag = CAN 
+		OR = {
+			has_government = communism
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_chi
+	names = { "National Bureau of Investigation and Statistics" }
+	
+	default = { tag = CHI }
+	available = { 
+		OR = {
+			original_tag = CHI
+			original_tag = GXC
+			original_tag = YUN
+			original_tag = SHX
+			original_tag = XSM
+			original_tag = SIK
+		}
+		OR = {
+			NOT = { has_government = communism }
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_prc
+	names = { "Central Department of Social Affairs" }
+		
+	default = { tag = PRC }
+	available = { 
+		OR = {
+			original_tag = PRC
+			original_tag = CHI
+			original_tag = GXC
+			original_tag = YUN
+			original_tag = SHX
+			original_tag = XSM
+			original_tag = SIK
+		}
+		OR = {
+			has_government = communism
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_man
+	names = { "Hoankyoku" }
+		
+	default = { tag = MAN }
+	available = { 
+		original_tag = MAN
+		OR = {
+			has_government = communism
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_man_communism
+	names = { "Hoankyoku" }
+		
+	default = { tag = MAN }
+	available = { 
+		original_tag = MAN
+		OR = {
+			NOT = { has_government = communism }
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_chi_alternative
+	names = { "National Bureau of Investigation and Statistics" }
+	
+	default = { tag = CHI }
+	available = { 
+		OR = {
+			original_tag = CHI
+			original_tag = GXC
+			original_tag = YUN
+			original_tag = SHX
+			original_tag = XSM
+			original_tag = SIK
+			original_tag = PRC
+			original_tag = MAN
+		}
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_cze
+	names = { "Vojenské zpravodajství" }
+	
+	default = { tag = CZE }
+	available = { original_tag = CZE }
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_fin
+	names = { "Pääesikunnan tiedusteluosasto" }
+	
+	default = { tag = FIN }
+	available = { original_tag = FIN }
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_fra
+	names = { "Deuxième Bureau" }
+	
+	default = { tag = FRA }
+	available = { 
+		OR = {
+			original_tag = FRA
+			has_completed_focus = FRA_appeal_to_the_french_nation
+			has_completed_focus = VIC_emergency_powers_to_petain
+			has_completed_focus = FRA_devalue_the_franc
+		}
+		OR = {
+			has_government = democratic
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_fra_communism
+	names = { "Deuxième Bureau" }
+	
+	default = { tag = FRA }
+	available = { 
+		OR = {
+			original_tag = FRA
+			has_completed_focus = FRA_appeal_to_the_french_nation
+			has_completed_focus = VIC_emergency_powers_to_petain
+			has_completed_focus = FRA_devalue_the_franc
+		}
+		OR = {
+			has_government = communism
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_fra_vichy
+	names = { "Deuxième Bureau" }
+	
+	default = { tag = FRA }
+	available = { 
+		OR = {
+			original_tag = FRA
+			has_completed_focus = FRA_appeal_to_the_french_nation
+			has_completed_focus = VIC_emergency_powers_to_petain
+			has_completed_focus = FRA_devalue_the_franc
+		}
+		OR = {
+			has_government = fascism
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_fra_orleanist
+	names = { "Deuxième Bureau" }
+	
+	default = { tag = FRA }
+	available = { 
+		OR = {
+			original_tag = FRA
+			has_completed_focus = FRA_appeal_to_the_french_nation
+			has_completed_focus = VIC_emergency_powers_to_petain
+			has_completed_focus = FRA_devalue_the_franc
+		}
+		OR = {
+			AND = {
+				has_government = neutrality
+				has_completed_focus = FRA_orleanist_restoration
+			}
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_fra_third_empire
+	names = { "Deuxième Bureau" }
+	
+	default = { tag = FRA }
+	available = { 
+		OR = {
+			original_tag = FRA
+			has_completed_focus = FRA_appeal_to_the_french_nation
+			has_completed_focus = VIC_emergency_powers_to_petain
+			has_completed_focus = FRA_devalue_the_franc
+		}
+		OR = {
+			AND = {
+				has_government = neutrality
+				has_completed_focus = FRA_proclaim_the_third_empire
+			}
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_fra_bourbon
+	names = { "Deuxième Bureau" }
+	
+	default = { tag = FRA }
+	available = { 
+		OR = {
+			original_tag = FRA
+			has_completed_focus = FRA_appeal_to_the_french_nation
+			has_completed_focus = VIC_emergency_powers_to_petain
+			has_completed_focus = FRA_devalue_the_franc
+		}
+		OR = {
+			has_government = neutrality
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_ger_fascism
+	names = { "Abwehr" }
+	
+	default = { tag = GER }
+	available = { 
+		original_tag = GER
+		OR = {
+			has_government = fascism
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_ger_nazism
+	names = { "Sicherheitsdienst" }
+	
+	default = { tag = GER }
+	available = { 
+		original_tag = GER
+		OR = {
+			has_government = fascism
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_ger_democratic
+	names = { "Bundesnachrichtendienst" }
+	
+	default = { tag = WGR }
+	available = { 
+		OR = {
+			original_tag = GER
+			original_tag = WGR
+			original_tag = DDR
+		}
+		OR = {
+			has_government = democratic
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_ger_communism
+	names = { "Ministerium für Staatssicherheit" }
+	
+	default = { tag = DDR }
+	available = { 
+		OR = {
+			original_tag = GER
+			original_tag = WGR
+			original_tag = DDR
+		}
+		OR = {
+			has_government = communism
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_ger_neutrality
+	names = { "Abteilung III b" }
+	
+	default = { tag = GER }
+	available = { 
+		original_tag = GER
+		OR = {
+			has_government = neutrality
+			is_ai = no
+		}
+	}	
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_gre
+	names = { "Diéfthynsi Eidikís Asfaleías tou Krátous" "I Eidikí" }
+	
+	default = { tag = GRE }
+	available = { original_tag = GRE }
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_hol
+	names = { "Bureau Inlichtingen" }
+	
+	default = { tag = HOL }
+	available = { original_tag = HOL }
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_hun
+	names = { "2. Vezérkari Főnökség" }
+	
+	default = { tag = HUN }
+	available = { 
+		original_tag = HUN 
+		OR = {
+			NOT = { has_government = communism }
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_hun_communism
+	names = { "Államvédelmi Hatóság" }
+	
+	default = { tag = HUN }
+	available = { 
+		original_tag = HUN 
+		OR = {
+			has_government = communism
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_ita
+	names = { "Servizio Informazioni Militare" }
+	
+	default = { tag = ITA }
+	available = { original_tag = ITA }
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_jap
+	names = { "Kenpeitai" }
+	
+	default = { tag = JAP }
+	available = { original_tag = JAP }
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_mex
+	names = { "Centro de Investigación y Seguridad Nacional" }
+	
+	default = { tag = MEX }
+	available = { original_tag = MEX }
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_nzl
+	names = { "New Zealand Security Intelligence Service" }
+	
+	default = { tag = NZL }
+	available = { original_tag = NZL }
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_per
+	names = { "Sazeman-e Ettela'at va Amniyat-e Keshvar" }
+	
+	default = { tag = PER }
+	available = { original_tag = PER }
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_pol
+	names = { "Oddział II Sztabu Głównego WP" }
+	
+	default = { tag = POL }
+	available = { 
+		original_tag = POL 
+		OR = {
+			NOT = { has_government = communism }
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_pol_communism
+	names = { "Ministerstwo Bezpieczeństwa Publicznego" }
+	
+	default = { tag = POL }
+	available = { 
+		original_tag = POL 
+		OR = {
+			has_government = communism
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_raj
+	names = { "Research and Analysis Wing" }
+	
+	default = { tag = RAJ }
+	available = { original_tag = RAJ }
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_rom
+	names = { "Serviciul Special de Informatii" }
+		
+	default = { tag = ROM }
+	available = {
+		original_tag = ROM 		
+		OR = {
+			NOT = { has_government = communism }
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_rom_communism
+	names = { "Departamentul Securității Statului" }
+	
+	default = { tag = ROM }
+	available = { 
+		original_tag = ROM 
+		OR = {
+			has_government = communism
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_rom_alternate
+	names = { "Serviciul de Informatii Externe" }
+		
+	default = { tag = ROM }
+	available = {
+		original_tag = ROM
+	}
+}
+
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_saf
+	names = { "South African Police" }
+		
+	default = { tag = SAF }
+	available = {
+		original_tag = SAF		
+		OR = {
+			NOT = { has_government = communism }
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_saf_communism
+	names = { "International Militia" }
+		
+	default = { tag = SAF }
+	available = { 
+		original_tag = SAF
+		OR = {
+			has_government = communism
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_sia
+	names = { "National Intelligence Agency" }
+	
+	default = { tag = SIA }
+	available = { original_tag = SIA }
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_sov
+	names = { "Naródny komissariát vnútryennikh dyél" }
+		
+	default = { tag = SOV }
+	available = { 
+		original_tag = SOV
+		OR = {
+			has_government = communism
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_sov_alternative3
+	names = { "Okhrana" }
+		
+	default = { tag = SOV }
+	available = {
+		original_tag = SOV		
+		OR = {
+			AND = {
+				NOT = { has_government = communism }
+				NOT = { has_government = democratic }
+			}
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_sov_alternative2
+	names = { "Okhrana" }
+		
+	default = { tag = SOV }
+	available = {
+		original_tag = SOV
+		is_ai = no
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_sov_alternative
+	names = { "Federal'naya sluzhba bezopasnosti" }
+		
+	default = { tag = SOV }
+	available = {
+		original_tag = SOV		
+		OR = {
+			has_government = democratic
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_spr
+	names = { "Servicio de Información Militar" }
+	
+	default = { tag = SPR }
+	available = { 
+		OR = {
+			original_tag = SPR
+			original_tag = SPA
+			original_tag = SPB
+			original_tag = SPC
+			has_completed_focus = SPR_the_popular_front
+			has_completed_focus = SPA_a_great_spain
+		}
+		OR = {
+			AND = {
+				has_completed_focus = SPR_the_popular_front
+				NOT = { has_completed_focus = SPR_regional_defense_council_of_aragon }
+				NOT = { has_completed_focus = SPR_the_anti_fascist_workers_revolution }
+			}
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_spa
+	names = { "Servicio Central de Documentación" }
+	
+	default = { tag = SPA }
+	available = { 
+		OR = {
+			original_tag = SPR
+			original_tag = SPA
+			original_tag = SPB
+			original_tag = SPC
+			has_completed_focus = SPR_the_popular_front
+			has_completed_focus = SPA_a_great_spain
+		}
+		OR = {
+			#has_completed_focus = SPA_unify_the_nationalist_front
+			AND = {
+				has_completed_focus = SPA_a_great_spain
+				NOT = { has_completed_focus = SPA_the_phalanx_ascendant }
+				NOT = { has_completed_focus = SPA_supremacy_of_the_communion }
+			}
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_spa_alternative
+	names = { "Servicio Central de Documentación" }
+	
+	default = { tag = SPA }
+	available = { 
+		OR = {
+			original_tag = SPR
+			original_tag = SPA
+			original_tag = SPB
+			original_tag = SPC
+			has_completed_focus = SPR_the_popular_front
+			has_completed_focus = SPA_a_great_spain
+		}
+		OR = {
+			has_completed_focus = SPA_the_phalanx_ascendant
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_spb
+	names = { "Servicio Central de Documentación" }
+	
+	default = { tag = SPA }
+	available = { 
+		OR = {
+			original_tag = SPR
+			original_tag = SPA
+			original_tag = SPB
+			original_tag = SPC
+			has_completed_focus = SPR_the_popular_front
+			has_completed_focus = SPA_a_great_spain
+		}
+		OR = {
+			has_completed_focus = SPA_supremacy_of_the_communion
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_spc
+	names = { "Servicio de Información Militar" }
+	
+	default = { tag = SPR }
+	available = { 
+		OR = {
+			original_tag = SPR
+			original_tag = SPA
+			original_tag = SPB
+			original_tag = SPC
+			has_completed_focus = SPR_the_popular_front
+			has_completed_focus = SPA_a_great_spain
+		}
+		OR = {
+			AND = {
+				has_government = neutrality
+				has_completed_focus = SPR_regional_defense_council_of_aragon
+			}
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_spc_alternative
+	names = { "Servicio de Información Militar" }
+	
+	default = { tag = SPR }
+	available = { 
+		OR = {
+			original_tag = SPR
+			original_tag = SPA
+			original_tag = SPB
+			original_tag = SPC
+			has_completed_focus = SPR_the_popular_front
+			has_completed_focus = SPA_a_great_spain
+		}
+		OR = {
+			AND = {
+				has_government = neutrality
+				has_completed_focus = SPR_the_anti_fascist_workers_revolution
+			}
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_swe
+	names = { "C-byrån" }
+	
+	default = { tag = SWE }
+	available = { original_tag = SWE }
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_por
+	names = { "Polícia de Vigilância e Defesa do Estado" }
+		
+	default = { tag = POR }
+	available = { 
+		original_tag = POR 
+		OR = {
+			NOT = { has_government = communism }
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_por_alternative
+	names = { "Polícia de Vigilância e Defesa do Estado" }
+		
+	default = { tag = POR }
+	available = { 
+		original_tag = POR 
+		is_ai = no
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_por_communism
+	names = { "Polícia de Vigilância e Defesa do Estado" }
+		
+	default = { tag = POR }
+	available = { 
+		original_tag = POR 
+		OR = {
+			has_government = communism
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_tur
+	names = { "Millî Emniyet Hizmeti Riyâseti" }
+		
+	default = { tag = TUR }
+	available = { original_tag = TUR }
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_tur_alternate
+	names = { "Millî Emniyet Hizmeti Riyâseti" }
+		
+	default = { tag = TUR }
+	available = { original_tag = TUR }
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_tur_alternate2
+	names = { "Millî İstihbarat Teşkilatı" }
+		
+	default = { tag = TUR }
+	available = { original_tag = TUR }
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_uk_mi6
+	names = { "Secret Intelligence Service MI6" }
+	
+	default = { tag = ENG }
+	available = {
+		original_tag = ENG		
+		OR = {
+			NOT = { has_government = communism }
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_uk_mi5
+	names = { "Security Service MI5" }
+	
+	default = { tag = ENG }
+	available = {
+		original_tag = ENG		
+		OR = {
+			NOT = { has_government = communism }
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_uk_alternative
+	names = { "Intelligence Corps" }
+	
+	default = { tag = ENG }
+	available = {
+		original_tag = ENG		
+		OR = {
+			NOT = { has_government = communism }
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_uk_communism
+	names = { "Intelligence Corps" }
+	
+	default = { tag = ENG }
+	available = {
+		original_tag = ENG		
+		OR = {
+			has_government = communism
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_usa
+	names = { "Office of Strategic Services" }
+	
+	default = { tag = USA }
+	available = { 
+		original_tag = USA 
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_usa_alternative
+	names = { "Central Intelligence Agency" }
+	
+	default = { tag = USA }
+	available = { 
+		original_tag = USA 
+		is_ai = no
+	}
+}
+
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_yug
+	names = { "Jugoslovenska obaveštajna služba" }
+	
+	default = { tag = YUG }
+	available = {
+		original_tag = YUG		
+		OR = {
+			NOT = { has_government = communism }
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_yug_communism
+	names = { "Odjeljenje za zaštitu naroda" }
+	
+	default = { tag = YUG }
+	available = {
+		original_tag = YUG		
+		OR = {
+			has_government = communism
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_hun_empire
+	names = { "Evidenzbureau" }
+	
+	default = { tag = AUS }
+	available = { 
+		AND = {
+			OR = {
+				owns_state = 4
+				controls_state = 4
+			}
+			OR = { 
+				original_tag = HUN
+				original_tag = CZE
+				original_tag = AUS
+			}
+		}
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_bul
+	names = { "Natsionalnata Razuznavatelna Sluzhba" }
+	
+	default = { tag = BUL }
+	available = { 
+		original_tag = BUL 
+		OR = {
+			NOT = { has_government = communism }
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_bul_communism
+	names = { "Direktsiya na politsiyata" }
+	
+	default = { tag = BUL }
+	available = { 
+		original_tag = BUL 
+		OR = {
+			has_government = communism
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_SWI_swi_buero_ha
+	names = { "Buero Ha" }
+	
+	available = { 
+		tag = SWI
+		NOT = {
+			has_government = fascism
+		}
+		has_completed_focus = SWI_buero_ha
+	}
+	
+	default = { 		
+		tag = SWI
+		NOT = {
+			has_government = fascism
+		}
+		has_completed_focus = SWI_buero_ha
+	} 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_federal_police_intelligence
+	names = { "Federal Police" }
+	
+	available = { 
+		tag = SWI
+		has_completed_focus = SWI_federal_police
+
+	}
+	
+	default = { 		
+		tag = SWI
+		has_completed_focus = SWI_federal_police
+	} 
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_swi
+	names = { "Buero Ha" }
+	
+	default = { tag = SWI }
+	available = { 
+		original_tag = SWI 
+		OR = {
+			NOT = { has_government = communism }
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_swi_communism
+	names = { "Buero Ha" }
+	
+	default = { tag = SWI }
+	available = { 
+		original_tag = SWI 
+		OR = {
+			has_government = communism
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_lit
+	names = { "Valstybės Saugumo Departamentas" }
+	
+	default = { tag = LIT }
+	available = { 
+		original_tag = LIT 
+		OR = {
+			NOT = { has_government = communism }
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_lit_communism
+	names = { "Valstybės Saugumo Departamentas" }
+	
+	default = { tag = LIT }
+	available = { 
+		original_tag = LIT 
+		OR = {
+			has_government = communism
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_lat
+	names = { "Valsts drošības dienests" }
+	
+	default = { tag = LAT }
+	available = { 
+		original_tag = LAT 
+		OR = {
+			NOT = { has_government = communism }
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_lat_communism
+	names = { "Valsts drošības dienests" }
+	
+	default = { tag = LAT }
+	available = { 
+		original_tag = LAT 
+		OR = {
+			has_government = communism
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_est
+	names = { "Poliitiline politsei" }
+	
+	default = { tag = EST }
+	available = { 
+		original_tag = EST 
+		OR = {
+			NOT = { has_government = communism }
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_est_communism
+	names = { "Poliitiline politsei" }
+	
+	default = { tag = EST }
+	available = { 
+		original_tag = EST 
+		OR = {
+			has_government = communism
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_agency_logo_eth_fetno_derash
+	names = { fetno_derash arbegnoch }
+	
+	default = { 
+		tag = ETH 
+		NOT = { has_government = communism }
+		NOT = { is_subject_of = ITA }
+	} 
+	available = { 
+		original_tag = ETH 
+		NOT = { has_government = communism }
+		NOT = { is_subject_of = ITA }
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_eth_crid
+	names = { crid black_lions }
+	
+	default = { 
+		tag = ETH 
+		has_government = communism
+	} 
+	available = { 
+		original_tag = ETH 
+		has_government = communism
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_eth_smie
+	names = { smie }
+	
+	default = { 
+		tag = ETH 
+		is_subject_of = ITA
+	} 
+	available = { 
+		original_tag = ETH 
+		is_subject_of = ITA
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_eth
+	names = { "National Intelligence and Security Service" }
+	
+	default = { tag = ETH }
+	available = { 
+		original_tag = ETH 
+		is_ai = no
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_eth_communism
+	names = { "National Intelligence and Security Service" }
+	
+	default = { tag = ETH }
+	available = { 
+		original_tag = ETH 
+		is_ai = no
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_ICE_logreglan
+	names = { "Lögreglan" }
+
+	default = { tag = ICE }
+	available = { original_tag = ICE }
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_DEN_sipo
+	names = { "Sikkerhedspolitiet" }
+
+	default = { tag = DEN }
+	available = { original_tag = DEN }
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_den
+	names = { "Politiets Efterretningstjeneste" }
+	
+	default = { tag = DEN }
+	available = { original_tag = DEN }
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_den_alternate
+	names = { "Forsvarets Efterretningstjeneste" }
+	
+	default = { tag = DEN }
+	available = { original_tag = DEN }
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_NOR_historical_intelligence
+	names = { "Etterretningstjenesten" }
+	
+	default = { tag = NOR }
+	available = { 
+		original_tag = NOR 
+		OR = {
+			AND = {
+				NOT = { has_government = communism }
+				NOT = { has_government = fascism }
+			}
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_NOR_XU
+	names = { "Etterretningstjenesten" }
+	
+	default = { tag = NOR }
+	available = { 
+		original_tag = NOR 
+		OR = {
+			AND = {
+				NOT = { has_government = communism }
+				NOT = { has_government = fascism }
+			}
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_NOR_fascism_intelligence
+	names = { "Etterretningstjenesten" }
+	
+	default = { tag = NOR }
+	available = { 
+		original_tag = NOR 
+		OR = {
+			has_government = fascism
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_nor
+	names = { "Etterretningstjenesten" }
+	
+	default = { tag = NOR }
+	available = { 
+		original_tag = NOR 
+		OR = {
+			has_government = communism
+			is_ai = no
+		}
+	}
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_CHL_policia_de_investigaciones_de_chile
+	names = { "Policía de Investigaciones de Chile" }
+	
+	default = { tag = CHL }
+	available = { original_tag = CHL }
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_2
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_3
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_4
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_5
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_6
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_7
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_8
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_9
+	names = { "Intelligence Agency" }
+	
+	available = { 
+		has_government = communism
+	}
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_sov_kgb
+	names = { "Komitet gosudarstvennoy bezopasnosti" }
+		
+	available = { 
+		has_government = communism
+	}
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_11
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_12
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_13
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_14
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_15
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_16
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_17
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_18
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_19
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_20
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_21
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_22
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_23
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_24
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_25
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_26
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_27
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_28
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_29
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_30
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_31
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_32
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_33
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_34
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_generic_35
+	names = { "Intelligence Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}

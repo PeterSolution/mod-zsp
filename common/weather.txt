@@ -1,0 +1,1419 @@
+# How the terrain affects the probability of elements.
+# In all elements "value" is treated as chance increase.
+# Only in Temperature, the "value" is treated as degrees Celsius increase.
+terrain_modifiers = {
+  no_phenomenon = {
+  }
+  mud = {
+    terrain = { type = "mountain" value = -0.3 }
+    terrain = { type = "mountain_narvik" value = -0.3 }
+    terrain = { type = "mountain_berchtesgaden" value = -0.3 }
+    terrain = { type = "mountain_monte_cassino" value = -0.3 }
+    terrain = { type = "mountain_Tobruk" value = -0.3 }
+    terrain = { type = "mountain_Taiyuan" value = -0.3 }
+    terrain = { type = "mountain_MexcoCity" value = -0.3 }
+    terrain = { type = "mountain_Freiburg" value = -0.3 }
+    terrain = { type = "mountain_gran_sasso" value = -0.3 }
+    terrain = { type = "mountain_Messina" value = -0.3 }
+    terrain = { type = "mountain_Mount_Elbrus" value = -0.3 }
+    terrain = { type = "mountain_Anman" value = -0.3 }
+    terrain = { type = "mountain_Yenan" value = -0.3 }
+    terrain = { type = "mountain_Salo" value = -0.3 }
+    terrain = { type = "mountain_Garmisch" value = -0.3 }
+    terrain = { type = "mountain_capetown" value = -0.3 }
+    terrain = { type = "mountain_salween_river_bridge" value = -0.3 }
+    terrain = { type = "mountain_Addis_Ababa" value = -0.3 }
+    terrain = { type = "mountain_Asmara" value = -0.3 }
+    terrain = { type = "mountain_Kabul" value = -0.3 }
+    terrain = { type = "mountain_Kokoda" value = -0.3 }
+    terrain = { type = "mountain_kilindini" value = -0.3 }
+    terrain = { type = "mountain_Lanzhou" value = -0.3 }
+    terrain = { type = "mountain_Zlatousk" value = -0.3 }
+    terrain = { type = "mountain_Albuquerque" value = -0.3 }
+    terrain = { type = "mountain_ChiangMai" value = -0.3 }
+    terrain = { type = "mountain_Goa" value = -0.3 }
+    terrain = { type = "mountain_Kathmandu" value = -0.3 }
+    terrain = { type = "mountain_Punakha" value = -0.3 }
+    terrain = { type = "mountain_Reykjavik" value = -0.3 }
+    terrain = { type = "mountain_Innsbruck" value = -0.3 }
+    terrain = { type = "mountain_Vancouver" value = -0.3 }
+    terrain = { type = "mountain_Cluj" value = -0.3 }
+    terrain = { type = "mountain_Ellwood_Oil_Field" value = -0.3 }
+    terrain = { type = "mountain_Midway-Sunset_Oil_Field" value = -0.3 }
+    terrain = { type = "mountain_Antakya" value = -0.3 }
+    terrain = { type = "mountain_Grenoble" value = -0.3 }
+    terrain = { type = "mountain_Suakin" value = -0.3 }
+    terrain = { type = "mountain_Schloss_Neuschwanstein" value = -0.3 }
+    terrain = { type = "mountain_Anshan" value = -0.3 }
+    terrain = { type = "mountain_Huangshan" value = -0.3 }
+    terrain = { type = "mountain_Mecca" value = -0.3 }
+    terrain = { type = "mountain_Medina" value = -0.3 }
+    terrain = { type = "mountain_Bamiyan" value = -0.3 }
+    terrain = { type = "mountain_Kampa_Dzong" value = -0.3 }
+    terrain = { type = "mountain_Zhangjiakou" value = -0.3 }
+
+    terrain = { type = "plains" value = 0.5 }
+    terrain = { type = "plains_rostock" value = 0.5 }
+    terrain = { type = "plains_Oranienburg" value = 0.5 }
+    terrain = { type = "plains_Dieppe" value = 0.5 }
+    terrain = { type = "plains_Orleans" value = 0.5 }
+    terrain = { type = "plains_Braunschweig" value = 0.5 }
+    terrain = { type = "plains_Dankerque" value = 0.5 }
+    terrain = { type = "plains_Norfolk" value = 0.5 }
+    terrain = { type = "plains_Chengde" value = 0.5 }
+    terrain = { type = "plains_Indianapolis" value = 0.5 }
+    terrain = { type = "plains_Basra" value = 0.5 }
+    terrain = { type = "plains_Christchurch" value = 0.5 }
+    terrain = { type = "plains_chuuk" value = 0.5 }
+    terrain = { type = "plains_murmansk" value = 0.5 }
+    terrain = { type = "plains_memel" value = 0.5 }
+    terrain = { type = "plains_Odense" value = 0.5 }
+    terrain = { type = "plains_Arkhangelsk" value = 0.5 }
+    terrain = { type = "plains_dover" value = 0.5 }
+    terrain = { type = "plains_ploiesti" value = 0.5 }
+    terrain = { type = "plains_Shanhaiguan" value = 0.5 }
+    terrain = { type = "plains_Zara" value = 0.5 }
+    terrain = { type = "plains_Dallas" value = 0.5 }
+    terrain = { type = "plains_Saipan" value = 0.5 }
+    terrain = { type = "plains_giza" value = 0.5 }
+    terrain = { type = "plains_pearl_harbor" value = 0.5 }
+    terrain = { type = "plains_Peleliu" value = 0.5 }
+    terrain = { type = "plains_Qiqihar" value = 0.5 }
+    terrain = { type = "plains_Addu" value = 0.5 }
+    terrain = { type = "plains_Coventry" value = 0.5 }
+    terrain = { type = "plains_antwerpen" value = 0.5 }
+    terrain = { type = "plains_Columbus" value = 0.5 }
+    terrain = { type = "plains_Baltimore" value = 0.5 }
+    terrain = { type = "plains_taipei" value = 0.5 }
+    terrain = { type = "plains_Panama_Canal" value = 0.5 }
+    terrain = { type = "plains_Kolberg" value = 0.5 }
+    terrain = { type = "plains_Arnhem" value = 0.5 }
+    terrain = { type = "plains_Prora" value = 0.5 }
+    terrain = { type = "plains_Aachen" value = 0.5 }
+    terrain = { type = "plains_bratislava" value = 0.5 }
+    terrain = { type = "plains_nagasaki" value = 0.5 }
+    terrain = { type = "plains_Trincomalee" value = 0.5 }
+    terrain = { type = "plains_Montevideo" value = 0.5 }
+    terrain = { type = "plains_scapaflow" value = 0.5 }
+    terrain = { type = "plains_Lubeck" value = 0.5 }
+    terrain = { type = "plains_Munster" value = 0.5 }
+    terrain = { type = "plains_Wurzburg" value = 0.5 }
+    terrain = { type = "plains_amiens" value = 0.5 }
+    terrain = { type = "plains_Wewelsburg" value = 0.5 }
+    terrain = { type = "plains_Nijmegen" value = 0.5 }
+    terrain = { type = "plains_Remagen" value = 0.5 }
+    terrain = { type = "plains_caen" value = 0.5 }
+    terrain = { type = "plains_CapGris" value = 0.5 }
+    terrain = { type = "plains_Mainz" value = 0.5 }
+    terrain = { type = "plains_rouen" value = 0.5 }
+    terrain = { type = "plains_venice" value = 0.5 }
+    terrain = { type = "plains_naha" value = 0.5 }
+    terrain = { type = "plains_malta" value = 0.5 }
+    terrain = { type = "plains_PortSaid" value = 0.5 }
+    terrain = { type = "plains_quebec" value = 0.5 }
+    terrain = { type = "plains_Atlanta" value = 0.5 }
+    terrain = { type = "plains_Toyohara" value = 0.5 }
+    terrain = { type = "plains_Rota" value = 0.5 }
+    terrain = { type = "plains_Tinian" value = 0.5 }
+    terrain = { type = "plains_iwo_jima" value = 0.5 }
+    terrain = { type = "plains_Wake" value = 0.5 }
+    terrain = { type = "plains_midway" value = 0.5 }
+    terrain = { type = "plains_Attu" value = 0.5 }
+    terrain = { type = "plains_Dutch_Harbor" value = 0.5 }
+    terrain = { type = "plains_Gulangyu" value = 0.5 }
+    terrain = { type = "plains_Regensburg" value = 0.5 }
+    terrain = { type = "plains_Bataan" value = 0.5 }
+    terrain = { type = "plains_Guam" value = 0.5 }
+    terrain = { type = "plains_Pretria" value = 0.5 }
+    terrain = { type = "plains_Welwel" value = 0.5 }
+    terrain = { type = "plains_Magnitogorsk" value = 0.5 }
+    terrain = { type = "plains_Portsmouth" value = 0.5 }
+    terrain = { type = "plains_Irkutsk" value = 0.5 }
+    terrain = { type = "plains_Hankou" value = 0.5 }
+    terrain = { type = "plains_hengyang" value = 0.5 }
+    terrain = { type = "plains_Kweilin" value = 0.5 }
+    terrain = { type = "plains_Novosibirsk" value = 0.5 }
+    terrain = { type = "plains_Stavanger" value = 0.5 }
+    terrain = { type = "plains_PhnomPenh" value = 0.5 }
+    terrain = { type = "plains_Debrecen" value = 0.5 }
+    terrain = { type = "plains_Dubrovnik" value = 0.5 }
+    terrain = { type = "plains_Mantova" value = 0.5 }
+    terrain = { type = "plains_Tirana" value = 0.5 }
+    terrain = { type = "plains_Raleigh" value = 0.5 }
+    terrain = { type = "plains_Reims" value = 0.5 }
+    terrain = { type = "plains_SanAntonio" value = 0.5 }
+    terrain = { type = "plains_Rhodes" value = 0.5 }
+    terrain = { type = "plains_Corfu" value = 0.5 }
+    terrain = { type = "plains_Grozny" value = 0.5 }
+    terrain = { type = "plains_Dijon" value = 0.5 }
+    terrain = { type = "plains_LaRochelle" value = 0.5 }
+    terrain = { type = "plains_Kerch" value = 0.5 }
+    terrain = { type = "plains_Khalkhyn_Gol" value = 0.5 }
+    terrain = { type = "plains_Ulaanbaatar" value = 0.5 }
+    terrain = { type = "plains_Belgorod" value = 0.5 }
+    terrain = { type = "plains_Gdynia" value = 0.5 }
+    terrain = { type = "plains_beaches_of_Normandy" value = 0.5 }
+    terrain = { type = "plains_zhangbei" value = 0.5 }
+    terrain = { type = "plains_Adana" value = 0.5 }
+    terrain = { type = "plains_Milwaukee" value = 0.5 }
+    terrain = { type = "plains_Mykolaiv" value = 0.5 }
+    terrain = { type = "plains_Ningbo" value = 0.5 }
+    terrain = { type = "plains_Augsburg" value = 0.5 }
+    terrain = { type = "plains_Kayseri" value = 0.5 }
+    terrain = { type = "plains_Durres" value = 0.5 }
+    terrain = { type = "plains_Zhytomyr" value = 0.5 }
+    terrain = { type = "plains_Montpellier" value = 0.5 }
+
+
+    terrain = { type = "marsh" value = 0.9 }
+    terrain = { type = "marsh_wilhelmshaven" value = 0.9 }
+    terrain = { type = "marsh_Miami" value = 0.9 }
+    terrain = { type = "marsh_neworleans" value = 0.9 }
+    terrain = { type = "marsh_Grodno" value = 0.9 }
+
+    terrain = { type = "desert" value = 0.1 }
+    terrain = { type = "desert_Jerusalem" value = 0.1 }
+    terrain = { type = "desert_arco_dei_fileni" value = 0.1 }
+    terrain = { type = "desert_Leyte" value = 0.1 }
+    terrain = { type = "desert_baotou" value = 0.1 }
+    terrain = { type = "desert_potala_palace" value = 0.1 }
+    terrain = { type = "desert_Konya" value = 0.1 }
+    terrain = { type = "desert_Luxor" value = 0.1 }
+    terrain = { type = "desert_AbuSimbel" value = 0.1 }
+    terrain = { type = "desert_ElAlamein" value = 0.1 }
+    terrain = { type = "desert_Yenangyaung" value = 0.1 }
+    terrain = { type = "desert_Halfaya_Pass" value = 0.1 }
+    terrain = { type = "desert_Djibouti" value = 0.1 }
+    terrain = { type = "desert_Khartoum" value = 0.1 }
+    terrain = { type = "desert_Gyantse_Dzong" value = 0.1 }
+    terrain = { type = "desert_Welwel" value = 0.1 }
+
+
+    terrain = { type = "jungle" value = 0.2 }
+    terrain = { type = "jungle_guadalcanal" value = 0.2 }
+    terrain = { type = "jungle_Port_Moresby" value = 0.2 }
+    terrain = { type = "jungle_DiegoSuarez" value = 0.2 }
+    terrain = { type = "jungle_rabaul" value = 0.2 }
+    terrain = { type = "jungle_KualaLumpur" value = 0.2 }
+    terrain = { type = "jungle_palembang" value = 0.2 }
+    terrain = { type = "jungle_Medan" value = 0.2 }
+    terrain = { type = "jungle_Monrovia" value = 0.2 }
+    terrain = { type = "jungle_Stanleyville" value = 0.2 }
+  }
+
+
+  rain_light = {
+    terrain = { type = "jungle" value = 0.2 }
+    terrain = { type = "jungle_guadalcanal" value = 0.2 }
+    terrain = { type = "jungle_Port_Moresby" value = 0.2 }
+    terrain = { type = "jungle_DiegoSuarez" value = 0.2 }
+    terrain = { type = "jungle_rabaul" value = 0.2 }
+    terrain = { type = "jungle_KualaLumpur" value = 0.2 }
+    terrain = { type = "jungle_palembang" value = 0.2 }
+    terrain = { type = "jungle_Medan" value = 0.2 }
+    terrain = { type = "jungle_Monrovia" value = 0.2 }
+    terrain = { type = "jungle_Stanleyville" value = 0.2 }
+  }
+
+
+  rain_heavy = {
+    terrain = { type = "jungle" value = 0.2 }
+    terrain = { type = "jungle_guadalcanal" value = 0.2 }
+    terrain = { type = "jungle_Port_Moresby" value = 0.2 }
+    terrain = { type = "jungle_DiegoSuarez" value = 0.2 }
+    terrain = { type = "jungle_rabaul" value = 0.2 }
+    terrain = { type = "jungle_KualaLumpur" value = 0.2 }
+    terrain = { type = "jungle_palembang" value = 0.2 }
+    terrain = { type = "jungle_Medan" value = 0.2 }
+    terrain = { type = "jungle_Monrovia" value = 0.2 }
+    terrain = { type = "jungle_Stanleyville" value = 0.2 }
+  }
+
+
+  snow = {
+    terrain = { type = "mountain" value = 0.8 }
+    terrain = { type = "mountain_narvik" value = 0.8 }
+    terrain = { type = "mountain_berchtesgaden" value = 0.8 }
+    terrain = { type = "mountain_monte_cassino" value = 0.8 }
+    terrain = { type = "mountain_Tobruk" value = 0.8 }
+    terrain = { type = "mountain_Taiyuan" value = 0.8 }
+    terrain = { type = "mountain_MexcoCity" value = 0.8 }
+    terrain = { type = "mountain_Freiburg" value = 0.8 }
+    terrain = { type = "mountain_gran_sasso" value = 0.8 }
+    terrain = { type = "mountain_Messina" value = 0.8 }
+    terrain = { type = "mountain_Mount_Elbrus" value = 0.8 }
+    terrain = { type = "mountain_Anman" value = 0.8 }
+    terrain = { type = "mountain_Yenan" value = 0.8 }
+    terrain = { type = "mountain_Salo" value = 0.8 }
+    terrain = { type = "mountain_Garmisch" value = 0.8 }
+    terrain = { type = "mountain_capetown" value = 0.8 }
+    terrain = { type = "mountain_salween_river_bridge" value = 0.8 }
+    terrain = { type = "mountain_Addis_Ababa" value = 0.8 }
+    terrain = { type = "mountain_Asmara" value = 0.8 }
+    terrain = { type = "mountain_Kabul" value = 0.8 }
+    terrain = { type = "mountain_Kokoda" value = 0.8 }
+    terrain = { type = "mountain_kilindini" value = 0.8 }
+    terrain = { type = "mountain_Lanzhou" value = 0.8 }
+    terrain = { type = "mountain_Zlatousk" value = 0.8 }
+    terrain = { type = "mountain_Albuquerque" value = 0.8 }
+    terrain = { type = "mountain_ChiangMai" value = 0.8 }
+    terrain = { type = "mountain_Goa" value = 0.8 }
+    terrain = { type = "mountain_Kathmandu" value = 0.8 }
+    terrain = { type = "mountain_Punakha" value = 0.8 }
+    terrain = { type = "mountain_Reykjavik" value = 0.8 }
+    terrain = { type = "mountain_Innsbruck" value = 0.8 }
+    terrain = { type = "mountain_Vancouver" value = 0.8 }
+    terrain = { type = "mountain_Cluj" value = 0.8 }
+    terrain = { type = "mountain_Ellwood_Oil_Field" value = 0.8 }
+    terrain = { type = "mountain_Midway-Sunset_Oil_Field" value = 0.8 }
+    terrain = { type = "mountain_Antakya" value = 0.8 }
+    terrain = { type = "mountain_Grenoble" value = 0.8 }
+    terrain = { type = "mountain_Suakin" value = 0.8 }
+    terrain = { type = "mountain_Schloss_Neuschwanstein" value = 0.8 }
+    terrain = { type = "mountain_Anshan" value = 0.8 }
+    terrain = { type = "mountain_Huangshan" value = 0.8 }
+    terrain = { type = "mountain_Mecca" value = 0.8 }
+    terrain = { type = "mountain_Medina" value = 0.8 }
+    terrain = { type = "mountain_Bamiyan" value = 0.8 }
+    terrain = { type = "mountain_Kampa_Dzong" value = 0.8 }
+    terrain = { type = "mountain_Zhangjiakou" value = 0.8 }
+
+
+    terrain = { type = "desert" value = -1.0 }
+    terrain = { type = "desert_Jerusalem" value = -1.0 }
+    terrain = { type = "desert_arco_dei_fileni" value = -1.0 }
+    terrain = { type = "desert_Leyte" value = -1.0 }
+    terrain = { type = "desert_baotou" value = -1.0 }
+    terrain = { type = "desert_potala_palace" value = -1.0 }
+    terrain = { type = "desert_Konya" value = -1.0 }
+    terrain = { type = "desert_Luxor" value = -1.0 }
+    terrain = { type = "desert_AbuSimbel" value = -1.0 }
+    terrain = { type = "desert_ElAlamein" value = -1.0 }
+    terrain = { type = "desert_Yenangyaung" value = -1.0 }
+    terrain = { type = "desert_Halfaya_Pass" value = -1.0 }
+    terrain = { type = "desert_Djibouti" value = -1.0 }
+    terrain = { type = "desert_Khartoum" value = -1.0 }
+    terrain = { type = "desert_Gyantse_Dzong" value = -1.0 }
+    terrain = { type = "desert_Welwel" value = -1.0 }
+
+
+    terrain = { type = "urban" value = -0.4 }
+    terrain = { type = "urban_Yaroslavl" value = -0.4 }
+    terrain = { type = "urban_smolensk" value = -0.4 }
+    terrain = { type = "urban_Newcastle" value = -0.4 }
+    terrain = { type = "urban_danzig" value = -0.4 }
+    terrain = { type = "urban_Cardiff" value = -0.4 }
+    terrain = { type = "urban_Gothenburg" value = -0.4 }
+    terrain = { type = "urban_amsterdam" value = -0.4 }
+    terrain = { type = "urban_Voronezh" value = -0.4 }
+    terrain = { type = "urban_kharkov" value = -0.4 }
+    terrain = { type = "urban_dortmund" value = -0.4 }
+    terrain = { type = "urban_dresden" value = -0.4 }
+    terrain = { type = "urban_brussels" value = -0.4 }
+    terrain = { type = "urban_kiev" value = -0.4 }
+    terrain = { type = "urban_koln" value = -0.4 }
+    terrain = { type = "urban_Zurich" value = -0.4 }
+    terrain = { type = "urban_munich" value = -0.4 }
+    terrain = { type = "urban_Bilbao" value = -0.4 }
+    terrain = { type = "urban_naples" value = -0.4 }
+    terrain = { type = "urban_Sofia" value = -0.4 }
+    terrain = { type = "urban_Vladivostok" value = -0.4 }
+    terrain = { type = "urban_yawata" value = -0.4 }
+    terrain = { type = "urban_guangdong" value = -0.4 }
+    terrain = { type = "urban_jinan" value = -0.4 }
+    terrain = { type = "urban_hiroshima" value = -0.4 }
+    terrain = { type = "urban_Algiers" value = -0.4 }
+    terrain = { type = "urban_tripoli" value = -0.4 }
+    terrain = { type = "urban_dairen" value = -0.4 }
+    terrain = { type = "urban_tokyo" value = -0.4 }
+    terrain = { type = "urban_Rangoon" value = -0.4 }
+    terrain = { type = "urban_mumbai" value = -0.4 }
+    terrain = { type = "urban_Toshkent" value = -0.4 }
+    terrain = { type = "urban_Almaty" value = -0.4 }
+    terrain = { type = "urban_Tbilisi" value = -0.4 }
+    terrain = { type = "urban_Perth" value = -0.4 }
+    terrain = { type = "urban_Ekaterinburg" value = -0.4 }
+    terrain = { type = "urban_Tabriz" value = -0.4 }
+    terrain = { type = "urban_newdelhi" value = -0.4 }
+    terrain = { type = "urban_baghdad" value = -0.4 }
+    terrain = { type = "urban_leningrad" value = -0.4 }
+    terrain = { type = "urban_tallinn" value = -0.4 }
+    terrain = { type = "urban_DenHaag" value = -0.4 }
+    terrain = { type = "urban_Breda" value = -0.4 }
+    terrain = { type = "urban_glasgow" value = -0.4 }
+    terrain = { type = "urban_vilnius" value = -0.4 }
+    terrain = { type = "urban_Bremen" value = -0.4 }
+    terrain = { type = "urban_Bryansk" value = -0.4 }
+    terrain = { type = "urban_Bristol" value = -0.4 }
+    terrain = { type = "urban_Belfast" value = -0.4 }
+    terrain = { type = "urban_Brest" value = -0.4 }
+    terrain = { type = "urban_magdeburg" value = -0.4 }
+    terrain = { type = "urban_stalingrad" value = -0.4 }
+    terrain = { type = "urban_leipzig" value = -0.4 }
+    terrain = { type = "urban_Warszawa" value = -0.4 }
+    terrain = { type = "urban_Brunn" value = -0.4 }
+    terrain = { type = "urban_Saratov" value = -0.4 }
+    terrain = { type = "urban_Kursk" value = -0.4 }
+    terrain = { type = "urban_sevastopol" value = -0.4 }
+    terrain = { type = "urban_Krasnodar" value = -0.4 }
+    terrain = { type = "urban_toronto" value = -0.4 }
+    terrain = { type = "urban_Ottawa" value = -0.4 }
+    terrain = { type = "urban_milano" value = -0.4 }
+    terrain = { type = "urban_Zaragoza" value = -0.4 }
+    terrain = { type = "urban_new_york" value = -0.4 }
+    terrain = { type = "urban_madrid" value = -0.4 }
+    terrain = { type = "urban_washington" value = -0.4 }
+    terrain = { type = "urban_Nanchang" value = -0.4 }
+    terrain = { type = "urban_Fuzan" value = -0.4 }
+    terrain = { type = "urban_Hanoi" value = -0.4 }
+    terrain = { type = "urban_alexadria" value = -0.4 }
+    terrain = { type = "urban_athens" value = -0.4 }
+    terrain = { type = "urban_Damascus" value = -0.4 }
+    terrain = { type = "urban_Izmir" value = -0.4 }
+    terrain = { type = "urban_Fuzhou" value = -0.4 }
+    terrain = { type = "urban_TelAviv" value = -0.4 }
+    terrain = { type = "urban_kolkata" value = -0.4 }
+    terrain = { type = "urban_Akmolinsk" value = -0.4 }
+    terrain = { type = "urban_Montreal" value = -0.4 }
+    terrain = { type = "urban_saigon" value = -0.4 }
+    terrain = { type = "urban_Patna" value = -0.4 }
+    terrain = { type = "urban_Auckland" value = -0.4 }
+    terrain = { type = "urban_StLouis" value = -0.4 }
+    terrain = { type = "urban_Surabaya" value = -0.4 }
+    terrain = { type = "urban_Wuhan" value = -0.4 }
+    terrain = { type = "urban_Chengdu" value = -0.4 }
+    terrain = { type = "urban_Stockholm" value = -0.4 }
+    terrain = { type = "urban_london" value = -0.4 }
+    terrain = { type = "urban_Kalinin" value = -0.4 }
+    terrain = { type = "urban_Tula" value = -0.4 }
+    terrain = { type = "urban_stettin" value = -0.4 }
+    terrain = { type = "urban_copenhagen" value = -0.4 }
+    terrain = { type = "urban_kaunas" value = -0.4 }
+    terrain = { type = "urban_manchester" value = -0.4 }
+    terrain = { type = "urban_konigsberg" value = -0.4 }
+    terrain = { type = "urban_Kazan" value = -0.4 }
+    terrain = { type = "urban_Hannover" value = -0.4 }
+    terrain = { type = "urban_moscow" value = -0.4 }
+    terrain = { type = "urban_liverpool" value = -0.4 }
+    terrain = { type = "urban_kiel" value = -0.4 }
+    terrain = { type = "urban_Cherbourg" value = -0.4 }
+    terrain = { type = "urban_Kattowitz" value = -0.4 }
+    terrain = { type = "urban_essen" value = -0.4 }
+    terrain = { type = "urban_Stalino" value = -0.4 }
+    terrain = { type = "urban_frankfurt" value = -0.4 }
+    terrain = { type = "urban_berlin" value = -0.4 }
+    terrain = { type = "urban_Poznan" value = -0.4 }
+    terrain = { type = "urban_Bologna" value = -0.4 }
+    terrain = { type = "urban_lyon" value = -0.4 }
+    terrain = { type = "urban_Trieste" value = -0.4 }
+    terrain = { type = "urban_Galati" value = -0.4 }
+    terrain = { type = "urban_Detroit" value = -0.4 }
+    terrain = { type = "urban_boston" value = -0.4 }
+    terrain = { type = "urban_Toulouse" value = -0.4 }
+    terrain = { type = "urban_Torino" value = -0.4 }
+    terrain = { type = "urban_Genova" value = -0.4 }
+    terrain = { type = "urban_philadelphia" value = -0.4 }
+    terrain = { type = "urban_Newark" value = -0.4 }
+    terrain = { type = "urban_Cleveland" value = -0.4 }
+    terrain = { type = "urban_Valencia" value = -0.4 }
+    terrain = { type = "urban_Chongqing" value = -0.4 }
+    terrain = { type = "urban_cairo" value = -0.4 }
+    terrain = { type = "urban_shanghai" value = -0.4 }
+    terrain = { type = "urban_Casablanca" value = -0.4 }
+    terrain = { type = "urban_osaka" value = -0.4 }
+    terrain = { type = "urban_Changsha" value = -0.4 }
+    terrain = { type = "urban_Changde" value = -0.4 }
+    terrain = { type = "urban_Fukuoka" value = -0.4 }
+    terrain = { type = "urban_Keijo" value = -0.4 }
+    terrain = { type = "urban_Nanzningz" value = -0.4 }
+    terrain = { type = "urban_Sendai" value = -0.4 }
+    terrain = { type = "urban_Sevilla" value = -0.4 }
+    terrain = { type = "urban_Hangzhou" value = -0.4 }
+    terrain = { type = "urban_Seattle" value = -0.4 }
+    terrain = { type = "urban_Perm" value = -0.4 }
+    terrain = { type = "urban_Batavia" value = -0.4 }
+    terrain = { type = "urban_bangkok" value = -0.4 }
+    terrain = { type = "urban_Brisbane" value = -0.4 }
+    terrain = { type = "urban_baku" value = -0.4 }
+    terrain = { type = "urban_melbourne" value = -0.4 }
+    terrain = { type = "urban_Bangalore" value = -0.4 }
+    terrain = { type = "urban_Hyderabad" value = -0.4 }
+    terrain = { type = "urban_Gomel" value = -0.4 }
+    terrain = { type = "urban_Chelyabinsk" value = -0.4 }
+    terrain = { type = "urban_birmingham" value = -0.4 }
+    terrain = { type = "urban_Sheffield" value = -0.4 }
+    terrain = { type = "urban_riga" value = -0.4 }
+    terrain = { type = "urban_hamburg" value = -0.4 }
+    terrain = { type = "urban_orel" value = -0.4 }
+    terrain = { type = "urban_Leeds" value = -0.4 }
+    terrain = { type = "urban_Edinburgh" value = -0.4 }
+    terrain = { type = "urban_Rostov" value = -0.4 }
+    terrain = { type = "urban_krakow" value = -0.4 }
+    terrain = { type = "urban_LeHavre" value = -0.4 }
+    terrain = { type = "urban_chicago" value = -0.4 }
+    terrain = { type = "urban_Voroshilovgrad" value = -0.4 }
+    terrain = { type = "urban_rotterdam" value = -0.4 }
+    terrain = { type = "urban_strasburg" value = -0.4 }
+    terrain = { type = "urban_Lodz" value = -0.4 }
+    terrain = { type = "urban_Stuttgart" value = -0.4 }
+    terrain = { type = "urban_Paris_" value = -0.4 }
+    terrain = { type = "urban_breslau" value = -0.4 }
+    terrain = { type = "urban_bukarest" value = -0.4 }
+    terrain = { type = "urban_Bern" value = -0.4 }
+    terrain = { type = "urban_Graz" value = -0.4 }
+    terrain = { type = "urban_budapest" value = -0.4 }
+    terrain = { type = "urban_san_francisco" value = -0.4 }
+    terrain = { type = "urban_bordeaux" value = -0.4 }
+    terrain = { type = "urban_Astrakhan" value = -0.4 }
+    terrain = { type = "urban_Barcelona" value = -0.4 }
+    terrain = { type = "urban_los_angeles" value = -0.4 }
+    terrain = { type = "urban_Porto" value = -0.4 }
+    terrain = { type = "urban_Istanbul" value = -0.4 }
+    terrain = { type = "urban_beiping" value = -0.4 }
+    terrain = { type = "urban_rome" value = -0.4 }
+    terrain = { type = "urban_Firenze" value = -0.4 }
+    terrain = { type = "urban_nice" value = -0.4 }
+    terrain = { type = "urban_Ceuta" value = -0.4 }
+    terrain = { type = "urban_Ahmedabad" value = -0.4 }
+    terrain = { type = "urban_Malaga" value = -0.4 }
+    terrain = { type = "urban_Yokohama" value = -0.4 }
+    terrain = { type = "urban_Tsingtao" value = -0.4 }
+    terrain = { type = "urban_hongkong" value = -0.4 }
+    terrain = { type = "urban_Tianjin" value = -0.4 }
+    terrain = { type = "urban_Palermo" value = -0.4 }
+    terrain = { type = "urban_Suzhou" value = -0.4 }
+    terrain = { type = "urban_nagoya" value = -0.4 }
+    terrain = { type = "urban_manila" value = -0.4 }
+    terrain = { type = "urban_Madras" value = -0.4 }
+    terrain = { type = "urban_Houston" value = -0.4 }
+    terrain = { type = "urban_harbin" value = -0.4 }
+    terrain = { type = "urban_SaoPaulo" value = -0.4 }
+    terrain = { type = "urban_Tehran" value = -0.4 }
+    terrain = { type = "urban_rio_dejaneiro" value = -0.4 }
+    terrain = { type = "urban_helsinki" value = -0.4 }
+    terrain = { type = "urban_Kuybyshev" value = -0.4 }
+    terrain = { type = "urban_Vitebsk" value = -0.4 }
+    terrain = { type = "urban_Dublin" value = -0.4 }
+    terrain = { type = "urban_Hull" value = -0.4 }
+    terrain = { type = "urban_London_" value = -0.4 }
+    terrain = { type = "urban_Rzhev" value = -0.4 }
+    terrain = { type = "urban_minsk" value = -0.4 }
+    terrain = { type = "urban_Gorky" value = -0.4 }
+    terrain = { type = "urban_Zaporizhzhia" value = -0.4 }
+    terrain = { type = "urban_Dnipropetrovsk" value = -0.4 }
+    terrain = { type = "urban_Nantes" value = -0.4 }
+    terrain = { type = "urban_Gleiwitz" value = -0.4 }
+    terrain = { type = "urban_Lwow" value = -0.4 }
+    terrain = { type = "urban_Lille" value = -0.4 }
+    terrain = { type = "urban_paris" value = -0.4 }
+    terrain = { type = "urban_praha" value = -0.4 }
+    terrain = { type = "urban_nurnberg" value = -0.4 }
+    terrain = { type = "urban_KryvyiRih" value = -0.4 }
+    terrain = { type = "urban_zagreb" value = -0.4 }
+    terrain = { type = "urban_Beograd" value = -0.4 }
+    terrain = { type = "urban_Buffalo" value = -0.4 }
+    terrain = { type = "urban_vienna" value = -0.4 }
+    terrain = { type = "urban_Odessa" value = -0.4 }
+    terrain = { type = "urban_Ankara" value = -0.4 }
+    terrain = { type = "urban_mukden" value = -0.4 }
+    terrain = { type = "urban_Cagliari" value = -0.4 }
+    terrain = { type = "urban_Pittsburgh" value = -0.4 }
+    terrain = { type = "urban_Lisboa" value = -0.4 }
+    terrain = { type = "urban_Thessaloniki" value = -0.4 }
+    terrain = { type = "urban_marseille" value = -0.4 }
+    terrain = { type = "urban_taranto" value = -0.4 }
+    terrain = { type = "urban_nanjing" value = -0.4 }
+    terrain = { type = "urban_Dacca" value = -0.4 }
+    terrain = { type = "urban_kyoto" value = -0.4 }
+    terrain = { type = "urban_tunis" value = -0.4 }
+    terrain = { type = "urban_Lucknow" value = -0.4 }
+    terrain = { type = "urban_Khabarovsk" value = -0.4 }
+    terrain = { type = "urban_Yerevan" value = -0.4 }
+    terrain = { type = "urban_buenos_aires" value = -0.4 }
+    terrain = { type = "urban_sydney" value = -0.4 }
+    terrain = { type = "urban_Aleppo" value = -0.4 }
+    terrain = { type = "urban_Adelaide" value = -0.4 }
+    terrain = { type = "urban_Chrzanow" value = -0.4 }
+    terrain = { type = "urban_Heijo" value = -0.4 }
+  }
+
+
+
+  blizzard = {
+    terrain = { type = "mountain" value = 0.8 }
+    terrain = { type = "mountain" value = 0.8 }
+    terrain = { type = "mountain_narvik" value = 0.8 }
+    terrain = { type = "mountain_berchtesgaden" value = 0.8 }
+    terrain = { type = "mountain_monte_cassino" value = 0.8 }
+    terrain = { type = "mountain_Tobruk" value = 0.8 }
+    terrain = { type = "mountain_Taiyuan" value = 0.8 }
+    terrain = { type = "mountain_MexcoCity" value = 0.8 }
+    terrain = { type = "mountain_Freiburg" value = 0.8 }
+    terrain = { type = "mountain_gran_sasso" value = 0.8 }
+    terrain = { type = "mountain_Messina" value = 0.8 }
+    terrain = { type = "mountain_Mount_Elbrus" value = 0.8 }
+    terrain = { type = "mountain_Anman" value = 0.8 }
+    terrain = { type = "mountain_Yenan" value = 0.8 }
+    terrain = { type = "mountain_Salo" value = 0.8 }
+    terrain = { type = "mountain_Garmisch" value = 0.8 }
+    terrain = { type = "mountain_capetown" value = 0.8 }
+    terrain = { type = "mountain_salween_river_bridge" value = 0.8 }
+    terrain = { type = "mountain_Addis_Ababa" value = 0.8 }
+    terrain = { type = "mountain_Asmara" value = 0.8 }
+    terrain = { type = "mountain_Kabul" value = 0.8 }
+    terrain = { type = "mountain_Kokoda" value = 0.8 }
+    terrain = { type = "mountain_kilindini" value = 0.8 }
+    terrain = { type = "mountain_Lanzhou" value = 0.8 }
+    terrain = { type = "mountain_Zlatousk" value = 0.8 }
+    terrain = { type = "mountain_Albuquerque" value = 0.8 }
+    terrain = { type = "mountain_ChiangMai" value = 0.8 }
+    terrain = { type = "mountain_Goa" value = 0.8 }
+    terrain = { type = "mountain_Kathmandu" value = 0.8 }
+    terrain = { type = "mountain_Punakha" value = 0.8 }
+    terrain = { type = "mountain_Reykjavik" value = 0.8 }
+    terrain = { type = "mountain_Innsbruck" value = 0.8 }
+    terrain = { type = "mountain_Vancouver" value = 0.8 }
+    terrain = { type = "mountain_Cluj" value = 0.8 }
+    terrain = { type = "mountain_Ellwood_Oil_Field" value = 0.8 }
+    terrain = { type = "mountain_Midway-Sunset_Oil_Field" value = 0.8 }
+    terrain = { type = "mountain_Antakya" value = 0.8 }
+    terrain = { type = "mountain_Grenoble" value = 0.8 }
+    terrain = { type = "mountain_Suakin" value = 0.8 }
+    terrain = { type = "mountain_Schloss_Neuschwanstein" value = 0.8 }
+    terrain = { type = "mountain_Anshan" value = 0.8 }
+    terrain = { type = "mountain_Huangshan" value = 0.8 }
+    terrain = { type = "mountain_Mecca" value = 0.8 }
+    terrain = { type = "mountain_Medina" value = 0.8 }
+    terrain = { type = "mountain_Bamiyan" value = 0.8 }
+    terrain = { type = "mountain_Kampa_Dzong" value = 0.8 }
+    terrain = { type = "mountain_Zhangjiakou" value = 0.8 }
+
+    terrain = { type = "desert" value = -1.0 }
+    terrain = { type = "desert_Jerusalem" value = -1.0 }
+    terrain = { type = "desert_arco_dei_fileni" value = -1.0 }
+    terrain = { type = "desert_Leyte" value = -1.0 }
+    terrain = { type = "desert_baotou" value = -1.0 }
+    terrain = { type = "desert_potala_palace" value = -1.0 }
+    terrain = { type = "desert_Konya" value = -1.0 }
+    terrain = { type = "desert_Luxor" value = -1.0 }
+    terrain = { type = "desert_AbuSimbel" value = -1.0 }
+    terrain = { type = "desert_ElAlamein" value = -1.0 }
+    terrain = { type = "desert_Yenangyaung" value = -1.0 }
+    terrain = { type = "desert_Halfaya_Pass" value = -1.0 }
+    terrain = { type = "desert_Djibouti" value = -1.0 }
+    terrain = { type = "desert_Khartoum" value = -1.0 }
+    terrain = { type = "desert_Gyantse_Dzong" value = -1.0 }
+    terrain = { type = "desert_Welwel" value = -1.0 }
+
+
+    terrain = { type = "urban" value = -0.4 }
+    terrain = { type = "urban_Yaroslavl" value = -0.4 }
+    terrain = { type = "urban_smolensk" value = -0.4 }
+    terrain = { type = "urban_Newcastle" value = -0.4 }
+    terrain = { type = "urban_danzig" value = -0.4 }
+    terrain = { type = "urban_Cardiff" value = -0.4 }
+    terrain = { type = "urban_Gothenburg" value = -0.4 }
+    terrain = { type = "urban_amsterdam" value = -0.4 }
+    terrain = { type = "urban_Voronezh" value = -0.4 }
+    terrain = { type = "urban_kharkov" value = -0.4 }
+    terrain = { type = "urban_dortmund" value = -0.4 }
+    terrain = { type = "urban_dresden" value = -0.4 }
+    terrain = { type = "urban_brussels" value = -0.4 }
+    terrain = { type = "urban_kiev" value = -0.4 }
+    terrain = { type = "urban_koln" value = -0.4 }
+    terrain = { type = "urban_Zurich" value = -0.4 }
+    terrain = { type = "urban_munich" value = -0.4 }
+    terrain = { type = "urban_Bilbao" value = -0.4 }
+    terrain = { type = "urban_naples" value = -0.4 }
+    terrain = { type = "urban_Sofia" value = -0.4 }
+    terrain = { type = "urban_Vladivostok" value = -0.4 }
+    terrain = { type = "urban_yawata" value = -0.4 }
+    terrain = { type = "urban_guangdong" value = -0.4 }
+    terrain = { type = "urban_jinan" value = -0.4 }
+    terrain = { type = "urban_hiroshima" value = -0.4 }
+    terrain = { type = "urban_Algiers" value = -0.4 }
+    terrain = { type = "urban_tripoli" value = -0.4 }
+    terrain = { type = "urban_dairen" value = -0.4 }
+    terrain = { type = "urban_tokyo" value = -0.4 }
+    terrain = { type = "urban_Rangoon" value = -0.4 }
+    terrain = { type = "urban_mumbai" value = -0.4 }
+    terrain = { type = "urban_Toshkent" value = -0.4 }
+    terrain = { type = "urban_Almaty" value = -0.4 }
+    terrain = { type = "urban_Tbilisi" value = -0.4 }
+    terrain = { type = "urban_Perth" value = -0.4 }
+    terrain = { type = "urban_Ekaterinburg" value = -0.4 }
+    terrain = { type = "urban_Tabriz" value = -0.4 }
+    terrain = { type = "urban_newdelhi" value = -0.4 }
+    terrain = { type = "urban_baghdad" value = -0.4 }
+    terrain = { type = "urban_leningrad" value = -0.4 }
+    terrain = { type = "urban_tallinn" value = -0.4 }
+    terrain = { type = "urban_DenHaag" value = -0.4 }
+    terrain = { type = "urban_Breda" value = -0.4 }
+    terrain = { type = "urban_glasgow" value = -0.4 }
+    terrain = { type = "urban_vilnius" value = -0.4 }
+    terrain = { type = "urban_Bremen" value = -0.4 }
+    terrain = { type = "urban_Bryansk" value = -0.4 }
+    terrain = { type = "urban_Bristol" value = -0.4 }
+    terrain = { type = "urban_Belfast" value = -0.4 }
+    terrain = { type = "urban_Brest" value = -0.4 }
+    terrain = { type = "urban_magdeburg" value = -0.4 }
+    terrain = { type = "urban_stalingrad" value = -0.4 }
+    terrain = { type = "urban_leipzig" value = -0.4 }
+    terrain = { type = "urban_Warszawa" value = -0.4 }
+    terrain = { type = "urban_Brunn" value = -0.4 }
+    terrain = { type = "urban_Saratov" value = -0.4 }
+    terrain = { type = "urban_Kursk" value = -0.4 }
+    terrain = { type = "urban_sevastopol" value = -0.4 }
+    terrain = { type = "urban_Krasnodar" value = -0.4 }
+    terrain = { type = "urban_toronto" value = -0.4 }
+    terrain = { type = "urban_Ottawa" value = -0.4 }
+    terrain = { type = "urban_milano" value = -0.4 }
+    terrain = { type = "urban_Zaragoza" value = -0.4 }
+    terrain = { type = "urban_new_york" value = -0.4 }
+    terrain = { type = "urban_madrid" value = -0.4 }
+    terrain = { type = "urban_washington" value = -0.4 }
+    terrain = { type = "urban_Nanchang" value = -0.4 }
+    terrain = { type = "urban_Fuzan" value = -0.4 }
+    terrain = { type = "urban_Hanoi" value = -0.4 }
+    terrain = { type = "urban_alexadria" value = -0.4 }
+    terrain = { type = "urban_athens" value = -0.4 }
+    terrain = { type = "urban_Damascus" value = -0.4 }
+    terrain = { type = "urban_Izmir" value = -0.4 }
+    terrain = { type = "urban_Fuzhou" value = -0.4 }
+    terrain = { type = "urban_TelAviv" value = -0.4 }
+    terrain = { type = "urban_kolkata" value = -0.4 }
+    terrain = { type = "urban_Akmolinsk" value = -0.4 }
+    terrain = { type = "urban_Montreal" value = -0.4 }
+    terrain = { type = "urban_saigon" value = -0.4 }
+    terrain = { type = "urban_Patna" value = -0.4 }
+    terrain = { type = "urban_Auckland" value = -0.4 }
+    terrain = { type = "urban_StLouis" value = -0.4 }
+    terrain = { type = "urban_Surabaya" value = -0.4 }
+    terrain = { type = "urban_Wuhan" value = -0.4 }
+    terrain = { type = "urban_Chengdu" value = -0.4 }
+    terrain = { type = "urban_Stockholm" value = -0.4 }
+    terrain = { type = "urban_london" value = -0.4 }
+    terrain = { type = "urban_Kalinin" value = -0.4 }
+    terrain = { type = "urban_Tula" value = -0.4 }
+    terrain = { type = "urban_stettin" value = -0.4 }
+    terrain = { type = "urban_copenhagen" value = -0.4 }
+    terrain = { type = "urban_kaunas" value = -0.4 }
+    terrain = { type = "urban_manchester" value = -0.4 }
+    terrain = { type = "urban_konigsberg" value = -0.4 }
+    terrain = { type = "urban_Kazan" value = -0.4 }
+    terrain = { type = "urban_Hannover" value = -0.4 }
+    terrain = { type = "urban_moscow" value = -0.4 }
+    terrain = { type = "urban_liverpool" value = -0.4 }
+    terrain = { type = "urban_kiel" value = -0.4 }
+    terrain = { type = "urban_Cherbourg" value = -0.4 }
+    terrain = { type = "urban_Kattowitz" value = -0.4 }
+    terrain = { type = "urban_essen" value = -0.4 }
+    terrain = { type = "urban_Stalino" value = -0.4 }
+    terrain = { type = "urban_frankfurt" value = -0.4 }
+    terrain = { type = "urban_berlin" value = -0.4 }
+    terrain = { type = "urban_Poznan" value = -0.4 }
+    terrain = { type = "urban_Bologna" value = -0.4 }
+    terrain = { type = "urban_lyon" value = -0.4 }
+    terrain = { type = "urban_Trieste" value = -0.4 }
+    terrain = { type = "urban_Galati" value = -0.4 }
+    terrain = { type = "urban_Detroit" value = -0.4 }
+    terrain = { type = "urban_boston" value = -0.4 }
+    terrain = { type = "urban_Toulouse" value = -0.4 }
+    terrain = { type = "urban_Torino" value = -0.4 }
+    terrain = { type = "urban_Genova" value = -0.4 }
+    terrain = { type = "urban_philadelphia" value = -0.4 }
+    terrain = { type = "urban_Newark" value = -0.4 }
+    terrain = { type = "urban_Cleveland" value = -0.4 }
+    terrain = { type = "urban_Valencia" value = -0.4 }
+    terrain = { type = "urban_Chongqing" value = -0.4 }
+    terrain = { type = "urban_cairo" value = -0.4 }
+    terrain = { type = "urban_shanghai" value = -0.4 }
+    terrain = { type = "urban_Casablanca" value = -0.4 }
+    terrain = { type = "urban_osaka" value = -0.4 }
+    terrain = { type = "urban_Changsha" value = -0.4 }
+    terrain = { type = "urban_Changde" value = -0.4 }
+    terrain = { type = "urban_Fukuoka" value = -0.4 }
+    terrain = { type = "urban_Keijo" value = -0.4 }
+    terrain = { type = "urban_Nanzningz" value = -0.4 }
+    terrain = { type = "urban_Sendai" value = -0.4 }
+    terrain = { type = "urban_Sevilla" value = -0.4 }
+    terrain = { type = "urban_Hangzhou" value = -0.4 }
+    terrain = { type = "urban_Seattle" value = -0.4 }
+    terrain = { type = "urban_Perm" value = -0.4 }
+    terrain = { type = "urban_Batavia" value = -0.4 }
+    terrain = { type = "urban_bangkok" value = -0.4 }
+    terrain = { type = "urban_Brisbane" value = -0.4 }
+    terrain = { type = "urban_baku" value = -0.4 }
+    terrain = { type = "urban_melbourne" value = -0.4 }
+    terrain = { type = "urban_Bangalore" value = -0.4 }
+    terrain = { type = "urban_Hyderabad" value = -0.4 }
+    terrain = { type = "urban_Gomel" value = -0.4 }
+    terrain = { type = "urban_Chelyabinsk" value = -0.4 }
+    terrain = { type = "urban_birmingham" value = -0.4 }
+    terrain = { type = "urban_Sheffield" value = -0.4 }
+    terrain = { type = "urban_riga" value = -0.4 }
+    terrain = { type = "urban_hamburg" value = -0.4 }
+    terrain = { type = "urban_orel" value = -0.4 }
+    terrain = { type = "urban_Leeds" value = -0.4 }
+    terrain = { type = "urban_Edinburgh" value = -0.4 }
+    terrain = { type = "urban_Rostov" value = -0.4 }
+    terrain = { type = "urban_krakow" value = -0.4 }
+    terrain = { type = "urban_LeHavre" value = -0.4 }
+    terrain = { type = "urban_chicago" value = -0.4 }
+    terrain = { type = "urban_Voroshilovgrad" value = -0.4 }
+    terrain = { type = "urban_rotterdam" value = -0.4 }
+    terrain = { type = "urban_strasburg" value = -0.4 }
+    terrain = { type = "urban_Lodz" value = -0.4 }
+    terrain = { type = "urban_Stuttgart" value = -0.4 }
+    terrain = { type = "urban_Paris_" value = -0.4 }
+    terrain = { type = "urban_breslau" value = -0.4 }
+    terrain = { type = "urban_bukarest" value = -0.4 }
+    terrain = { type = "urban_Bern" value = -0.4 }
+    terrain = { type = "urban_Graz" value = -0.4 }
+    terrain = { type = "urban_budapest" value = -0.4 }
+    terrain = { type = "urban_san_francisco" value = -0.4 }
+    terrain = { type = "urban_bordeaux" value = -0.4 }
+    terrain = { type = "urban_Astrakhan" value = -0.4 }
+    terrain = { type = "urban_Barcelona" value = -0.4 }
+    terrain = { type = "urban_los_angeles" value = -0.4 }
+    terrain = { type = "urban_Porto" value = -0.4 }
+    terrain = { type = "urban_Istanbul" value = -0.4 }
+    terrain = { type = "urban_beiping" value = -0.4 }
+    terrain = { type = "urban_rome" value = -0.4 }
+    terrain = { type = "urban_Firenze" value = -0.4 }
+    terrain = { type = "urban_nice" value = -0.4 }
+    terrain = { type = "urban_Ceuta" value = -0.4 }
+    terrain = { type = "urban_Ahmedabad" value = -0.4 }
+    terrain = { type = "urban_Malaga" value = -0.4 }
+    terrain = { type = "urban_Yokohama" value = -0.4 }
+    terrain = { type = "urban_Tsingtao" value = -0.4 }
+    terrain = { type = "urban_hongkong" value = -0.4 }
+    terrain = { type = "urban_Tianjin" value = -0.4 }
+    terrain = { type = "urban_Palermo" value = -0.4 }
+    terrain = { type = "urban_Suzhou" value = -0.4 }
+    terrain = { type = "urban_nagoya" value = -0.4 }
+    terrain = { type = "urban_manila" value = -0.4 }
+    terrain = { type = "urban_Madras" value = -0.4 }
+    terrain = { type = "urban_Houston" value = -0.4 }
+    terrain = { type = "urban_harbin" value = -0.4 }
+    terrain = { type = "urban_SaoPaulo" value = -0.4 }
+    terrain = { type = "urban_Tehran" value = -0.4 }
+    terrain = { type = "urban_rio_dejaneiro" value = -0.4 }
+    terrain = { type = "urban_helsinki" value = -0.4 }
+    terrain = { type = "urban_Kuybyshev" value = -0.4 }
+    terrain = { type = "urban_Vitebsk" value = -0.4 }
+    terrain = { type = "urban_Dublin" value = -0.4 }
+    terrain = { type = "urban_Hull" value = -0.4 }
+    terrain = { type = "urban_London_" value = -0.4 }
+    terrain = { type = "urban_Rzhev" value = -0.4 }
+    terrain = { type = "urban_minsk" value = -0.4 }
+    terrain = { type = "urban_Gorky" value = -0.4 }
+    terrain = { type = "urban_Zaporizhzhia" value = -0.4 }
+    terrain = { type = "urban_Dnipropetrovsk" value = -0.4 }
+    terrain = { type = "urban_Nantes" value = -0.4 }
+    terrain = { type = "urban_Gleiwitz" value = -0.4 }
+    terrain = { type = "urban_Lwow" value = -0.4 }
+    terrain = { type = "urban_Lille" value = -0.4 }
+    terrain = { type = "urban_paris" value = -0.4 }
+    terrain = { type = "urban_praha" value = -0.4 }
+    terrain = { type = "urban_nurnberg" value = -0.4 }
+    terrain = { type = "urban_KryvyiRih" value = -0.4 }
+    terrain = { type = "urban_zagreb" value = -0.4 }
+    terrain = { type = "urban_Beograd" value = -0.4 }
+    terrain = { type = "urban_Buffalo" value = -0.4 }
+    terrain = { type = "urban_vienna" value = -0.4 }
+    terrain = { type = "urban_Odessa" value = -0.4 }
+    terrain = { type = "urban_Ankara" value = -0.4 }
+    terrain = { type = "urban_mukden" value = -0.4 }
+    terrain = { type = "urban_Cagliari" value = -0.4 }
+    terrain = { type = "urban_Pittsburgh" value = -0.4 }
+    terrain = { type = "urban_Lisboa" value = -0.4 }
+    terrain = { type = "urban_Thessaloniki" value = -0.4 }
+    terrain = { type = "urban_marseille" value = -0.4 }
+    terrain = { type = "urban_taranto" value = -0.4 }
+    terrain = { type = "urban_nanjing" value = -0.4 }
+    terrain = { type = "urban_Dacca" value = -0.4 }
+    terrain = { type = "urban_kyoto" value = -0.4 }
+    terrain = { type = "urban_tunis" value = -0.4 }
+    terrain = { type = "urban_Lucknow" value = -0.4 }
+    terrain = { type = "urban_Khabarovsk" value = -0.4 }
+    terrain = { type = "urban_Yerevan" value = -0.4 }
+    terrain = { type = "urban_buenos_aires" value = -0.4 }
+    terrain = { type = "urban_sydney" value = -0.4 }
+    terrain = { type = "urban_Aleppo" value = -0.4 }
+    terrain = { type = "urban_Adelaide" value = -0.4 }
+    terrain = { type = "urban_Chrzanow" value = -0.4 }
+    terrain = { type = "urban_Heijo" value = -0.4 }
+  }
+  sandstorm = { #dudududu
+    terrain = { type = "desert" value = 0.8 }
+    terrain = { type = "desert_Jerusalem" value = 0.8 }
+    terrain = { type = "desert_arco_dei_fileni" value = 0.8 }
+    terrain = { type = "desert_Leyte" value = 0.8 }
+    terrain = { type = "desert_baotou" value = 0.8 }
+    terrain = { type = "desert_potala_palace" value = 0.8 }
+    terrain = { type = "desert_Konya" value = 0.8 }
+    terrain = { type = "desert_Luxor" value = 0.8 }
+    terrain = { type = "desert_AbuSimbel" value = 0.8 }
+    terrain = { type = "desert_ElAlamein" value = 0.8 }
+    terrain = { type = "desert_Yenangyaung" value = 0.8 }
+    terrain = { type = "desert_Halfaya_Pass" value = 0.8 }
+    terrain = { type = "desert_Djibouti" value = 0.8 }
+    terrain = { type = "desert_Khartoum" value = 0.8 }
+    terrain = { type = "desert_Gyantse_Dzong" value = 0.8 }
+    terrain = { type = "desert_Welwel" value = 0.8 }
+
+
+    terrain = { type = "mountain" value = -1.0 }
+    terrain = { type = "mountain_narvik" value = -1.0 }
+    terrain = { type = "mountain_berchtesgaden" value = -1.0 }
+    terrain = { type = "mountain_monte_cassino" value = -1.0 }
+    terrain = { type = "mountain_Tobruk" value = -1.0 }
+    terrain = { type = "mountain_Taiyuan" value = -1.0 }
+    terrain = { type = "mountain_MexcoCity" value = -1.0 }
+    terrain = { type = "mountain_Freiburg" value = -1.0 }
+    terrain = { type = "mountain_gran_sasso" value = -1.0 }
+    terrain = { type = "mountain_Messina" value = -1.0 }
+    terrain = { type = "mountain_Mount_Elbrus" value = -1.0 }
+    terrain = { type = "mountain_Anman" value = -1.0 }
+    terrain = { type = "mountain_Yenan" value = -1.0 }
+    terrain = { type = "mountain_Salo" value = -1.0 }
+    terrain = { type = "mountain_Garmisch" value = -1.0 }
+    terrain = { type = "mountain_capetown" value = -1.0 }
+    terrain = { type = "mountain_salween_river_bridge" value = -1.0 }
+    terrain = { type = "mountain_Addis_Ababa" value = -1.0 }
+    terrain = { type = "mountain_Asmara" value = -1.0 }
+    terrain = { type = "mountain_Kabul" value = -1.0 }
+    terrain = { type = "mountain_Kokoda" value = -1.0 }
+    terrain = { type = "mountain_kilindini" value = -1.0 }
+    terrain = { type = "mountain_Lanzhou" value = -1.0 }
+    terrain = { type = "mountain_Zlatousk" value = -1.0 }
+    terrain = { type = "mountain_Albuquerque" value = -1.0 }
+    terrain = { type = "mountain_ChiangMai" value = -1.0 }
+    terrain = { type = "mountain_Goa" value = -1.0 }
+    terrain = { type = "mountain_Kathmandu" value = -1.0 }
+    terrain = { type = "mountain_Punakha" value = -1.0 }
+    terrain = { type = "mountain_Reykjavik" value = -1.0 }
+    terrain = { type = "mountain_Innsbruck" value = -1.0 }
+    terrain = { type = "mountain_Vancouver" value = -1.0 }
+    terrain = { type = "mountain_Cluj" value = -1.0 }
+    terrain = { type = "mountain_Ellwood_Oil_Field" value = -1.0 }
+    terrain = { type = "mountain_Midway-Sunset_Oil_Field" value = -1.0 }
+    terrain = { type = "mountain_Antakya" value = -1.0 }
+    terrain = { type = "mountain_Grenoble" value = -1.0 }
+    terrain = { type = "mountain_Suakin" value = -1.0 }
+    terrain = { type = "mountain_Schloss_Neuschwanstein" value = -1.0 }
+    terrain = { type = "mountain_Anshan" value = -1.0 }
+    terrain = { type = "mountain_Huangshan" value = -1.0 }
+    terrain = { type = "mountain_Mecca" value = -1.0 }
+    terrain = { type = "mountain_Medina" value = -1.0 }
+    terrain = { type = "mountain_Bamiyan" value = -1.0 }
+    terrain = { type = "mountain_Kampa_Dzong" value = -1.0 }
+    terrain = { type = "mountain_Zhangjiakou" value = -1.0 }
+
+
+
+
+  }
+
+  temperature = {
+  	#terrain = { type = "desert" value = 10.0 } ##Not unless we make separate day/night temp bonus
+
+    terrain = { type = "mountain" value = -7.0 }
+    terrain = { type = "mountain_narvik" value = -7.0 }
+    terrain = { type = "mountain_berchtesgaden" value = -7.0 }
+    terrain = { type = "mountain_monte_cassino" value = -7.0 }
+    terrain = { type = "mountain_Tobruk" value = -7.0 }
+    terrain = { type = "mountain_Taiyuan" value = -7.0 }
+    terrain = { type = "mountain_MexcoCity" value = -7.0 }
+    terrain = { type = "mountain_Freiburg" value = -7.0 }
+    terrain = { type = "mountain_gran_sasso" value = -7.0 }
+    terrain = { type = "mountain_Messina" value = -7.0 }
+    terrain = { type = "mountain_Mount_Elbrus" value = -7.0 }
+    terrain = { type = "mountain_Anman" value = -7.0 }
+    terrain = { type = "mountain_Yenan" value = -7.0 }
+    terrain = { type = "mountain_Salo" value = -7.0 }
+    terrain = { type = "mountain_Garmisch" value = -7.0 }
+    terrain = { type = "mountain_capetown" value = -7.0 }
+    terrain = { type = "mountain_salween_river_bridge" value = -7.0 }
+    terrain = { type = "mountain_Addis_Ababa" value = -7.0 }
+    terrain = { type = "mountain_Asmara" value = -7.0 }
+    terrain = { type = "mountain_Kabul" value = -7.0 }
+    terrain = { type = "mountain_Kokoda" value = -7.0 }
+    terrain = { type = "mountain_kilindini" value = -7.0 }
+    terrain = { type = "mountain_Lanzhou" value = -7.0 }
+    terrain = { type = "mountain_Zlatousk" value = -7.0 }
+    terrain = { type = "mountain_Albuquerque" value = -7.0 }
+    terrain = { type = "mountain_ChiangMai" value = -7.0 }
+    terrain = { type = "mountain_Goa" value = -7.0 }
+    terrain = { type = "mountain_Kathmandu" value = -7.0 }
+    terrain = { type = "mountain_Punakha" value = -7.0 }
+    terrain = { type = "mountain_Reykjavik" value = -7.0 }
+    terrain = { type = "mountain_Innsbruck" value = -7.0 }
+    terrain = { type = "mountain_Vancouver" value = -7.0 }
+    terrain = { type = "mountain_Cluj" value = -7.0 }
+    terrain = { type = "mountain_Ellwood_Oil_Field" value = -7.0 }
+    terrain = { type = "mountain_Midway-Sunset_Oil_Field" value = -7.0 }
+    terrain = { type = "mountain_Antakya" value = -7.0 }
+    terrain = { type = "mountain_Grenoble" value = -7.0 }
+    terrain = { type = "mountain_Suakin" value = -7.0 }
+    terrain = { type = "mountain_Schloss_Neuschwanstein" value = -7.0 }
+    terrain = { type = "mountain_Anshan" value = -7.0 }
+    terrain = { type = "mountain_Huangshan" value = -7.0 }
+    terrain = { type = "mountain_Mecca" value = -7.0 }
+    terrain = { type = "mountain_Medina" value = -7.0 }
+    terrain = { type = "mountain_Bamiyan" value = -7.0 }
+    terrain = { type = "mountain_Kampa_Dzong" value = -7.0 }
+    terrain = { type = "mountain_Zhangjiakou" value = -7.0 }
+
+
+
+
+
+    terrain = { type = "hills" value = -3.0 }
+    terrain = { type = "hills_Bergen" value = -3.0 }
+    terrain = { type = "hills_Zunyi" value = -3.0 }
+    terrain = { type = "hills_Kunming" value = -3.0 }
+    terrain = { type = "hills_SanDiego" value = -3.0 }
+    terrain = { type = "hills_Trondheim" value = -3.0 }
+    terrain = { type = "hills_gibraltar" value = -3.0 }
+    terrain = { type = "hills_Shijiazhuang" value = -3.0 }
+    terrain = { type = "hills_Niangziguan" value = -3.0 }
+    terrain = { type = "hills_Braunau" value = -3.0 }
+    terrain = { type = "hills_pescara" value = -3.0 }
+    terrain = { type = "hills_Columbo" value = -3.0 }
+    terrain = { type = "hills_Manzhouli" value = -3.0 }
+    terrain = { type = "hills_mont_st_michel" value = -3.0 }
+    terrain = { type = "hills_Predappio" value = -3.0 }
+    terrain = { type = "hills_Heraklion" value = -3.0 }
+    terrain = { type = "hills_Guihua" value = -3.0 }
+    terrain = { type = "hills_sapporo" value = -3.0 }
+    terrain = { type = "hills_Ulm" value = -3.0 }
+    terrain = { type = "hills_Anzio" value = -3.0 }
+    terrain = { type = "hills_sarajevo" value = -3.0 }
+    terrain = { type = "hills_Benghazi" value = -3.0 }
+    terrain = { type = "hills_Penang" value = -3.0 }
+    terrain = { type = "hills_Miyazaki" value = -3.0 }
+    terrain = { type = "hills_Wuchow" value = -3.0 }
+    terrain = { type = "hills_Yibin" value = -3.0 }
+    terrain = { type = "hills_Asmara" value = -3.0 }
+    terrain = { type = "hills_Dubrovnik" value = -3.0 }
+    terrain = { type = "hills_Ljubljana" value = -3.0 }
+    terrain = { type = "hills_Kasserine_Pass" value = -3.0 }
+    terrain = { type = "hills_Vemork" value = -3.0 }
+    terrain = { type = "hills_Bursa" value = -3.0 }
+    terrain = { type = "hills_Gaziantep" value = -3.0 }
+    terrain = { type = "hills_Antalya" value = -3.0 }
+    terrain = { type = "hills_Bizerte" value = -3.0 }
+    terrain = { type = "hills_Diyarbakir" value = -3.0 }
+    terrain = { type = "hills_Erzurum" value = -3.0 }
+    terrain = { type = "hills_Kobe" value = -3.0 }
+    terrain = { type = "hills_Trabzon" value = -3.0 }
+    terrain = { type = "hills_Takao" value = -3.0 }
+
+    terrain = { type = "forest" value = -1.0 }
+    terrain = { type = "forest_Kiruna" value = -1.0 }
+    terrain = { type = "forest_Kassel" value = -1.0 }
+    terrain = { type = "forest_Salzburg" value = -1.0 }
+    terrain = { type = "forest_Koblenz" value = -1.0 }
+    terrain = { type = "forest_Kustrin" value = -1.0 }
+    terrain = { type = "forest_Schloss_Cecilienhof_Potsdam" value = -1.0 }
+    terrain = { type = "forest_Adlerhorst" value = -1.0 }
+    terrain = { type = "forest_Walhalla" value = -1.0 }
+    terrain = { type = "forest_Ordensburg_Vogelsang_Eifel" value = -1.0 }
+    terrain = { type = "forest_brest" value = -1.0 }
+    terrain = { type = "forest_Nagykanizsa" value = -1.0 }
+    terrain = { type = "forest_hsinking" value = -1.0 }
+    terrain = { type = "forest_narva" value = -1.0 }
+    terrain = { type = "forest_Schweinfurt" value = -1.0 }
+    terrain = { type = "forest_Eindhoven" value = -1.0 }
+    terrain = { type = "forest_darwin" value = -1.0 }
+    terrain = { type = "forest_Heihe" value = -1.0 }
+    terrain = { type = "forest_Viipuri" value = -1.0 }
+    terrain = { type = "forest_Liepaja" value = -1.0 }
+    terrain = { type = "forest_rastenburg" value = -1.0 }
+    terrain = { type = "forest_zossen" value = -1.0 }
+    terrain = { type = "forest_VelikieLuki" value = -1.0 }
+    terrain = { type = "forest_Bastogne" value = -1.0 }
+    terrain = { type = "forest_schorfheide" value = -1.0 }
+    terrain = { type = "forest_Saarbrucken" value = -1.0 }
+    terrain = { type = "forest_Macau" value = -1.0 }
+    terrain = { type = "forest_Mandalay" value = -1.0 }
+    terrain = { type = "forest_Linz" value = -1.0 }
+    terrain = { type = "forest_Luxemburg" value = -1.0 }
+    terrain = { type = "forest_Burgas" value = -1.0 }
+    terrain = { type = "forest_Kristiansand" value = -1.0 }
+    terrain = { type = "forest_KouangTcheouWan" value = -1.0 }
+    terrain = { type = "forest_Xian" value = -1.0 }
+    terrain = { type = "forest_Toulon" value = -1.0 }
+    terrain = { type = "forest_East_Texas_Oil_Field" value = -1.0 }
+    terrain = { type = "forest_Kosice" value = -1.0 }
+    terrain = { type = "forest_Miskolc" value = -1.0 }
+    terrain = { type = "forest_Stadt_des_KdF-Wagens" value = -1.0 }
+    terrain = { type = "forest_Geneve" value = -1.0 }
+    terrain = { type = "forest_Bayonne" value = -1.0 }
+    terrain = { type = "forest_Hefei" value = -1.0 }
+    terrain = { type = "forest_Nancy" value = -1.0 }
+
+
+    terrain = { type = "urban" value = 3.0 }
+    terrain = { type = "urban_Yaroslavl" value = 3.0 }
+    terrain = { type = "urban_smolensk" value = 3.0 }
+    terrain = { type = "urban_Newcastle" value = 3.0 }
+    terrain = { type = "urban_danzig" value = 3.0 }
+    terrain = { type = "urban_Cardiff" value = 3.0 }
+    terrain = { type = "urban_Gothenburg" value = 3.0 }
+    terrain = { type = "urban_amsterdam" value = 3.0 }
+    terrain = { type = "urban_Voronezh" value = 3.0 }
+    terrain = { type = "urban_kharkov" value = 3.0 }
+    terrain = { type = "urban_dortmund" value = 3.0 }
+    terrain = { type = "urban_dresden" value = 3.0 }
+    terrain = { type = "urban_brussels" value = 3.0 }
+    terrain = { type = "urban_kiev" value = 3.0 }
+    terrain = { type = "urban_koln" value = 3.0 }
+    terrain = { type = "urban_Zurich" value = 3.0 }
+    terrain = { type = "urban_munich" value = 3.0 }
+    terrain = { type = "urban_Bilbao" value = 3.0 }
+    terrain = { type = "urban_naples" value = 3.0 }
+    terrain = { type = "urban_Sofia" value = 3.0 }
+    terrain = { type = "urban_Vladivostok" value = 3.0 }
+    terrain = { type = "urban_yawata" value = 3.0 }
+    terrain = { type = "urban_guangdong" value = 3.0 }
+    terrain = { type = "urban_jinan" value = 3.0 }
+    terrain = { type = "urban_hiroshima" value = 3.0 }
+    terrain = { type = "urban_Algiers" value = 3.0 }
+    terrain = { type = "urban_tripoli" value = 3.0 }
+    terrain = { type = "urban_dairen" value = 3.0 }
+    terrain = { type = "urban_tokyo" value = 3.0 }
+    terrain = { type = "urban_Rangoon" value = 3.0 }
+    terrain = { type = "urban_mumbai" value = 3.0 }
+    terrain = { type = "urban_Toshkent" value = 3.0 }
+    terrain = { type = "urban_Almaty" value = 3.0 }
+    terrain = { type = "urban_Tbilisi" value = 3.0 }
+    terrain = { type = "urban_Perth" value = 3.0 }
+    terrain = { type = "urban_Ekaterinburg" value = 3.0 }
+    terrain = { type = "urban_Tabriz" value = 3.0 }
+    terrain = { type = "urban_newdelhi" value = 3.0 }
+    terrain = { type = "urban_baghdad" value = 3.0 }
+    terrain = { type = "urban_leningrad" value = 3.0 }
+    terrain = { type = "urban_tallinn" value = 3.0 }
+    terrain = { type = "urban_DenHaag" value = 3.0 }
+    terrain = { type = "urban_Breda" value = 3.0 }
+    terrain = { type = "urban_glasgow" value = 3.0 }
+    terrain = { type = "urban_vilnius" value = 3.0 }
+    terrain = { type = "urban_Bremen" value = 3.0 }
+    terrain = { type = "urban_Bryansk" value = 3.0 }
+    terrain = { type = "urban_Bristol" value = 3.0 }
+    terrain = { type = "urban_Belfast" value = 3.0 }
+    terrain = { type = "urban_Brest" value = 3.0 }
+    terrain = { type = "urban_magdeburg" value = 3.0 }
+    terrain = { type = "urban_stalingrad" value = 3.0 }
+    terrain = { type = "urban_leipzig" value = 3.0 }
+    terrain = { type = "urban_Warszawa" value = 3.0 }
+    terrain = { type = "urban_Brunn" value = 3.0 }
+    terrain = { type = "urban_Saratov" value = 3.0 }
+    terrain = { type = "urban_Kursk" value = 3.0 }
+    terrain = { type = "urban_sevastopol" value = 3.0 }
+    terrain = { type = "urban_Krasnodar" value = 3.0 }
+    terrain = { type = "urban_toronto" value = 3.0 }
+    terrain = { type = "urban_Ottawa" value = 3.0 }
+    terrain = { type = "urban_milano" value = 3.0 }
+    terrain = { type = "urban_Zaragoza" value = 3.0 }
+    terrain = { type = "urban_new_york" value = 3.0 }
+    terrain = { type = "urban_madrid" value = 3.0 }
+    terrain = { type = "urban_washington" value = 3.0 }
+    terrain = { type = "urban_Nanchang" value = 3.0 }
+    terrain = { type = "urban_Fuzan" value = 3.0 }
+    terrain = { type = "urban_Hanoi" value = 3.0 }
+    terrain = { type = "urban_alexadria" value = 3.0 }
+    terrain = { type = "urban_athens" value = 3.0 }
+    terrain = { type = "urban_Damascus" value = 3.0 }
+    terrain = { type = "urban_Izmir" value = 3.0 }
+    terrain = { type = "urban_Fuzhou" value = 3.0 }
+    terrain = { type = "urban_TelAviv" value = 3.0 }
+    terrain = { type = "urban_kolkata" value = 3.0 }
+    terrain = { type = "urban_Akmolinsk" value = 3.0 }
+    terrain = { type = "urban_Montreal" value = 3.0 }
+    terrain = { type = "urban_saigon" value = 3.0 }
+    terrain = { type = "urban_Patna" value = 3.0 }
+    terrain = { type = "urban_Auckland" value = 3.0 }
+    terrain = { type = "urban_StLouis" value = 3.0 }
+    terrain = { type = "urban_Surabaya" value = 3.0 }
+    terrain = { type = "urban_Wuhan" value = 3.0 }
+    terrain = { type = "urban_Chengdu" value = 3.0 }
+    terrain = { type = "urban_Stockholm" value = 3.0 }
+    terrain = { type = "urban_london" value = 3.0 }
+    terrain = { type = "urban_Kalinin" value = 3.0 }
+    terrain = { type = "urban_Tula" value = 3.0 }
+    terrain = { type = "urban_stettin" value = 3.0 }
+    terrain = { type = "urban_copenhagen" value = 3.0 }
+    terrain = { type = "urban_kaunas" value = 3.0 }
+    terrain = { type = "urban_manchester" value = 3.0 }
+    terrain = { type = "urban_konigsberg" value = 3.0 }
+    terrain = { type = "urban_Kazan" value = 3.0 }
+    terrain = { type = "urban_Hannover" value = 3.0 }
+    terrain = { type = "urban_moscow" value = 3.0 }
+    terrain = { type = "urban_liverpool" value = 3.0 }
+    terrain = { type = "urban_kiel" value = 3.0 }
+    terrain = { type = "urban_Cherbourg" value = 3.0 }
+    terrain = { type = "urban_Kattowitz" value = 3.0 }
+    terrain = { type = "urban_essen" value = 3.0 }
+    terrain = { type = "urban_Stalino" value = 3.0 }
+    terrain = { type = "urban_frankfurt" value = 3.0}
+    terrain = { type = "urban_berlin" value = 3.0 }
+    terrain = { type = "urban_Poznan" value = 3.0 }
+    terrain = { type = "urban_Bologna" value = 3.0 }
+    terrain = { type = "urban_lyon" value = 3.0 }
+    terrain = { type = "urban_Trieste" value = 3.0 }
+    terrain = { type = "urban_Galati" value = 3.0 }
+    terrain = { type = "urban_Detroit" value = 3.0 }
+    terrain = { type = "urban_boston" value = 3.0 }
+    terrain = { type = "urban_Toulouse" value = 3.0 }
+    terrain = { type = "urban_Torino" value = 3.0 }
+    terrain = { type = "urban_Genova" value = 3.0 }
+    terrain = { type = "urban_philadelphia" value = 3.0 }
+    terrain = { type = "urban_Newark" value = 3.0 }
+    terrain = { type = "urban_Cleveland" value = 3.0 }
+    terrain = { type = "urban_Valencia" value = 3.0 }
+    terrain = { type = "urban_Chongqing" value = 3.0 }
+    terrain = { type = "urban_cairo" value = 3.0 }
+    terrain = { type = "urban_shanghai" value = 3.0 }
+    terrain = { type = "urban_Casablanca" value = 3.0 }
+    terrain = { type = "urban_osaka" value = 3.0 }
+    terrain = { type = "urban_Changsha" value = 3.0 }
+    terrain = { type = "urban_Changde" value = 3.0 }
+    terrain = { type = "urban_Fukuoka" value = 3.0 }
+    terrain = { type = "urban_Keijo" value = 3.0 }
+    terrain = { type = "urban_Nanzningz" value = 3.0 }
+    terrain = { type = "urban_Sendai" value = 3.0 }
+    terrain = { type = "urban_Sevilla" value = 3.0 }
+    terrain = { type = "urban_Hangzhou" value = 3.0 }
+    terrain = { type = "urban_Seattle" value = 3.0 }
+    terrain = { type = "urban_Perm" value = 3.0 }
+    terrain = { type = "urban_Batavia" value = 3.0 }
+    terrain = { type = "urban_bangkok" value = 3.0 }
+    terrain = { type = "urban_Brisbane" value = 3.0}
+    terrain = { type = "urban_baku" value = 3.0 }
+    terrain = { type = "urban_melbourne" value = 3.0 }
+    terrain = { type = "urban_Bangalore" value = 3.0 }
+    terrain = { type = "urban_Hyderabad" value = 3.0 }
+    terrain = { type = "urban_Gomel" value = 3.0 }
+    terrain = { type = "urban_Chelyabinsk" value = 3.0 }
+    terrain = { type = "urban_birmingham" value = 3.0 }
+    terrain = { type = "urban_Sheffield" value = 3.0 }
+    terrain = { type = "urban_riga" value = 3.0 }
+    terrain = { type = "urban_hamburg" value = 3.0 }
+    terrain = { type = "urban_orel" value = 3.0 }
+    terrain = { type = "urban_Leeds" value = 3.0 }
+    terrain = { type = "urban_Edinburgh" value = 3.0 }
+    terrain = { type = "urban_Rostov" value = 3.0 }
+    terrain = { type = "urban_krakow" value = 3.0 }
+    terrain = { type = "urban_LeHavre" value = 3.0 }
+    terrain = { type = "urban_chicago" value = 3.0 }
+    terrain = { type = "urban_Voroshilovgrad" value = 3.0 }
+    terrain = { type = "urban_rotterdam" value = 3.0 }
+    terrain = { type = "urban_strasburg" value = 3.0 }
+    terrain = { type = "urban_Lodz" value = 3.0}
+    terrain = { type = "urban_Stuttgart" value = 3.0 }
+    terrain = { type = "urban_Paris_" value = 3.0 }
+    terrain = { type = "urban_breslau" value = 3.0 }
+    terrain = { type = "urban_bukarest" value = 3.0 }
+    terrain = { type = "urban_Bern" value = 3.0 }
+    terrain = { type = "urban_Graz" value = 3.0 }
+    terrain = { type = "urban_budapest" value = 3.0 }
+    terrain = { type = "urban_san_francisco" value = 3.0 }
+    terrain = { type = "urban_bordeaux" value = 3.0 }
+    terrain = { type = "urban_Astrakhan" value = 3.0 }
+    terrain = { type = "urban_Barcelona" value = 3.0 }
+    terrain = { type = "urban_los_angeles" value = 3.0 }
+    terrain = { type = "urban_Porto" value = 3.0 }
+    terrain = { type = "urban_Istanbul" value = 3.0 }
+    terrain = { type = "urban_beiping" value = 3.0 }
+    terrain = { type = "urban_rome" value = 3.0 }
+    terrain = { type = "urban_Firenze" value = 3.0 }
+    terrain = { type = "urban_nice" value = 3.0 }
+    terrain = { type = "urban_Ceuta" value = 3.0 }
+    terrain = { type = "urban_Ahmedabad" value = 3.0 }
+    terrain = { type = "urban_Malaga" value = 3.0 }
+    terrain = { type = "urban_Yokohama" value = 3.0 }
+    terrain = { type = "urban_Tsingtao" value = 3.0 }
+    terrain = { type = "urban_hongkong" value = 3.0 }
+    terrain = { type = "urban_Tianjin" value = 3.0 }
+    terrain = { type = "urban_Palermo" value = 3.0 }
+    terrain = { type = "urban_Suzhou" value = 3.0 }
+    terrain = { type = "urban_nagoya" value = 3.0 }
+    terrain = { type = "urban_manila" value = 3.0 }
+    terrain = { type = "urban_Madras" value = 3.0 }
+    terrain = { type = "urban_Houston" value = 3.0 }
+    terrain = { type = "urban_harbin" value = 3.0 }
+    terrain = { type = "urban_SaoPaulo" value = 3.0 }
+    terrain = { type = "urban_Tehran" value = 3.0 }
+    terrain = { type = "urban_rio_dejaneiro" value = 3.0 }
+    terrain = { type = "urban_helsinki" value = 3.0}
+    terrain = { type = "urban_Kuybyshev" value = 3.0 }
+    terrain = { type = "urban_Vitebsk" value = 3.0 }
+    terrain = { type = "urban_Dublin" value = 3.0 }
+    terrain = { type = "urban_Hull" value = 3.0 }
+    terrain = { type = "urban_London_" value = 3.0 }
+    terrain = { type = "urban_Rzhev" value = 3.0 }
+    terrain = { type = "urban_minsk" value = 3.0 }
+    terrain = { type = "urban_Gorky" value = 3.0 }
+    terrain = { type = "urban_Zaporizhzhia" value = 3.0 }
+    terrain = { type = "urban_Dnipropetrovsk" value = 3.0 }
+    terrain = { type = "urban_Nantes" value = 3.0 }
+    terrain = { type = "urban_Gleiwitz" value = 3.0 }
+    terrain = { type = "urban_Lwow" value = 3.0 }
+    terrain = { type = "urban_Lille" value = 3.0 }
+    terrain = { type = "urban_paris" value = 3.0 }
+    terrain = { type = "urban_praha" value = 3.0 }
+    terrain = { type = "urban_nurnberg" value = 3.0 }
+    terrain = { type = "urban_KryvyiRih" value = 3.0 }
+    terrain = { type = "urban_zagreb" value = 3.0 }
+    terrain = { type = "urban_Beograd" value = 3.0 }
+    terrain = { type = "urban_Buffalo" value = 3.0 }
+    terrain = { type = "urban_vienna" value = 3.0 }
+    terrain = { type = "urban_Odessa" value = 3.0 }
+    terrain = { type = "urban_Ankara" value = 3.0 }
+    terrain = { type = "urban_mukden" value = 3.0 }
+    terrain = { type = "urban_Cagliari" value = 3.0 }
+    terrain = { type = "urban_Pittsburgh" value = 3.0 }
+    terrain = { type = "urban_Lisboa" value = 3.0 }
+    terrain = { type = "urban_Thessaloniki" value = 3.0 }
+    terrain = { type = "urban_marseille" value = 3.0 }
+    terrain = { type = "urban_taranto" value = 3.0 }
+    terrain = { type = "urban_nanjing" value = 3.0 }
+    terrain = { type = "urban_Dacca" value = 3.0 }
+    terrain = { type = "urban_kyoto" value = 3.0 }
+    terrain = { type = "urban_tunis" value = 3.0 }
+    terrain = { type = "urban_Lucknow" value = 3.0 }
+    terrain = { type = "urban_Khabarovsk" value = 3.0 }
+    terrain = { type = "urban_Yerevan" value = 3.0 }
+    terrain = { type = "urban_buenos_aires" value = 3.0 }
+    terrain = { type = "urban_sydney" value = 3.0 }
+    terrain = { type = "urban_Aleppo" value = 3.0 }
+    terrain = { type = "urban_Adelaide" value = 3.0 }
+    terrain = { type = "urban_Chrzanow" value = 3.0 }
+    terrain = { type = "urban_Heijo" value = 3.0 }
+
+    terrain = { type = "jungle" value = 5.0 }
+    terrain = { type = "jungle_guadalcanal" value = 5.0 }
+    terrain = { type = "jungle_Port_Moresby" value = 5.0 }
+    terrain = { type = "jungle_DiegoSuarez" value = 5.0 }
+    terrain = { type = "jungle_rabaul" value = 5.0 }
+    terrain = { type = "jungle_KualaLumpur" value = 5.0 }
+    terrain = { type = "jungle_palembang" value = 5.0 }
+    terrain = { type = "jungle_Medan" value = 5.0 }
+    terrain = { type = "jungle_Monrovia" value = 5.0 }
+    terrain = { type = "jungle_Stanleyville" value = 5.0 }
+  }
+}
+
+settings = {
+  temperature = {
+    temperature_variation = 2.0  # how much temperature change can vary each update
+    max_temperature_change = 6.0  # maximum temperature change
+    temperature_neighbor_smoothing = 0.3  # [0-1] make temperature be like province neighbors
+    temperature_change_neighbor_smoothing = 0.5  # [0-1] make temperature change be like province neighbors
+
+    # Temperature range when should apply static modifiers
+    weather_extreme_cold = { -100.0 -25.0 }
+    weather_very_cold = { -25.0 -15.0 }
+    weather_very_hot = { 27.0 32.0 }
+    weather_extreme_hot = { 32.0 100.0 }
+  }
+  mud = {
+    # Amount of water collected by rain increases probability of mud
+    water_gain_on_rain_light = 0.5
+    water_gain_on_rain_heavy = 1.8
+    water_gain_max = 200.0
+    water_gain_min = 5.0 # cutoff
+
+    # (for text descriptions) - When rain gain reach max level, it'll be X cm of water. (fe. max 60.0*0.2 = 12cm of rainfall)
+    water_gain_to_cm = 0.2
+
+    # When not raining, high temperature increases water drying speed. Starts low because the soil should natuarally drain some water even in northern climates.
+    water_dryout_temperature = { 2.0 38.0 }
+    water_dryout_multiplier = { 0.0005 0.4 }
+
+    # When temperature goes below, the mud disappears (it gets frozen).
+    min_temperature = -1.0
+  }
+
+  #Provinces with a static modifiers with this ID gets the mud effect applied on the map
+  visual_mud_effects = {
+    flooded
+  }
+
+  snowing = {
+    # Amount of snow collected affects the visual snow on the map
+    snow_gain_on_snowing = 1.0
+    snow_gain_on_blizzard = 5.0
+    snow_gain_max = 80.0
+
+    # Visual fix, so even tiny amount of snow can be visible. (0-255)
+    snow_visual_min = 128
+
+    # (for text descriptions) - When snow gain reach max level, it'll be X cm of snow. (fe. max 80.0*2.1 = 168cm of snow)
+    snow_gain_to_cm = 2.1
+
+    # When not snowing, high temperature increases snow melting speed.
+    snow_melt_temperature = { 0.0 12.0 }
+    snow_melt_multiplier = { 0.001 0.9 }
+
+    # Max temperature allowed for snowing / min temperature for highest chance of snowing.
+    temperature = { 1.0 -4.0 }
+
+    weather_ground_snow_medium = { 20.0 40.0 }
+    weather_ground_snow_high = { 40.0 1000.0 }
+  }
+
+  arctic_water = {
+    arctic_water_temperature = { -5.0 0.0 }
+    arctic_water_end_temperature = { 1.0 5.0 }
+  }
+  
+  # Increase chance of X if was already X before. Decrease otherwise.
+  chance_increase = {
+    mud = { 15.0 0.10 }
+  }
+
+  # How many days this weather will go on once started. Random interval [min, max], weighted towards lower numbers (by picking smallest of two random numbers).
+  duration = {
+    no_phenomenon = { 5 12 }
+    rain_light = { 5 20 }
+    rain_heavy = { 2 15 }
+    snow = { 5 20 }
+    blizzard = { 2 15 }
+    sandstorm = { 2 10 }
+  }
+
+  # Performance tweaking
+  performance = {
+    provinces_per_update = 584
+    regions_per_update = 7
+    init_run_passes = 14
+    texture_refresh_freq = 2.0
+  }
+}
+
+weather_effects = {
+  rain_light = {
+  	weather_effect = { entity = rain_entity fading_entity = rain_clouds_entity }
+  	weather_effect = { entity = rain_small_entity fading_entity = rain_small_clouds_entity small = yes }
+  }
+  rain_heavy = {
+  	weather_effect = { entity = lightning_storm_entity fading_entity = lightning_storm_clouds_entity }
+  	weather_effect = { entity = lightning_storm_small_entity fading_entity = lightning_storm_small_clouds_entity small = yes }
+  }
+  snow = {
+  	weather_effect = { entity = snow_entity fading_entity = snow_clouds_entity }
+  	weather_effect = { entity = snow_small_entity fading_entity = snow_small_clouds_entity small = yes }
+  }
+  blizzard = {
+  	weather_effect = { entity = snow_storm_entity fading_entity = snow_storm_clouds_entity }
+  	weather_effect = { entity = snow_storm_small_entity fading_entity = snow_storm_small_clouds_entity small = yes }
+  }
+  sandstorm = {
+  	weather_effect = { entity = sandstorm_entity }
+  }
+}

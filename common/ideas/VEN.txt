@@ -1,0 +1,297 @@
+ideas = {
+    country = {
+        VEN_league_of_nations_supporter = {
+            picture = FRA_la_deluge
+
+            allowed = { always = no }
+
+            allowed_civil_war = { always = yes }
+
+            removal_cost = -1
+
+            modifier = {
+				political_advisor_cost_factor = -0.25
+            }
+        }
+        VEN_woman_right_for_voting = {
+            name = VEN_woman_right_for_voting
+            picture = generic_victors_of_ww1
+
+            allowed = { always = no }
+			
+			allowed_civil_war = { always = no }
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.15
+				conscription_factor = 0.1
+			}
+        }    
+        VEN_neutrality_act = {
+			name = VEN_neutrality_act
+			picture = generic_production_bonus
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				custom_modifier_tooltip = trade_partner_not_at_war_tt
+				join_faction_tension = 0.25
+				send_volunteers_tension = 0.5
+				guarantee_tension = 0.5
+				embargo_threshold_factor = 1.5
+				
+			}
+		}   
+        VEN_modern_agency = {
+			name = VEN_modern_agency
+			picture = FIN_maan_turva
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.3
+				operative_slot = 1
+				agency_upgrade_time = -0.2
+				intelligence_agency_defense = 1
+			}
+		} 
+        VEN_home_defence = {
+			name = VEN_home_defence
+			picture = eng_imperial_conscription
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+                army_core_attack_factor = 0.35
+                army_core_defence_factor = 0.35
+                production_speed_arms_factory_factor = 0.15
+                research_speed_factor = 0.05
+                command_power_gain_mult = 0.075
+			}
+		} 
+		VEN_home_defence1 = {
+			name = VEN_home_defence1
+			picture = eng_imperial_conscription
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+                army_core_attack_factor = 0.8
+                army_core_defence_factor = 0.8
+                production_speed_arms_factory_factor = 0.05
+                research_speed_factor = 0.05
+                command_power_gain_mult = 0.075
+				conscription = 0.05
+			}
+		} 
+		VEN_allied_expedition_bonus = {
+			picture = generic_volunteer_expedition_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				send_volunteer_divisions_required = -1
+			}
+		} 
+		VEN_modern_labor_law = {
+			picture = generic_foreign_capital
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+                consumer_goods_factor = -0.15
+                political_power_gain = 0.1
+                industrial_capacity_factory = 0.1
+                industrial_capacity_dockyard = 0.1
+                production_speed_buildings_factor = 0.15
+			}
+		}
+		VEN_fiscal_policy = {
+			picture = ger_mefo_bills
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+                consumer_goods_factor = -0.2
+			}
+		}	
+		VEN_inflation5 = {
+			picture = chi_hyper_inflation5
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.50
+				industrial_capacity_factory = -0.25
+				industrial_capacity_dockyard = -0.25
+				stability_factor = -0.25
+				war_support_factor = -0.50
+			}
+		}
+		VEN_inflation4 = {
+			picture = chi_hyper_inflation4
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.40
+				industrial_capacity_factory = -0.20
+				industrial_capacity_dockyard = -0.20
+				stability_factor = -0.20
+				war_support_factor = -0.40
+			}
+		}
+		VEN_inflation3 = {
+			picture = chi_hyper_inflation3
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.30
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
+				stability_factor = -0.15
+				war_support_factor = -0.30
+			}
+		}
+		VEN_inflation2 = {
+			picture = chi_hyper_inflation2
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.20
+				industrial_capacity_factory = -0.10
+				industrial_capacity_dockyard = -0.10
+				stability_factor = -0.10
+				war_support_factor = -0.10
+			}
+		}
+		VEN_inflation1 = {
+			picture = chi_hyper_inflation1
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.10
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+				stability_factor = -0.05
+				war_support_factor = -0.05
+			}
+		}
+		VEN_new_military_academy_idea = {
+
+			allowed = {
+				original_tag = POL
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_army_war_college
+
+			modifier = {
+				military_leader_cost_factor = -0.3
+				army_leader_start_level = 1
+				army_leader_start_planning_level= 1
+			}
+		}
+    }
+}    
+
+
+    

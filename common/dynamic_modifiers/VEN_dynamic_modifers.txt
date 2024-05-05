@@ -1,0 +1,15 @@
+VEN_home_defence = {
+	enable = { always = yes }
+
+	icon = GFX_idea_jap_zaibatsu
+	
+	production_speed_arms_factory_factor = VEN_home_defence_build_mil
+	production_speed_dockyard_factor = VEN_home_defence_build_doc
+	consumer_goods_factor = VEN_home_defence_goods
+	production_factory_efficiency_gain_factor = VEN_home_defence_gain
+	production_factory_max_efficiency_factor = VEN_home_defence_max
+	surrender_limit = VEN_home_defence_limit
+	industrial_capacity_factory = VEN_home_defence_capacity
+	industrial_capacity_dockyard = VEN_home_defence_capacity_doc
+	conscription_factor = VEN_home_defence_conscript
+}

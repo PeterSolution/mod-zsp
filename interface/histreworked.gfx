@@ -1,0 +1,345 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_focus_cigarettes"
+		texturefile = "gfx/interface/goals/focus_cigarettes.png"
+	}
+	spriteType = {
+		name = "GFX_focus_cigarettes_shine"
+		texturefile = "gfx/interface/goals/focus_cigarettes.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_jap_island_hopping"
+		texturefile = "gfx/interface/ideas/ideas_jap_island_hopping.dds"
+	}
+	
+
+    spriteType = {
+		name = "GFX_focus_GER_gustav"
+		texturefile = "gfx/interface/goals/focus_GER_gustav.png"
+	}
+	spriteType = {
+		name = "GFX_GER_Deutsche_Arbeitsfront"
+		texturefile = "gfx/interface/goals/GER_Deutsche_Arbeitsfront.png"
+	}
+	spriteType = {
+		name = "GFX_GER_Goerings_Four_Year_Plan"
+		texturefile = "gfx/interface/goals/GER_Goerings_Four_Year_Plan.png"
+	}
+	spriteType = {
+		name = "GFX_GER_Politicize_Autarky"
+		texturefile = "gfx/interface/goals/GER_Politicize_Autarky.png"
+	}
+	spriteType = {
+		name = "GFX_EMI_rocket_rails_2"
+		textureFile = "gfx/interface/equipmentdesigner/planes/modules/bba_rocket_rails_2_icon.dds"
+		legacy_lazy_load = no
+	}
+
+
+	spriteType = {
+		name = "GFX_GER_Rhineland_Remilitarization"
+		texturefile = "gfx/interface/goals/GER_Rhineland_Remilitarization.png"
+	}
+	spriteType = {
+		name = "GFX_GER_Rocket_Artillery"
+		texturefile = "gfx/interface/goals/GER_Rocket_Artillery.png"
+	}
+	spriteType = {
+		name = "GFX_GER_Westwall"
+		texturefile = "gfx/interface/goals/GER_Westwall.png"
+	}
+
+	spriteType = {
+		name = "GFX_focus_ger_sudeland"
+		texturefile = "gfx/interface/goals/focus_ger_sudeland.png"
+	}
+	spriteType = {
+		name = "GFX_focus_ger_loot_cze"
+		texturefile = "gfx/interface/goals/focus_ger_loot_cze.png"
+	}
+
+
+
+
+    spriteType = {
+		name = "GFX_focus_GER_autobahn"
+		texturefile = "gfx/interface/goals/focus_GER_autobahn.png"
+	}
+	spriteType = {
+		name = "GFX_GER_Plan_Z"
+		texturefile = "gfx/interface/goals/GER_Plan_Z.png"
+	}
+	spriteType = {
+		name = "GFX_GER_Panther_Panzer"
+		texturefile = "gfx/interface/goals/GER_Panther_Panzer.png"
+	}
+	spriteType = {
+		name = "GFX_GER_managament_of_generals"
+		texturefile = "gfx/interface/goals/GER_managament_of_generals.png"
+	}
+    
+	spriteType = {
+		name = "GFX_standarized_production"
+		texturefile = "gfx/interface/goals/standarized_production.png"
+	}
+	spriteType = {
+		name = "GFX_VEN_industrialize_nation"
+		texturefile = "gfx/interface/goals/VEN_industrialize_nation.png"
+	}
+	spriteType = {
+		name = "GFX_VEN_embargo_axis"
+		texturefile = "gfx/interface/goals/VEN_embargo_axis.png"
+	}
+	spriteType = {
+		name = "GFX_rules_the"
+		texturefile = "gfx/interface/goals/rules_the.png"
+	}
+	spriteType = {
+		name = "GFX_start_military_rearment"
+		texturefile = "gfx/interface/goals/start_military_rearment.png"
+	}
+	spriteType = {
+		name = "GFX_VEN_send_volounteers_to_allies"
+		texturefile = "gfx/interface/goals/VEN_send_volounteers_to_allies.png"
+	}
+    spriteType = {
+		name = "GFX_VEN_open_up_free_elections"
+		texturefile = "gfx/interface/goals/VEN_open_up_free_elections.png"
+	}
+	spriteType = {
+		name = "GFX_251215"
+		texturefile = "gfx/interface/goals/251215.png"
+	}
+	spriteType = {
+		name = "GFX_ger_heavy_tanks"
+		texturefile = "gfx/interface/goals/ger_heavy_tanks.png"
+	}
+	spriteType = {
+		name = "GFX_GER_Luftwaffe"
+		texturefile = "gfx/interface/goals/GER_Luftwaffe.png"
+	}
+	spriteType = {
+		name = "GFX_generic_air_tactical_bomber_german"
+		texturefile = "gfx/interface/goals/generic_air_tactical_bomber_german.png"
+	}
+	spriteType = {
+		name = "GFX_SOV_Expand_Air_Testingn"
+		texturefile = "gfx/interface/goals/SOV_Expand_Air_Testing.png"
+	}
+	spriteType = {
+		name = "GFX_ENG_Fighter_Command"
+		texturefile = "gfx/interface/goals/ENG_Fighter_Command.png"
+	}
+	spriteType = {
+		name = "GFX_focus_fund_mitsubishi"
+		texturefile = "gfx/interface/goals/focus_mitsubishi.png"
+	}
+	spriteType = {
+		name = "GFX_focus_fund_mitsubishi_shine"
+		texturefile = "gfx/interface/goals/focus_mitsubishi.png"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_fund_sumitomo"
+		texturefile = "gfx/interface/goals/focus_sumitomo.png"
+	}
+	spriteType = {
+		name = "GFX_focus_fund_sumitomo_shine"
+		texturefile = "gfx/interface/goals/focus_sumitomo.png"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_fund_mitsui"
+		texturefile = "gfx/interface/goals/focus_mitsui.png"
+	}
+	spriteType = {
+		name = "GFX_focus_fund_mitsui_shine"
+		texturefile = "gfx/interface/goals/focus_mitsui.png"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_fund_yasuda"
+		texturefile = "gfx/interface/goals/focus_yasuda.png"
+	}
+	spriteType = {
+		name = "GFX_focus_fund_yasuda_shine"
+		texturefile = "gfx/interface/goals/focus_yasuda.png"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_teikoku_bank"
+		texturefile = "gfx/interface/goals/focus_teikoku_bank.png"
+	}
+	spriteType = {
+		name = "GFX_focus_teikoku_bank_shine"
+		texturefile = "gfx/interface/goals/focus_teikoku_bank.png"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_divide_and_rule"
+		texturefile = "gfx/interface/goals/focus_divide_and_rule.png"
+	}
+	spriteType = {
+		name = "GFX_focus_divide_and_rule_shine"
+		texturefile = "gfx/interface/goals/focus_divide_and_rule.png"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_steel"
+		texturefile = "gfx/interface/goals/focus_nippon_steel.png"
+	}
+	spriteType = {
+		name = "GFX_focus_steel_shine"
+		texturefile = "gfx/interface/goals/focus_nippon_steel.png"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_mil_factories"
+		texturefile = "gfx/interface/goals/focus_military_factories.png"
+	}
+	spriteType = {
+		name = "GFX_focus_mil_factories_shine"
+		texturefile = "gfx/interface/goals/focus_military_factories.png"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_air_factory"
+		texturefile = "gfx/interface/goals/focus_aircraft_factories.png"
+	}
+	spriteType = {
+		name = "GFX_focus_air_factory_shine"
+		texturefile = "gfx/interface/goals/focus_aircraft_factories.png"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_science"
+		texturefile = "gfx/interface/goals/focus_science.png"
+	}
+	spriteType = {
+		name = "GFX_focus_science_shine"
+		texturefile = "gfx/interface/goals/focus_science.png"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_zaibatsus_left"
+		texturefile = "gfx/interface/goals/focus_zaibatsus_left.png"
+	}
+	spriteType = {
+		name = "GFX_focus_zaibatsus_left_shine"
+		texturefile = "gfx/interface/goals/focus_zaibatsus_left.png"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_zaibatsus_middle"
+		texturefile = "gfx/interface/goals/focus_zaibatsus_middle.png"
+	}
+	spriteType = {
+		name = "GFX_focus_zaibatsus_middle_shine"
+		texturefile = "gfx/interface/goals/focus_zaibatsus_middle.png"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_zaibatsus_right"
+		texturefile = "gfx/interface/goals/focus_zaibatsus_right.png"
+	}
+	spriteType = {
+		name = "GFX_focus_zaibatsus_right_shine"
+		texturefile = "gfx/interface/goals/focus_zaibatsus_right.png"
+	}
+	spriteType = {
+		name = "GFX_VEN_woman_right_to_vote-262028"
+		texturefile = "gfx/interface/goals/GFX_VEN_woman_right_to_vote-262028.dds"
+	}
+	spriteType = {
+		name = "GFX_VEN_moutaniers_practice_training-262089"
+		texturefile = "gfx/interface/goals/GFX_VEN_moutaniers_practice_training-262089.dds"
+	}
+	spriteType = {
+		name = "GFX_VEN_open_up_free_elections-280"
+		texturefile = "gfx/interface/goals/GFX_VEN_open_up_free_elections-280.dds"
+	}
+	spriteType = {
+		name = "GFX_VEN_wartime"
+		texturefile = "gfx/interface/goals/GFX_VEN_wartime.dds"
+	}
+	spriteType = {
+		name = "GFX_VEN_join_allies"
+		texturefile = "gfx/interface/goals/GFX_VEN_join_allies.dds"
+	}
+	spriteType = {
+		name = "GFX_VEN_create_agency"
+		texturefile = "gfx/interface/goals/GFX_VEN_create_agency.dds"
+	}
+	spriteType = {
+		name = "GFX_VEN_support_League_of_nation"
+		texturefile = "gfx/interface/goals/GFX_VEN_support_League_of_nation.dds"
+	}
+	spriteType = {
+		name = "GFX_VEN_learn_from_allies"
+		texturefile = "gfx/interface/goals/GFX_VEN_learn_from_allies.dds"
+	}
+	spriteType = {
+		name = "GFX_VEN_support_allies"
+		texturefile = "gfx/interface/goals/GFX_VEN_support_allies.dds"
+	}
+	spriteType = {
+		name = "GFX_VEN_voulunters"
+		texturefile = "gfx/interface/goals/GFX_VEN_voulunters.dds"
+	}
+	spriteType = {
+		name = "GFX_VEN_prepare_home_defense"
+		texturefile = "gfx/interface/goals/GFX_VEN_prepare_home_defense.dds"
+	}
+	spriteType = {
+		name = "GFX_VEN_improve_labor_law"
+		texturefile = "gfx/interface/goals/GFX_VEN_improve_labor_law.dds"
+	}
+	spriteType = {
+		name = "GFX_frontend_bg"
+		texturefile = "gfx/frontend_bg.dds"
+	}
+	spriteType = {
+        name = "GFX_RAJ_RESEARCH_SLOT"
+        texturefile = "gfx\RAJ\goal_research_slot_raj.dds"
+    }
+    spriteType = {
+        name = "GFX_RAJ_CIVIL_FACTORY"
+        texturefile = "gfx\RAJ\goal_przemysl_cywilny.dds"
+    }
+    spriteType = {
+        name = "GFX_RAJ_MILITARY_FACTORY"
+        texturefile = "gfx\RAJ\goal_przezbrojenie.dds"
+    }
+    spriteType = {
+        name = "GFX_RAJ_NEW_RAJ"
+        texturefile = "gfx\RAJ\goal_technologiczny_raj.dds"
+    }
+    spriteType = {
+        name = "GFX_RAJ_ATOMIC_RESEARCH"
+        texturefile = "gfx\RAJ\goal_technologiczny_raj.dds"
+    }
+    spriteType = {
+        name = "GFX_RAJ_NEW_DEHLI"
+        texturefile = "gfx\RAJ\goal_new_dehli.dds"
+    }
+    spriteType = {
+        name = "GFX_RAJ_Bojówki"
+        texturefile = "gfx\RAJ\goal_wykorzystajmy_bojówki.dds"
+    }
+    spriteType = {
+        name = "GFX_r56_idea_PAL_sharia"
+        texturefile = "gfx\interface\ideas\r56_idea_PAL_sharia.dds"
+    }
+    spriteType = {
+        name = "GFX_RAJ_Pakistan_Militias"
+        texturefile = "gfx\interface\ideas\r56_idea_PAK_ally_the_army.png"
+    }
+	spriteType = {
+        name = "GFX_tank_module_radio_4"
+        texturefile = "gfx\interface\equipmentdesigner\tanks\modules\tank_module_radio_4.dds"
+    }
+
+
+}

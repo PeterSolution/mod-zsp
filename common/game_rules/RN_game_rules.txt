@@ -1,0 +1,87 @@
+#
+# List of options showing in the Game Rules screen
+#
+# format is:
+# rule_token = {
+#	name = "TEXT_KEY_FOR_NAME"
+#	required_dlc = "Name of the Required DLC"
+#	desc = "TEXT_KEY_FOR_LONG_DESC"
+#	group = "TEXT_KEY_FOR_GROUP"					# Used for filtering. A single rule can be in multiple groups 
+#	icon = gfx_option_token							# Optional icon
+#	option = {										# Unless other specified, the first option is the default option
+#		name = option_token
+#		text = "TEXT_KEY_FOR_OPTION_NAME"
+#		allow_achievements = no						# Achievements cannot be earned if one or more game rules are set to an option that has this property set to no.
+#													# If not specified, this is set to yes for default options and no for all other options.
+#	}
+#	default = {										# Specify an option with the "default" token to override the behavior of treating the first option as the default.
+#		name = option_token
+#		text = "TEXT_KEY_FOR_OPTION_NAME"
+#		...
+#	}
+# }
+
+rn_nukes_army_damage = {
+	name = "RULE_RN_NUKES_ARMY_DAMAGE"
+	group = "RULE_REALISTIC_NUKES"
+	icon = "GFX_game_rule_nukes_army_damage_game_rule"
+	default = {
+		name = "RULE_RN_VANILA_DAMAGE"
+		text = RULE_OPTION_RN_VANILA_DAMAGE
+		desc = "RULE_RN_VANILA_DAMAGE_DESC"
+		allow_achievements = yes
+	}
+}
+rn_nukes_kiled_population = {
+	name = "RULE_RN_NUKES_KILED_POPULATION"
+	group = "RULE_REALISTIC_NUKES"
+	icon = "GFX_game_rule_population_game_rule"
+	default = {
+		name = "RULE_RN_5KILL"
+		text = "RULE_OPTION_RN_5KILLS"
+		desc = "RULE_RN_5KILLS_DESC"
+		allow_achievements = yes
+	}
+}
+rn_nuke_radiation_level = {
+	name = "RULE_RN_NUKE_RADIATION_LEVEL"
+	group = "RULE_REALISTIC_NUKES"
+	icon = "GFX_game_rule_nuke_game_rule"
+	default = {
+		name = "RULE_RN_1_NUKE_RADIATION"
+		text = "RULE_OPTION_RN_1_NUKE_RADIATION"
+		desc = "RULE_OPTION_RN_1_NUKE_RADIATION_DESC"
+	}
+}
+rn_radiation_anarchy_when = {
+	name = "RULE_RN_RADIATION_ANARCHY_WHEN"
+	group = "RULE_REALISTIC_NUKES"
+	icon = "GFX_game_rule_anarchy_when_game_rule"
+	default = {
+		name = "RULE_RN_NO_NUKE_RADIATION_ANARCHY"
+		text = RULE_OPTION_RN_NO_NUKE_RADIATION_ANARCHY
+		desc = "RULE_OPTION_RN_NO_NUKE_RADIATION_ANARCHY_DESC"
+		allow_achievements = yes
+	}
+}
+rn_anarchy_new_countries = {
+	name = "RULE_RN_ANARCHY_NEW_COUNTRIES"
+	group = "RULE_REALISTIC_NUKES"
+	icon = "GFX_game_rule_countries_restoration_from_anarchy_game_rule"
+	default = {
+		name = "RULE_RN_NO_NEW_COUNTRIES"
+		text = RULE_OPTION_RN_NO_NEW_COUNTRIES
+		desc = "RULE_OPTION_RN_NO_NEW_COUNTRIES_DESC"
+		allow_achievements = yes
+	}
+}
+rn_fun_mode = {
+	name = "RULE_RN_FAN_MODE"
+	group = "RULE_REALISTIC_NUKES"
+	icon = "GFX_game_rule_fun_mode_rule"
+	default = {
+		name = "RULE_RN_OFF_FAN_MODE"
+		text = "RULE_OPTION_RN_OFF_FAN_MODE"
+		desc = "RULE_OPTION_RN_OFF_FAN_MODE_DESC"
+	}
+}

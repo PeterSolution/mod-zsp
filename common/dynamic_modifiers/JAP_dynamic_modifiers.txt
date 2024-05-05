@@ -1,0 +1,78 @@
+JAP_Zaibatsus = {
+	enable = { always = yes }
+
+	icon = GFX_idea_jap_zaibatsu
+	
+	political_power_cost = JAP_Zaibatsus_Political_Power
+	trade_laws_cost_factor = JAP_Zaibatsus_Trade_Cost
+	economy_cost_factor = JAP_Zaibatsus_Economy_Cost
+	production_speed_industrial_complex_factor = JAP_Zaibatsus_Industrial_Speed
+	production_speed_arms_factory_factor = JAP_Zaibatsus_Arms_Speed
+	production_speed_dockyard_factor = JAP_Zaibatsus_Dockyard_Speed
+	consumer_goods_factor = JAP_Zaibatsus_Consumer_Goods
+	research_speed_factor = JAP_Zaibatsus_Research_Speed
+	local_resources_factor = JAP_Zaibatsus_Resource_Extraction
+}
+
+JAP_Japanese_Occupation = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_sabotaged_resource
+	
+	local_non_core_manpower = -0.75 
+	local_factories  = -0.99
+	state_resources_factor = -0.99
+	production_speed_buildings_factor = -0.5
+}
+
+JAP_Zaibatsu_Monopoly = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_sabotaged_resource
+	
+	local_factories  = -0.5
+	state_resources_factor = 0.25
+}
+
+JAP_Pan_Asian_Propaganda = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_generic_military_plans
+	
+	compliance_growth = 0.20
+}
+
+JAP_Japanese_Subjugation = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_generic_military_plans
+	
+	local_non_core_manpower = 0.25
+	compliance_growth = -0.25
+}
+
+JAP_Japanese_Settlement = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_sabotaged_resource
+	
+	compliance_gain = 0.7
+	resistance_growth = 0.25
+}
+
+JAP_Appoint_Pro_Japanese_Officials = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_generic_military_plans
+	
+	resistance_growth = -0.5
+}
+
+JAP_Japanese_Pacification = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_sabotaged_resource
+	
+	local_non_core_manpower = 0.1
+	state_resources_factor = 0.50
+}

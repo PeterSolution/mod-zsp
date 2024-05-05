@@ -1,0 +1,755 @@
+
+annex_miniors = {
+	annex_hun = {
+		available = {
+			HUN = {is_ai = yes}
+			HUN = { exists = yes }
+		}
+		complete_effect = {
+		HUN = {
+				transfer_units_fraction = {
+					target = GER
+					size = 1
+					stockpile_ratio = 1
+					army_ratio = 1
+					navy_ratio = 1
+					air_ratio = 1
+					keep_unit_leaders_trigger = {
+						always = no
+					}
+				}
+			}
+			annex_country = {
+				target = HUN
+				transfer_troops = yes 
+				
+			}
+			GER = {
+					add_state_core = 664
+					add_state_core = 155
+					add_state_core = 43
+					add_state_core = 154
+					add_state_core = 45
+					add_state_core = 764
+				}
+		}
+	}
+	annex_fin = {
+		available = {
+			FIN = {is_ai = yes}
+			FIN = { exists = yes }
+			FIN = { NOT = { has_idea = annexed_industry } }
+		}
+		complete_effect = {
+
+			FIN = {
+				add_ideas = annexed_industry
+			}
+
+		}
+	}
+	back_annex_fin = {
+		available = {
+			FIN = {is_ai = no}
+			FIN = { exists = yes }
+			FIN = { has_idea = annexed_industry } 
+		}
+		complete_effect = {
+
+			FIN = {
+				remove_ideas = annexed_industry
+			}
+
+		}
+	}
+	annex_bul = {
+		available = {
+			BUL = {is_ai = yes}
+			BUL = { exists = yes }
+		}
+		complete_effect = {
+		BUL = {
+				transfer_units_fraction = {
+					target = GER
+					size = 1
+					stockpile_ratio = 1
+					army_ratio = 1
+					navy_ratio = 1
+					air_ratio = 1
+					keep_unit_leaders_trigger = {
+						always = no
+					}
+				}
+			}
+		annex_country = {
+				target = BUL
+				transfer_troops = yes 
+			}
+			GER = {
+					add_state_core = 48
+					add_state_core = 801
+					add_state_core = 211
+					add_state_core = 212
+					add_state_core = 803
+					add_state_core = 106
+					add_state_core = 184
+					add_state_core = 731
+					add_state_core = 47
+					add_state_core = 186
+				}
+			}
+	}
+	annex_rom = {
+		available = {
+			ROM = {is_ai = yes}
+			ROM = { exists = yes }
+		}
+		complete_effect = {
+		ROM = {
+				transfer_units_fraction = {
+					target = GER
+					size = 1
+					stockpile_ratio = 1
+					army_ratio = 1
+					navy_ratio = 1
+					air_ratio = 1
+					keep_unit_leaders_trigger = {
+						always = no
+					}
+				}
+			}
+		annex_country = {
+				target = ROM
+				transfer_troops = yes 
+			}
+			GER = {
+					add_state_core = 43
+					add_state_core = 76
+					add_state_core = 84
+					add_state_core = 80
+					add_state_core = 79
+					add_state_core = 78
+					add_state_core = 766
+					add_state_core = 84
+					add_state_core = 81
+					add_state_core = 46
+					add_state_core = 77
+					add_state_core = 83
+					add_state_core = 82
+				}
+			}
+	}
+	annex_bul_to_ita = {
+		available = {
+			BUL = {is_ai = yes}
+			ITA = { exists = yes }
+			BUL = { exists = yes }
+		}
+		complete_effect = {
+		ITA ={
+		BUL = {
+				transfer_units_fraction = {
+					target = ITA
+					size = 1
+					stockpile_ratio = 1
+					army_ratio = 1
+					navy_ratio = 1
+					air_ratio = 1
+					keep_unit_leaders_trigger = {
+						always = no
+					}
+				}
+			}
+			annex_country = {
+					target = BUL
+					transfer_troops = yes 
+				}
+				add_state_core = 48
+					add_state_core = 801
+					add_state_core = 211
+					add_state_core = 212
+					add_state_core = 803
+					add_state_core = 106
+					add_state_core = 184
+					add_state_core = 731
+					add_state_core = 47
+					add_state_core = 186
+			}
+			}
+	}
+	annex_rom_to_ita = {
+		available = {
+			ROM = {is_ai = yes}
+			ITA = { exists = yes }
+			ROM = { exists = yes }
+		}
+		complete_effect = {
+		ITA ={
+		ROM = {
+				transfer_units_fraction = {
+					target = ITA
+					size = 1
+					stockpile_ratio = 1
+					army_ratio = 1
+					navy_ratio = 1
+					air_ratio = 1
+					keep_unit_leaders_trigger = {
+						always = no
+					}
+				}
+			}
+			annex_country = {
+					target = ROM
+					transfer_troops = yes 
+				}
+				
+					add_state_core = 43
+					add_state_core = 76
+					add_state_core = 84
+					add_state_core = 80
+					add_state_core = 79
+					add_state_core = 78
+					add_state_core = 766
+					add_state_core = 84
+					add_state_core = 81
+					add_state_core = 46
+					add_state_core = 77
+					add_state_core = 83
+					add_state_core = 82
+				
+			}
+			}
+	}
+	annex_bul_to_rom = {
+		available = {
+			BUL = {is_ai = yes}
+			ROM = { exists = yes }
+			BUL = { exists = yes }
+		}
+		complete_effect = {
+		ROM ={
+		BUL = {
+				transfer_units_fraction = {
+					target = ROM
+					size = 1
+					stockpile_ratio = 1
+					army_ratio = 1
+					navy_ratio = 1
+					air_ratio = 1
+					keep_unit_leaders_trigger = {
+						always = no
+					}
+				}
+			}
+			annex_country = {
+					target = BUL
+					transfer_troops = yes 
+				}
+					add_state_core = 48
+					add_state_core = 801
+					add_state_core = 211
+					add_state_core = 212
+					add_state_core = 803
+					add_state_core = 106
+					add_state_core = 184
+					add_state_core = 731
+					add_state_core = 47
+					add_state_core = 186
+				
+			}
+			}
+	}
+	annex_rom_to_bul = {
+		available = {
+			ROM = {is_ai = yes}
+			BUL = { exists = yes }
+			ROM = { exists = yes }
+		}
+		complete_effect = {
+		ROM = {
+				transfer_units_fraction = {
+					target = BUL
+					size = 1
+					stockpile_ratio = 1
+					army_ratio = 1
+					navy_ratio = 1
+					air_ratio = 1
+					keep_unit_leaders_trigger = {
+						always = no
+					}
+				}
+			}
+		BUL ={
+			annex_country = {
+					target = ROM
+					transfer_troops = yes 
+				}
+				BUL = {
+					add_state_core = 43
+					add_state_core = 76
+					add_state_core = 84
+					add_state_core = 80
+					add_state_core = 79
+					add_state_core = 78
+					add_state_core = 766
+					add_state_core = 84
+					add_state_core = 81
+					add_state_core = 46
+					add_state_core = 77
+					add_state_core = 83
+					add_state_core = 82
+				}
+			}
+			}
+	}
+
+}
+
+annex_miniors_jap = {
+	
+	
+	annex_mengjiang = {
+		available = {
+			MEN = {is_ai = yes}
+			
+			MEN = { exists = yes }
+		}
+		complete_effect = {
+		JAP ={
+		MEN = {
+				transfer_units_fraction = {
+					target = JAP
+					size = 1
+					stockpile_ratio = 1
+					army_ratio = 1
+					navy_ratio = 1
+					air_ratio = 1
+					keep_unit_leaders_trigger = {
+						always = no
+					}
+				}
+			}
+			annex_country = {
+					target = MEN
+					transfer_troops = yes 
+				}
+			}
+		}
+	}
+	annex_manchuko = {
+		available = {
+			MAN = {is_ai = yes}
+			
+			MAN = { exists = yes }
+		}
+		complete_effect = {
+		JAP ={
+		MAN = {
+				transfer_units_fraction = {
+					target = JAP
+					size = 1
+					stockpile_ratio = 1
+					army_ratio = 1
+					navy_ratio = 1
+					air_ratio = 1
+					keep_unit_leaders_trigger = {
+						always = no
+					}
+				}
+			}
+			annex_country = {
+					target = MAN
+					transfer_troops = yes 
+				}
+			}
+		}
+	}
+	annex_siam = {
+		available = {
+			SIA = {is_ai = yes}
+			
+			SIA = { exists = yes }
+		}
+		complete_effect = {
+		JAP ={
+		SIA = {
+				transfer_units_fraction = {
+					target = JAP
+					size = 1
+					stockpile_ratio = 1
+					army_ratio = 1
+					navy_ratio = 1
+					air_ratio = 1
+					keep_unit_leaders_trigger = {
+						always = no
+					}
+				}
+			}
+			annex_country = {
+					target = SIA
+					transfer_troops = yes 
+				}
+			}
+		}
+	}
+}
+
+
+annex_miniors_eng = {
+	annex_can = {
+		available = {
+			CAN = {is_ai = yes}
+			
+			CAN = { exists = yes }
+		}
+		complete_effect = {
+		ENG ={
+			CAN = {
+				transfer_units_fraction = {
+					target = ENG
+					size = 1
+					stockpile_ratio = 1
+					army_ratio = 1
+					navy_ratio = 1
+					air_ratio = 1
+					keep_unit_leaders_trigger = {
+						always = no
+					}
+				}
+			}
+			annex_country = {
+					target = CAN
+					transfer_troops = yes 
+				}
+					add_state_core = 311
+					add_state_core = 332
+					add_state_core = 466
+					add_state_core = 861
+					add_state_core = 860
+					add_state_core = 464
+					add_state_core = 465
+					add_state_core = 468
+					add_state_core = 463
+					add_state_core = 462
+					add_state_core = 276
+					add_state_core = 682
+					add_state_core = 866
+					add_state_core = 867
+					add_state_core = 683
+					add_state_core = 472
+					add_state_core = 865
+					add_state_core = 869
+					add_state_core = 470
+					add_state_core = 473
+					add_state_core = 471
+					add_state_core = 864
+					add_state_core = 740
+					add_state_core = 739
+					add_state_core = 469
+					add_state_core = 467
+					add_state_core = 862
+					add_state_core = 863
+					add_state_core = 331
+				}
+			}
+		}
+	
+	annex_saf = {
+		available = {
+			SAF = {is_ai = yes}
+			
+			SAF = { exists = yes }
+		}
+		complete_effect = {
+		ENG ={
+			SAF = {
+				transfer_units_fraction = {
+					target = ENG
+					size = 1
+					stockpile_ratio = 1
+					army_ratio = 1
+					navy_ratio = 1
+					air_ratio = 1
+					keep_unit_leaders_trigger = {
+						always = no
+					}
+				}
+			}
+			annex_country = {
+					target = SAF
+					transfer_troops = yes 
+				}
+					add_state_core = 895
+					add_state_core = 894
+					add_state_core = 541
+					add_state_core = 893
+					add_state_core = 681
+					add_state_core = 275
+					add_state_core = 719
+				}
+			}
+		}
+	
+	annex_saf_to_raj = {
+		available = {
+			SAF = {is_ai = yes}
+			RAJ = { exists = yes }
+			SAF = { exists = yes }
+		}
+		complete_effect = {
+		RAJ ={
+			SAF = {
+				transfer_units_fraction = {
+					target = RAJ
+					size = 1
+					stockpile_ratio = 1
+					army_ratio = 1
+					navy_ratio = 1
+					air_ratio = 1
+					keep_unit_leaders_trigger = {
+						always = no
+					}
+				}
+			}
+			annex_country = {
+					target = RAJ
+					transfer_troops = yes 
+				}
+					add_state_core = 895
+					add_state_core = 894
+					add_state_core = 541
+					add_state_core = 893
+					add_state_core = 681
+					add_state_core = 275
+					add_state_core = 719
+				}
+			}
+		}
+	
+	annex_saf_to_ast = {
+		available = {
+			SAF = {is_ai = yes}
+			AST = { exists = yes }
+			SAF = { exists = yes }
+		}
+		complete_effect = {
+		AST ={
+			SAF = {
+				transfer_units_fraction = {
+					target = AST
+					size = 1
+					stockpile_ratio = 1
+					army_ratio = 1
+					navy_ratio = 1
+					air_ratio = 1
+					keep_unit_leaders_trigger = {
+						always = no
+					}
+				}
+			}
+			annex_country = {
+					target = AST
+					transfer_troops = yes 
+				}
+					add_state_core = 895
+					add_state_core = 894
+					add_state_core = 541
+					add_state_core = 893
+					add_state_core = 681
+					add_state_core = 275
+					add_state_core = 719
+				}
+			}
+		}
+	annex_ast = {
+		available = {
+			AST = {is_ai = yes}
+			
+			AST = { exists = yes }
+		}
+		complete_effect = {
+		ENG ={
+			AST = {
+				transfer_units_fraction = {
+					target = ENG
+					size = 1
+					stockpile_ratio = 1
+					army_ratio = 1
+					navy_ratio = 1
+					air_ratio = 1
+					keep_unit_leaders_trigger = {
+						always = no
+					}
+				}
+			}
+			annex_country = {
+					target = AST
+					transfer_troops = yes 
+				}
+					add_state_core = 520
+					add_state_core = 870
+					add_state_core = 522
+					add_state_core = 871
+					add_state_core = 674
+					add_state_core = 519
+					add_state_core = 517
+					add_state_core = 285
+					add_state_core = 873
+					add_state_core = 521
+					add_state_core = 872
+					add_state_core = 423
+					add_state_core = 518
+					add_state_core = 321
+					add_state_core = 426
+					add_state_core = 435
+					add_state_core = 431
+					add_state_core = 430
+					add_state_core = 432
+					add_state_core = 434
+					add_state_core = 437
+					add_state_core = 429
+				}
+			}
+		}
+	annex_ast_to_raj = {
+		available = {
+			AST = {is_ai = yes}
+			RAJ = { exists = yes }
+			AST = { exists = yes }
+		}
+		complete_effect = {
+		RAJ ={
+			AST = {
+				transfer_units_fraction = {
+					target = RAJ
+					size = 1
+					stockpile_ratio = 1
+					army_ratio = 1
+					navy_ratio = 1
+					air_ratio = 1
+					keep_unit_leaders_trigger = {
+						always = no
+					}
+				}
+			}
+			annex_country = {
+					target = AST
+					transfer_troops = yes 
+				}
+					add_state_core = 520
+					add_state_core = 870
+					add_state_core = 522
+					add_state_core = 871
+					add_state_core = 674
+					add_state_core = 519
+					add_state_core = 517
+					add_state_core = 285
+					add_state_core = 873
+					add_state_core = 521
+					add_state_core = 872
+					add_state_core = 423
+					add_state_core = 518
+					add_state_core = 321
+					add_state_core = 426
+					add_state_core = 435
+					add_state_core = 431
+					add_state_core = 430
+					add_state_core = 432
+					add_state_core = 434
+					add_state_core = 437
+					add_state_core = 429
+				}
+			}
+		}
+	annex_nzl = {
+		available = {
+			NZL = {is_ai = yes}
+			
+			NZL = { exists = yes }
+		}
+		complete_effect = {
+		ENG ={
+			NZL = {
+				transfer_units_fraction = {
+					target = ENG
+					size = 1
+					stockpile_ratio = 1
+					army_ratio = 1
+					navy_ratio = 1
+					air_ratio = 1
+					keep_unit_leaders_trigger = {
+						always = no
+					}
+				}
+			}
+			annex_country = {
+					target = NZL
+					transfer_troops = yes 
+				}
+					add_state_core = 284
+					add_state_core = 723
+				}
+			}
+		}
+	annex_nzl_to_raj = {
+		available = {
+			NZL = {is_ai = yes}
+			RAJ = { exists = yes }
+			NZL = { exists = yes }
+		}
+		complete_effect = {
+		RAJ ={
+			NZL = {
+				transfer_units_fraction = {
+					target = RAJ
+					size = 1
+					stockpile_ratio = 1
+					army_ratio = 1
+					navy_ratio = 1
+					air_ratio = 1
+					keep_unit_leaders_trigger = {
+						always = no
+					}
+				}
+			}
+			annex_country = {
+					target = NZL
+					transfer_troops = yes 
+				}
+					add_state_core = 284
+					add_state_core = 723
+				}
+			}
+		}
+	annex_nzl_to_ast = {
+		available = {
+			NZL = {is_ai = yes}
+			AST = { exists = yes }
+			NZL = { exists = yes }
+		}
+		complete_effect = {
+		AST ={
+			NZL = {
+				transfer_units_fraction = {
+					target = AST
+					size = 1
+					stockpile_ratio = 1
+					army_ratio = 1
+					navy_ratio = 1
+					air_ratio = 1
+					keep_unit_leaders_trigger = {
+						always = no
+					}
+				}
+			}
+			annex_country = {
+					target = NZL
+					transfer_troops = yes 
+				}
+					add_state_core = 284
+					add_state_core = 723
+				}
+			}
+		}
+		
+}

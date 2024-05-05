@@ -1,0 +1,874 @@
+﻿l_english:
+################################### TRAITS                      \n      §H§!
+ #####
+ 
+ ##### LEADERS
+ 
+ prime_minister_of_japan:0 "Prime Minister of Japan"
+ 
+ ##### ADVISORS
+ 
+ ##### ARMY CHIEF
+ 
+ ##### NAVY CHIEF
+ 
+ ##### AIR CHIEF
+ 
+ ##### HIGH COMMAND
+ 
+ ##### ARMOR DESIGNER
+ 
+ ##### AIRCRAFT DESIGNER
+ 
+ ##### SHIP DESIGNER
+ 
+ ##### MATERIAL DESIGNER
+ 
+ ##### INDUSTRIAL CONCERN
+ 
+ ##### THEORIST
+ 
+################################### OPINION MODIFIERS           \n      §H§!
+ 
+ 
+ 
+ 
+################################### FOCUSES                     \n      §H§!
+ 
+## Fascist Post-War / Zaibatsus Update 1.21.24
+
+ JAP_invoke_pan_asian_identity:0 "Pan-Asian Propaganda"
+ JAP_invoke_pan_asian_identity_desc:0 "As we now rule over a significant amount of Asia, it is time we invoke a Pan-Asian identity with state propaganda. This will reduce their resistance and foster growing cooperation."
+ 
+ JAP_Post_War_Reorganization:0 "Post-War Reorganization"
+ JAP_Post_War_Reorganization_desc:0 "We need to decide how to deal with China now that the war is over."
+ 
+ JAP_Divide_and_Rule:0 "Divide And Rule"
+ JAP_Divide_and_Rule_desc:0 "Sun-Tzu, Philip II of Macedon, Augustus Caesar, and Machiavelli all claimed that divide and conquer was the way to maintain control. As Sun Tzu said, 'When ten to the enemy’s one, surround him; When five times his strength, attack him; If double his strength, divide him...' Divide them we shall."
+ 
+ JAP_Ultimatum_To_Warlords:0 "Ultimatum To Warlords"
+ JAP_Ultimatum_To_Warlords_desc:0 "We cannot allow the warlords to continue autonomously. Let us demand their subjugation instead of using force, unless necessary."
+ 
+ JAP_One_China:0 "One China"
+ JAP_One_China_desc:0 "China needs to be united to be the most useful to us."
+ 
+ JAP_Subjugate_The_Warlords:0 "Subjugate The Warlords"
+ JAP_Subjugate_The_Warlords_desc:0 "The warlords will need to be defeated if we are to unite China."
+ 
+ JAP_Japan_Triumphant:0 "Japan Triumphant"
+ JAP_Japan_Triumphant_desc:0 "We have come out victorious and now we need to stabilize our rule over Chinese land."
+ 
+ JAP_Chinese_Development_Plan:0 "Chinese Development Plan"
+ JAP_Chinese_Development_Plan_desc:0 "We need to continue developing Chinese resources."
+ 
+ JAP_Invite_Zaibutsus_To_China:0 "Invite Zaibatsus To China"
+ JAP_Invite_Zaibutsus_To_China_desc:0 "The Zaibatsus can help with the extraction of raw resources in China."
+ 
+ JAP_South_Chinese_Infrastructure:0 "South Chinese Infrastructure"
+ JAP_South_Chinese_Infrastructure_desc:0 ""
+ 
+ JAP_Central_Chinese_Infrastructure:0 "Central Chinese Infrastructure"
+ JAP_Central_Chinese_Infrastructure_desc:0 ""
+ 
+ JAP_Develop_South_Chinese_Resources_II:0 "Develop South Chinese Resources II"
+ JAP_Develop_South_Chinese_Resources_II_desc:0 ""
+ 
+ JAP_Develop_Central_Chinese_Resources_II:0 "Develop Central Chinese Resources II"
+ JAP_Develop_Central_Chinese_Resources_II_desc:0 ""
+ 
+ JAP_West_Chinese_Infrastructure:0 "Develop West Chinese Infrastructure"
+ JAP_West_Chinese_Infrastructure_desc:0 ""
+ 
+ JAP_Expoit_Xikang_Oil:0 "Exploit Xikang Oil"
+ JAP_Expoit_Xikang_Oil_desc:0 ""
+ 
+ JAP_Expoit_Xikang_Oil_II:0 "Exploit Xikang Oil II"
+ JAP_Expoit_Xikang_Oil_II_desc:0 ""
+ 
+ JAP_Grant_Nippon_Mining_Company_Monopoly:0 "Grant Nippon Mining Company Monopoly"
+ JAP_Grant_Nippon_Mining_Company_Monopoly_desc:0 "Grant Nippon Mining Company Monopoly over the extraction of metals in China. While this will require handing over some of the industrial capacity in these areas, resource extraction will be more efficient."
+ JAP_Grant_Kyodo_Oil_Company_Monopoly:0 "Grant Kyodo Oil Company Monopoly"
+ JAP_Grant_Kyodo_Oil_Company_Monopoly_desc:0 "Grant Kyodo Oil Company Monopoly over the extraction of oil in China. While this will require handing over some of the industrial capacity in these areas, resource extraction will be more efficient."
+  
+ JAP_Zaibatsus_Industry:0 "Zaibatsus Industrial Control"
+ JAP_Zaibatsus_Industry_desc:0 "Zaibatsus can be handed control over the industrial sector. This will provide several benefits."
+ JAP_Zaibatsus_Industry_Tooltip:0 "Modify §Y$JAP_Zaibatsus$§! by \nPolitical Power Cost: §R+0.05§! \n§YMilitary Factory§! construction speed: §G+5%§! \n§YDockyard Factory§! construction speed: §G+5%§! \nConsumer Goods Factories: §Y+5.0%§!\n\n"
+ 
+ JAP_Zaibatsus_Economy:0 "Zaibatsus Controlled Economy"
+ JAP_Zaibatsus_Economy_desc:0 "Zaibatsus can be allowed to control the economic sector. This will bring several benefits."
+ JAP_Zaibatsus_Economy_Tooltip:0 "Modify §Y$JAP_Zaibatsus$§! by \nPolitical Power Cost: §R+0.05§! \nTrade Laws Cost: §G-25%§! \nEconomy Laws Cost: §G-25%§! \nConsumer Goods Factories: §Y-5.0%§!\n\n"
+ 
+ JAP_Bust_Monopolies:0 "Bust Monopolies"
+ JAP_Bust_Monopolies_desc:0 "The Zaibatsus need to be dissolved for the sake of our countries well-being."
+ 
+ JAP_Zaibatsus_Research_Grants:0 "Zaibatsus Research Grants"
+ JAP_Zaibatsus_Research_Grants_desc:0 ""
+ JAP_Zaibatsus_Research_Grants_Tooltip:0 "Modify §Y$JAP_Zaibatsus$§! by \nPolitical Power Cost: §R+0.25§! \nResearch Speed: §G+10%§!\n\n"
+ 
+ JAP_Sumitomo_Zaibatsu:0 "Fund Sumitomo"
+ JAP_Sumitomo_Zaibatsu_desc:0 ""
+ JAP_Sumitomo_Zaibatsu_Tooltip:0 "Modify §Y$JAP_Zaibatsus$§! by \nPolitical Power Cost: §R+0.10§! \n§YMilitary Factory§! construction speed: §G+5%§! \nResource Gain Efficiency: §G+10%§!\n\n"
+ 
+ JAP_Nippon_Steel:0 "Nippon Steel"
+ JAP_Nippon_Steel_desc:0 ""
+ 
+ JAP_Mitsubushi_Zaibatsu:0 "Fund Mitsubishi"
+ JAP_Mitsubushi_Zaibatsu_desc:0 ""
+ JAP_Mitsubushi_Zaibatsu_Tooltip:0 "Modify §Y$JAP_Zaibatsus$§! by \nPolitical Power Cost: §R+0.10§! \n§YMilitary Factory§! construction speed: §G+10%§!\n\n"
+ 
+ JAP_Aircraft_Manufacturing_Plants:0 "Aircraft Manufacturing Plants"
+ JAP_Aircraft_Manufacturing_Plants_desc:0 ""
+ 
+ JAP_Mitsubishi_Heavy_Industries:0 "Mitsubishi Heavy Industries"
+ JAP_Mitsubishi_Heavy_Industries_desc:0 ""
+ 
+ JAP_Yasuda_Zaibatsu:0 "Fund Yasuda"
+ JAP_Yasuda_Zaibatsu_desc:0 ""
+ JAP_Yasuda_Zaibatsu_Tooltip:0 "Modify §Y$JAP_Zaibatsus$§! by \nPolitical Power Cost: §R+0.10§! \n§YCivilian Factory§! construction speed: §G+5%§! \nTrade Laws Cost: §G-25%§! \nEconomy Laws Cost: §G-25%§! \nConsumer Goods Factories: §Y-5.0%§!\n\n"
+ 
+ JAP_Mitsui_Zaibatsu:0 "Fund Mitsui"
+ JAP_Mitsui_Zaibatsu_desc:0 ""
+ JAP_Mitsui_Zaibatsu_Tooltip:0 "Modify §Y$JAP_Zaibatsus$§! by \nPolitical Power Cost: §R+0.10§! \n§YCivilian Factory§! construction speed: §G+5%§! \nConsumer Goods Factories: §Y-5.0%§!\n\n"
+
+ JAP_Teikoku_Bank:0 "Teikoku Bank"
+ JAP_Teikoku_Bank_desc:0 ""
+ JAP_Teikoku_Bank_Tooltip:0 "Modify §Y$JAP_Zaibatsus$§! by \nTrade Laws Cost: §G-25%§! \nEconomy Laws Cost: §G-25%§! \nConsumer Goods Factories: §Y-10.0%§!\n\n"
+
+ JAP_Cigarettes_Factories:0 "Cigarettes Factories"
+ JAP_Cigarettes_Factories_desc:0 ""
+
+ JAP_Nationalize_Industry:0 "Nationalize Industry"
+ JAP_Nationalize_Industry_desc:0 ""
+ 
+ JAP_Reorganize_Warlords:0 "Reorganize Warlords"
+ JAP_Reorganize_Warlords_desc:0 ""
+ JAP_Reorganize_Warlords_Tooltip:0 "Reorganize the §YChinese Warlords§! to be more favorable for our rule."
+
+ ## Manchuria 1/5/2024
+ 
+ JAP_Second_Subservient_Emperor:0 "Second Subservient Emperor"
+ JAP_Second_Subservient_Emperor_desc:0 "We will allow Puyi to exist as a subservient Emperor to Hirohito."
+ 
+ JAP_Emperor_Only_In_Name:0 "Emperor Only In Name"
+ JAP_Emperor_Only_In_Name_desc:0 "Puyi is simply a puppet. We should not entertain the idea of anything more."
+ 
+ JAP_Imperial_Visit:0 "Imperial Visit"
+ JAP_Imperial_Visit_desc:0 "We should invite Puyi to meet with Hirohito. This will foster a greater connection between us and our protectorate."
+ 
+ JAP_Second_Five_Year_Immigration_Plan:0 "Second Five Year Immigration Plan"
+ JAP_Second_Five_Year_Immigration_Plan_desc:0 "Our first immigration plan help develop Manchuria and free land on mainland Japan."
+ 
+ JAP_Japanese_Lifeline:0 "Japanese Lifeline"
+ JAP_Japanese_Lifeline_desc:0 "Manchuria's existance is a lifeline for our war machine. We should directly sieze control of the resources to prevent any possible interference."
+ 
+ JAP_Industrialize_Manchu:0 "Industrialize Manchuria"
+ JAP_Industrialize_Manchu_desc:0 "Manchuria is underdeveloped. We should attempt to fix this."
+ 
+ JAP_Invite_Zaibutsus_To_Manchuria:0 "Invite Zaibatsus To Manchuria"
+ JAP_Invite_Zaibutsus_To_Manchuria_desc:0 "The Zaibatsus should have the opportunity to expand to Manchuria. While underdeveloped, the Zaibatsus should be able to help us develop industry."
+ 
+ JAP_Limited_Concessions:0 "Limited Concessions"
+ JAP_Limited_Concessions_desc:0 "Given we are respecting Puyi as an Emperor, we should grant some concessions of power to demonstrate this and allow some growth within Manchuria."
+ 
+ JAP_Crown_Emperor_Of_Qing:0 "Withdraw Zhang Jinghui"
+ JAP_Crown_Emperor_Of_Qing_desc:0 "We should allow Puyi to retain some power over Manchukuo to foster the relationship between our countries."
+ 
+ 
+ ## Redoing Vanilla
+ 
+JAP_develop_chinese_resources:0 "Develop Central Chinese Resources"
+ 
+JAP_strike_south_doctrine:0 "Nanshin-ron"
+ 
+JAP_non_aggression_pact_with_the_soviet_union:0 "The Enemy of Our Enemy..."
+JAP_non_aggression_pact_with_the_soviet_union_desc:0 "... is Our Friend. Our nothern border must be secured if we are going to have the freedom to strike south. We will begin negotiations with the Soviet Union immediately."
+ 
+JAP_purge_the_kodoha_faction:0 "Support the Toseiha Faction"
+JAP_purge_the_kodoha_faction_desc:0 "The Kodoha faction has been growing in popularity. For the sake of the Empire's future, we must ensure the Toseiha prevails!"
+
+JAP_preemptive_war:0 "Hokushin-ron"
+JAP_preemptive_war_desc:0 "The Soviet Union has valuable resources in Siberia. We should secure these for the betterment of our nation."
+
+JAP_the_unthinkable_option:0 "Lift Ban on JCP"
+JAP_the_unthinkable_option_desc:0 "Outlawed in 1925 with the passage of the Peace Preservation Law, the JCP was subjected to repression and persecution. Many JCP members and sympathizers were imprisoned, we need to undo this tragedy and repeal this law."
+
+JAP_cast_the_die:0 "Cast the Vote"
+JAP_cast_the_die_desc:0 "We have built enough support that the elections will swing in our favor. It is time to call the votes!"
+
+ ## New Focuses
+JAP_assess_the_situation:0 "Assess The Situation"
+JAP_assess_the_situation_desc:0 "The Japanese political climate has been tumultuous since the Ni Ni-Roku Jiken. Significant rivalry has formed between the navy and army. We need to re-assess the situation within our government and military."
+ 
+JAP_exchange_for_north_sakhalin:0 "Ask for North Sakhalin"
+JAP_exchange_for_north_sakhalin_desc:0 "Now that we are aligned, the Soviets might be willing to part with North Sakhalin which is rightfully Japanese."
+
+JAP_expand_manchurian_supply:0 "Expand Northern Manchurian Supply"
+JAP_expand_manchurian_supply_desc:0 "The Northern front of Manchuria is woefully undersupplied. With Manchuria's poorly developed industry, we cannot expect this to remedy this so we shall do it ourselves. Establishing a supply hub in the north will allow us to prepare for confliict on this border, if it ever occurs."
+
+JAP_annex_manchuria:0 "Annex Manchuria"
+JAP_annex_manchuria_desc:0 "Manchuria was fine under the control of our imperial protectorate up to this point, but now we will take over."
+
+JAP_annex_menkukuo:0 "Annex Mengkukuo"
+JAP_annex_menkukuo_desc:0 "Mengkukuo was fine under the control of our imperial protectorate up to this point, but now we will take over."
+
+JAP_annex_china:0 "Annex China"
+JAP_annex_china_desc:0 "While we allowed a puppet government to handle China up until this point, we are ready to assume responsibility for this land now."
+
+JAP_subjugate_the_chinese:0 "Subjugate China"
+JAP_subjugate_the_chinese_desc:0 "China was always ours to subjugate and their fate is in our hand. With China under our control, we will be unstoppable!"
+
+JAP_manchurian_infrastructure_expansion:0 "Manchurian Infrastructure Expansion"
+JAP_manchurian_infrastructure_expansion_desc:0 "Manchurian infrastructure is underdeveloped. If we hope to use this area to further our goals, we will need to fix that."
+
+JAP_japanese_manchurian_research:0 "Japan-Qing Research Agreement"
+JAP_japanese_manchurian_research_desc:0 "The newly released Qing is still behind. Let us join together science programs and see if we can find a way to benefit both of our nations."
+
+JAP_invite_china_west_pacific:0 "Alliance with China"
+JAP_invite_china_west_pacific_desc:0 "China, while a target of the previous government, is a valuable ally against Imperialists and Communists alike. We should invite them to the West Pacific Treaty Organization."
+
+JAP_the_asian_communist_threat:0 "The Asian Communist Threat"
+JAP_the_asian_communist_threat_desc:0 "Now that China is with us, we need to address the Communist threat in Asia."
+
+JAP_liberate_vietnam:0 "Liberate Vietnam"
+JAP_liberate_vietnam_desc:0 "Free our Asian brother!"
+
+JAP_liberate_malaya:0 "Liberate Malaya"
+JAP_liberate_malaya_desc:0 "Free our Asian brother!"
+
+JAP_liberate_east_indies:0 "Liberate East Indies"
+JAP_liberate_east_indies_desc:0 "Free our Asian brother!"
+
+JAP_liberate_australia:0 "Liberate Australia"
+JAP_liberate_australia_desc:0 "Free our Asian brother!"
+
+JAP_liberate_new_zealand:0 "Liberate New Zealand"
+JAP_liberate_new_zealand_desc:0 "Free our Asian brother!"
+
+JAP_liberate_philippines:0 "Liberate Philippines"
+JAP_liberate_philippines_desc:0 "Free our Asian brother!"
+
+JAP_the_asian_fascist_threat:0 "The Asian Fascist Threat"
+JAP_the_asian_fascist_threat_desc:0 "Now that we have won the elections and liberated the people, we need to address the Fascist threat in Asia."
+
+JAP_free_the_people_of_asia:0 "Free the People of Asia"
+JAP_free_the_people_of_asia_desc:0 "Our people are free now, but the workers of other nations still need to be liberated. We will stop the oppression of dictators and monarchs in Asia."
+
+JAP_ban_the_elections:0 "Ban the Elections"
+JAP_ban_the_elections_desc:0 "We have used the Democratic system to place our Communist friends in power. Now it is time to ban the elections so they stay there."
+
+JAP_alliance_with_burma:0 "Alliance With Burma"
+JAP_alliance_with_burma_desc:0 "Burma is in a good position to invade India. They would be an asset to have with us."
+
+JAP_strike_the_middle_east_doctrine:0 "Seishin-ron"
+JAP_strike_the_middle_east_doctrine_desc:0 "While East Asia may have rich resources, the oil deposits are not enough. We should make moves to secure oil from the Middle East to avoid needing to rely on the Soviets, Dutch, or Americans."
+
+JAP_secure_iran:0 "Secure Iran"
+JAP_secure_iran_desc:0 "Iran has significant oil deposits. To secure fuel for our navy and army, we should take control of this."
+
+JAP_secure_iraq:0 "Secure Iraq"
+JAP_secure_iraq_desc:0 "Iraq is providing oil to the United Kingdom. We should take this oil for ourselves."
+
+JAP_develop_australian_resources:0 "Develop Australian Resources"
+JAP_develop_australian_resources_desc:0 "Expanding the mines in Australia will give us valuable resources."
+
+JAP_secure_australia:0 "Secure Australia"
+JAP_secure_australia_desc:0 "Australia contains valuable resources and would be a natural step in our conquest of Asia."
+
+JAP_increase_industrial_investments:0 "Increase Industrial Investments"
+JAP_increase_industrial_investments_desc:0 "We have been rapidly industrializing up till now. We should increase our investment in the industry for the future of Japan."
+
+JAP_develop_northern_infrastructure:0 "Develop Northern Infrastructure"
+JAP_develop_northern_infrastructure_desc:0 "Our Northern infrastructure is severely lacking. It is time to remedy this with strategic investments in the area."
+
+JAP_develop_korea:0 "Develop Korea"
+JAP_develop_korea_desc:0 "Korean infrastructure is severely underdeveloped. Investments in the area should remedy this."
+
+JAP_develop_korean_tungsten:0 "Develop Korean Tungsten"
+JAP_develop_korean_tungsten_desc:0 "The mines in North Korea can be expanded to provide more Tungsten for our military manufacturing."
+
+JAP_develop_the_islands:0 "Develop the Islands"
+JAP_develop_the_islands_desc:0 "While not many live on the islands south of the mainland, the infrastructure could use expansion to better provide for the garrisons."
+
+JAP_expand_the_islands_naval_bases:0 "Expand the Island Naval Bases"
+JAP_expand_the_islands_naval_bases_desc:0 "Now that the infrastructure is expanded on our southern islands, the naval bases can be upgraded for the sake of our naval supremecy."
+
+JAP_synthetic_rubber:0 "Advanced Rubber Production"
+JAP_synthetic_rubber_desc:0 "We do not have access to rubber within our mainland, a needed resource for the production of planes. More advanced synthetic rubber production will be needed if they are to cover this need."
+
+JAP_expand_southern_industry:0 "Expand Southern Industry"
+JAP_expand_southern_industry_desc:0 "The pre-existing infrastructure in the south is capable of handling industrial expansion. We should see to it that it is done."
+
+JAP_expand_northern_industry:0 "Expand Northern Industry"
+JAP_expand_northern_industry_desc:0 "Now that we have the infrastructure to support it, we should expand the northern industry."
+
+JAP_resource_recycling:0 "Resource Recycling"
+JAP_resource_recycling_desc:0 "We do not have the abundance of natural resources needed to afford to be wasteful. We should invest into resource recycling measures."
+
+JAP_develop_tokyo_steel:0 "Develop Tokyo Steel"
+JAP_develop_tokyo_steel_desc:0 "We need to produce more steel for wartime production. Opening a steel mill in the Kanto region will help this situation."
+
+JAP_industry_specialization:0 "Arms Specialization"
+JAP_industry_specialization_desc:0 "With limited industrial capacity, we need to specialize in what we know."
+
+JAP_industry_innovation:0 "Arms Innovation"
+JAP_industry_innovation_desc:0 "Cutting-edge equipment will allow us to suceed against foes with larger industries."
+
+JAP_yamato_production:0 "Yamato Production"
+JAP_yamato_production_desc:0 "The new Yamato Class battleship is the pride of our fleet. We should make more."
+
+JAP_escort_production:0 "Escort Production"
+JAP_escort_production_desc:0 "What use are large ships if we cannot protect them?"
+
+JAP_carrier_production:0 "Carrier Production"
+JAP_carrier_production_desc:0 "Carrier are the future. Any modern navy must have them."
+
+JAP_subjugate_southern_warlords:0 "Invade the Southern Warlords"
+JAP_subjugate_southern_warlords_desc:0 "We have invaded China, now its time to bring the southern warlords into the fold."
+
+JAP_subjugate_west_china:0 "Invade West China"
+JAP_subjugate_west_china_desc:0 "We have invaded China, now its time to bring the west into the fold."
+
+JAP_subjugate_the_north:0 "Invade the North"
+JAP_subjugate_the_north_desc:0 "We have invaded China, now its time to bring the north into the fold."
+
+JAP_develop_south_chinese_resources:0 "Develop South Chinese Resources"
+JAP_develop_south_chinese_resources_desc:0 "The Guangxi Clique had a large amount of resources under their control. We should expand the extraction of these immediately."
+
+JAP_trans_pacific_treaty:0 "Trans-Pacific Treaty"
+JAP_trans_pacific_treaty_desc:0 "Our friends across the Pacific are a natural ally against the Communists and Fascists alike."
+
+JAP_Redefine_Shintoism:0 "Redefine State Shintoism"
+JAP_Redefine_Shintoism_desc:0 "State Shintoism emphasized state worship. We can transition this to party worship instead."
+
+JAP_Embrace_Stalinism:0 "Embrace Stalinism"
+JAP_Embrace_Stalinism_desc:0 "Stalin is the leader of modern Communism. We should follow his example."
+
+JAP_Socialist_Propaganda:0 "Socialist Propaganda"
+JAP_Socialist_Propaganda_desc:0 "We need to drift the populace closer to our ideals if we are to win the elections."
+
+# Kodoha Update 12/30/23
+
+JAP_Discuss_Trade_with_Dutch:0 "Discuss Trade with Dutch"
+JAP_Discuss_Trade_with_Dutch_desc:0 "During the Tokugawa period in Japan, the ruling shogunate enforced a policy of isolation, known as sakoku. This policy aimed to control foreign influence and maintain internal stability. As a result, the Dutch were permitted to trade only from Nagasaki, which was one of the few ports open to foreign trade. Maybe we can leverage this history to get beneficial trade relations to fight against the Communist Menace."
+
+JAP_Renegotiate_Trade_with_USA:0 "Renegotiate Trade with USA"
+JAP_Renegotiate_Trade_with_USA_desc:0 "On July 8, 1853, American Commodore Matthew Perry led his four ships into the harbor at Tokyo Bay, seeking to re-establish for the first time in over 200 years regular trade and discourse between Japan and the western world. At this time, we were threatened, now we can reapproach the USA in a more favorable trade deal to handle the Communists."
+
+JAP_Formalize_Polish_Alliance:0 "Formalize Japanese-Polish Alliance"
+JAP_Formalize_Polish_Alliance_desc:0 "The Poles have had positive relations and supported our nation since the Great War. We should continue to foster these relations and formalize an alliance with them against the the Communist Menace."
+
+JAP_Polish_Japanese_Intelligence:0 "Polish-Japanese Intelligence"
+JAP_Polish_Japanese_Intelligence_desc:0 "The Poles have an extensive spy network they will allow us to use. We should use this and the knowledge of their agency to start our own."
+
+JAP_Invite_the_Baltics:0 "Invite the Baltics"
+JAP_Invite_the_Baltics_desc:0 "While the baltics may not be able to provide much military support, we should use them as a distraction while we fight the Soviets."
+
+JAP_Joint_Japanese_Polish_Exercises:0 "Joint Japanese-Polish Exercises"
+JAP_Joint_Japanese_Polish_Exercises_desc:0 "Now that we have formalized relations with Poland, we should prepare both of our armies for the eventual war with joint Army, Navy, and Air exercises."
+
+JAP_Integrate_Taiwan:0 "Integrate Taiwan"
+JAP_Integrate_Taiwan_desc:0 "Taiwan has been under our control and culturally adapted to our ways. We should finalize this process."
+
+JAP_Integrate_Korea:0 "Integrate Korea"
+JAP_Integrate_Korea_desc:0 "Korea has been under our control and culturally adapted to our ways. We should finalize this process."
+
+JAP_Release_Korea:0 "Release Korea"
+JAP_Release_Korea_desc:0 "Korean was a powerful empire at their strongest. While we have shifted their culture closer to ours and could fully integrate them into our nation, it would be best to let them self-govern. We can use them in the upcoming wars."
+
+JAP_Korean_Defense_State:0 "Korean Defense State"
+JAP_Korean_Defense_State_desc:0 "Now that we have reformed the Korean government, we should prepare them to be our mainland Asian bulwark against Communism."
+
+JAP_Winter_Training_in_Finland:0 "Winter Training in Finland"
+JAP_Winter_Training_in_Finland_desc:0 "We will protect offer guarantees of Finland for them training our soldiers in the intense winter conditions of Eastern Europe and how to handle the cold while still being able to fight."
+
+# Kodoha Update 1/2/24
+
+JAP_Support_Revolution_In_Korea:0 "Support Revolution in Korea"
+JAP_Support_Revolution_In_Korea_desc:0 "We lost our holdings in Korea but we can still support the revolution there. Let us make contact with the Korean Communists."
+
+JAP_Request_Soviet_Support_in_Korea:0 "Request Soviet Support in Korea"
+JAP_Request_Soviet_Support_in_Korea_desc:0 "The Soviets will be able to provide more support than we can to the Worker's Party of Korea. While it may give them more influence in the nation, let us request their support."
+
+JAP_Ignite_The_Revolution:0 "Ignite the Revolution"
+JAP_Ignite_The_Revolution_desc:0 "The revolution has gained enough support, it is time to free the workers of Korea!"
+
+JAP_Extend_Alliance:0 "Extend Alliance"
+JAP_Extend_Alliance_desc:0 "Now that we have assisted the Korean Communists, let us formalize an alliance."
+
+JAP_Insist_On_Protecting:0 "Insist on Protecting"
+JAP_Insist_On_Protecting_desc:0 "The Korean Communists are now in power but they cannot be trusted to protect themselves. We need to offer to protect them from outside threats."
+
+################################### IDEAS                       \n      §H§!
+ 
+ ## Fascist Post-War / Zaibatsus Update 1.21.24
+ 
+ JAP_Zaibatsus:0 "Zaibatsus"
+ JAP_Zaibatsus_desc:0 "Zaibatsu are industrial and financial vertically integrated business conglomerates in the our country, whose influence and size allowed control over significant parts of the economy."
+ 
+ JAP_Zaibatsu_Monopoly:0 "Zaibatsu Monopoly"
+ JAP_Zaibatsu_Monopoly_desc:0 "The monopoly held here by the Zaibatsus will require some of our industrial capacity in return for increased efficiency."
+ 
+ JAP_Pan_Asian_Propaganda:0 "Pan-Asian Propaganda"
+ JAP_Pan_Asian_Propaganda_desc:0 "The Chinese people need to be convinced that accepting Japanese rule is the only way of life now."
+ 
+ JAP_Japanese_Subjugation:0 "Japanese Subjugation"
+ JAP_Japanese_Subjugation_desc:0 "We are the masters of the Chinese. Their fate lies with us now."
+ 
+ JAP_Chinese_Labor:0 "Chinese Labor"
+ JAP_Chinese_Labor_desc:0 "We now have an abundance of human resources at our disposal."
+ 
+ JAP_Japan_Triumphant:0 "Japan Triumphant"
+ JAP_Japan_Triumphant_desc:0 "We are the masters of China now. The dragon has bowed before the Emperor."
+ 
+ JAP_Low_Public_Support:0 "Low Public Support"
+ JAP_Some_Public_Support:0 "Some Public Support"
+ JAP_Moderate_Public_Support:0 "Moderate Public Support"
+ JAP_High_Public_Support:0 "High Public Support"
+ 
+ ## Manchuria 1/5/2024
+  
+ JAP_Imperial_Support:0 "Imperial Support"
+ JAP_Imperial_Support_desc:0 "Japan is supporting Emperor Puyi which is assisting in stabilizing the nation." 
+ 
+ # Kodoha Update 1/2/24
+ 
+ JAP_Hakko_Ichiu:0 "Hakkō Ichiu"
+ JAP_Hakko_Ichiu_desc:0 "All the world under one roof. The Emperor has the divine right to unify the eight corners of the world."
+ JAP_Chrysanthemum_Throne:0 "Chrysanthemum Throne"
+ JAP_Chrysanthemum_Throne_desc:0 "The Emperor has absolute power in Japan."
+ JAP_Army_Shogun:0 "Shōgun"
+ JAP_Army_Shogun_desc:0 "The Shōgun position has been granted to Hideki Tojo, the leader of the army."
+ JAP_Naval_Shogun:0 "Shōgun"
+ JAP_Naval_Shogun_desc:0 "The Shōgun position has been granted to Isoroku Yamamoto, the leader of the navy."
+ 
+ KOR_Japanese_Communist_Pressure:0 "JCP Communist Pressure"
+ KOR_Japanese_Communist_Pressure_desc:0 "The JCP is supporting the Communists in Korea."
+ 
+ KOR_Soviet_Pressure:0 "Soviet Pressure"
+ KOR_Soviet_Pressure_desc:0 "The Soviets are supporting Communists in Korea."
+ 
+ # Kodoha Update 12/30/23
+ 
+JAP_Dutch_Trade:0 "Trade with Dutch"
+JAP_USA_Trade:0 "Trade with USA"
+JAP_POL_Spies:0 "Polish-Japanese Intelligence"
+JAP_KOR_Defense_State:0 "Korean Defense State"
+JAP_POL_Joint_Exercises:0 "Joint Japanese-Polish Exercises"
+JAP_Finnish_Winter_Training:0 "Finnish Winter Training"
+JAP_Finnish_Winter_Training_desc:0 "Our soldiers have been trained by the Finns on how to survive and be combat-ready in the extreme cold of Eastern Europe and Siberia."
+ 
+JAP_The_Permanent_Revolution:0 "The Permanent Revolution"
+JAP_The_Permanent_Revolution_desc:0 "It is the responsibility of all Communists to protect the workers of the world. We shall support the class struggles in other countries."
+JAP_Revolution_from_Within:0 "Revolution from Within"
+JAP_Revolution_from_Within_desc:0 "Revolutions need to stem from the workers of their countries. This must be a local revolution if it is to last. We shall support them in these activities."
+JAP_Stalinism:0 "Stalinism"
+JAP_Redistribute_Land:0 "Redistribute Land"
+JAP_Welfare_State:0 "Welfare State"
+JAP_Redefined_Shintoism:0 "Redefined State Shintoism"
+JAP_Redefined_Shintoism_desc:0 "State Shintoism emphasized state worship. We can transition this to party worship instead."
+
+ 
+JAP_Japanese_Occupation:0 "Resistance to Japanese Occupation"
+JAP_Japanese_Settlement:0 "Forceful Japanese Settlement"
+JAP_Appoint_Pro_Japanese_Officials:0 "Appoint Pro-Japanese Officials"
+JAP_Japanese_Pacification:0 "Japanese Rule"
+
+JAP_the_zero_production:0 "Zero Production"
+JAP_the_zero_production_desc:0 "Focusing our production on our cutting-edge Zero-sen will give us a necessary advantage to defeat our enemies on the seas."
+
+JAP_Japanese_Manchurian_Research_Agreement:0 "Japan-Qing Research Agreement"
+JAP_Japanese_Manchurian_Research_Agreement_desc:0 "Our research is benefitting from our agreement."
+
+JAP_Japanese_Settlers:0 "Japanese Settlers"
+JAP_Japanese_Settlers_desc:0 "Settlers from Japan are coming to live in Manchuria."
+
+JAP_infantry_focus:0 "Infantry Focus"
+JAP_infantry_focus_desc:0 "The infantry are the backbone of our army. We need to focus on them."
+
+JAP_motorization_focus:0 "Motorization Focus"
+JAP_motorization_focus_desc:0 "The motorization of the army is the future. We need to focus on it."
+ 
+JAP_american_naval_support:0 "American Naval Support"
+JAP_american_naval_support_desc:0 "The civil war has left our country without a significant portion of its navy. We should ask the Americans for assistance with this."
+ 
+JAP_british_naval_support:0 "British Naval Support"
+JAP_british_naval_support_desc:0 "The civil war has left our country without a significant portion of its navy. We should ask the British for assistance with this."
+
+JAP_soviet_naval_support:0 "Soviet Naval Support"
+JAP_soviet_naval_support_desc:0 "The civil war has left our country without a significant portion of its navy. We should ask the Soviets for assistance with this."
+
+JAP_two_emperors:0 "The Two Emperors"
+JAP_two_emperors_desc:0 ""
+
+JAP_master_of_china:0 "Master of China"
+JAP_master_of_china_desc:0 "We will allow Qing to continue to serve us with some additional agreements."
+
+JAP_nationalize_dockyards:0 "Nationalize Dockyards"
+JAP_nationalize_dockyards_desc:0 "All shipbuilding infrastructure will be needed by the state to rebuild our navy."
+
+JAP_first_elections:0 "First Election"
+JAP_first_elections_desc:0 "Japan's first democratic election is a monumental event in our history."
+
+JAP_hirohito_showa:0 "Emperor Hirohito"
+
+################################### DECISIONS                   \n      §H§! 
+ 
+## Fascist Post-War / Zaibatsus Update 1.21.24
+
+JAP_Demand_Guangxi_Subjugation:0 "Demand Guangxi Subjugation"
+JAP_Demand_Yunnan_Subjugation:0 "Demand Yunnan Subjugation"
+JAP_Demand_Ma_Subjugation:0 "Demand Ma Subjugation"
+JAP_Demand_Shanxi_Subjugation:0 "Demand Shanxi Subjugation"
+JAP_Demand_PRC_Subjugation:0 "Demand Communist Subjugation"
+JAP_Demand_Tibet_Subjugation:0 "Demand Tibetan Subjugation"
+
+##
+
+JAP_Territorial_Claims:0 "Territorial Claims"
+JAP_Sue_For_Peace:0 "Sue Imperialists for Peace"
+
+ JAP_bop_bolster_the_army:0 "Increase Army Funding"
+ JAP_bop_bolster_the_navy:0 "Increase Naval Funding"
+ 
+JAP_Imperial_Protectorates:0 "Imperial Protectorates"
+ 
+JAP_Imperial_Protectorate_Phillipines:0 "Imperial Protectorate Philippines"
+JAP_Imperial_Protectorate_Malaya:0 "Imperial Protectorate Malaya"
+JAP_Imperial_Protectorate_Burma:0 "Imperial Protectorate Burma"
+JAP_Imperial_Protectorate_East_Indies:0 "Imperial Protectorate East Indies"
+JAP_Imperial_Protectorate_Vietnam:0 "Imperial Protectorate Vietnam"
+JAP_Imperial_Protectorate_Laos:0 "Imperial Protectorate Laos"
+JAP_Imperial_Protectorate_Cambodia:0 "Imperial Protectorate Khmer"
+
+JAP_Imperial_Colonies:0 "Imperial Colonies"
+
+JAP_Colony_Phillipines:0 "Philippines"
+JAP_Colony_Malaya:0 "Japanese Malaya"
+JAP_Colony_Burma:0 "Burma"
+JAP_Colony_East_Indies:0 "Dutch East Indies"
+JAP_Colony_Vietnam:0 "Republic of Vietnam"
+JAP_Colony_Laos:0 "Republic of Laos"
+JAP_Colony_Cambodia:0 "Republic of Cambodia"
+
+JAP_Chinese_Occupation:0 "Chinese Occupation"
+
+JAP_Pacify_North_China:0 "Pacify North China"
+JAP_North_Settle_Japanese:0 "Forcefully Settle Japanese in North China"
+JAP_North_Appoint_Pro_Japanese_Officials:0 "Appoint Pro-Japanese Officials in North China"
+JAP_North_Arrest_Kuomintang:0 "Arrest Kuomintang Sympethizers in North China"
+
+JAP_Pacify_East_China:0 "Pacify East China"
+JAP_East_Settle_Japanese:0 "Forcefully Settle Japanese in East China"
+JAP_East_Appoint_Pro_Japanese_Officials:0 "Appoint Pro-Japanese Officials in East China"
+JAP_East_Arrest_Kuomintang:0 "Arrest Kuomintang Sympethizers in East China"
+ 
+JAP_Pacify_Central_China:0 "Pacify Central China"
+JAP_Central_Settle_Japanese:0 "Forcefully Settle Japanese in Central China"
+JAP_Central_Appoint_Pro_Japanese_Officials:0 "Appoint Pro-Japanese Officials in Central China"
+JAP_Central_Arrest_Kuomintang:0 "Arrest Kuomintang Sympethizers in Central China"
+ 
+JAP_Pacify_West_China:0 "Pacify West China"
+JAP_West_Settle_Japanese:0 "Forcefully Settle Japanese in West China"
+JAP_West_Appoint_Pro_Japanese_Officials:0 "Appoint Pro-Japanese Officials in West China"
+JAP_West_Arrest_Kuomintang:0 "Arrest Kuomintang Sympethizers in West China"
+ 
+################################### EVENTS                      \n      §H§!
+ 
+ # Kodoha Update 1/2/24
+ 
+ JAP.17.t:0 "A Modern Shōgun"
+ JAP.17.desc:0 "We have established a modern shogunate. We now need to decide who will be the Shōgun. The best options would be the members from the Army and the Navy with the most influence. Here are our options:"
+ JAP.17.a:0 "Leader of the Army, Hideki Tojo"
+ JAP.17.b:0 "Leader of the Navy, Isoroku Yamamoto"
+ 
+ # Communist Election
+ 
+ JAP.1.t:0 "Communist Victory in Japanese Election"
+ JAP.1.d:0 "The first election in Japan since the rise of the new democratic system. The votes have been collected and a clear winner has emerged."
+ JAP.1.a.name:0 "JCP"
+
+ JAP.1.a:0 "Fukumoto Kazuo"
+ JAP.1.b:0 "Hitoshi Yamakawa"
+
+ JAP_hitoshi_yamakawa:0 "Hitoshi Yamakawa"
+ JAP_fukumoto_kazuo:0 "Fukumoto Kazuo"
+ 
+ JAP_FUKUMOTOISM:0 "Fukumotoism"
+ JAP_YAMAKAWAISM:0 "Yamakawaism"
+ 
+ # Admiral Coup
+ 
+ JAP.2.t:0 "Admiral Yamamoto Assumes Role of Prime Minister"
+ JAP.2.d:0 "Admiral Yamamoto has been granted the role of Prime Minister and appears to have complete control of the government."
+ JAP.2.a:0 "What does this mean for Japan?"
+ 
+ # Democratic Election
+ 
+ JAP.3.t:0 "First Election"
+ JAP.3.d:0 "We have finally been able to do our first election. Ballots have been cast, it is time to see who won."
+ JAP.3.a:0 "Ichirō Hatoyama"
+ JAP.3.a.desc:0 "Conservative democrat who opposed the dissolution of parties under the fascist government."
+ JAP.3.b:0 "Chūji Machida"
+ JAP.3.b.desc:0 "Progressive democrat."
+ JAP.3.c:0 "Tetsu Katayama"
+ JAP.3.c.desc:0 "Socialist democrat."
+
+# Democratic Coup
+
+JAP.114.t:0 "Democratic Elements Stage Coup"
+JAP.114.desc:0 "Democratic elements in the government have instigated a surprise take-over of the country, after the military threatened to once again curb the people's hard-gained democratic rights. With a surprising alacrity, a significant portion of the military has taken up arms in defense of the people and their rights to liberty.\n\nThis split in the military has allowed for the people's representatives to seize power in the legislative and executive branches. While the fighting has only just begun, it is unlikely that the present government can be unseated easily."
+JAP.114.a:0 "Never again shall the military rule us!"
+
+# Emperor Takes Control
+
+JAP.4.t:0 "Emperor Assumes Control"
+JAP.4.desc:0 "A group of young officers has succeeded in assassinating various government officials, as well as the prime minister. They have occupied Tokyo city and have secured control of the Imperial Palace, announcing their intent to purge the government of 'corrupt officials' and 'ideological threats', reinstating the Emperor as the sole ruler of the nation.\n\nTheir actions had an unexpectedly large following in the military, where intended counter-operations were forestalled by mass arrests and assassinations of elements loyal to the old government. Faced with the sudden and overwhelming nature of events, as well as rebel control of the palace, the Emperor has made no move to denounce the rebels.\n\nOrganized government resistance seems already to crumble, and the rebels are expected at any time to announce the establishment of total Imperial control to all areas of domestic, foreign, and military policy. Emperor Hirihito has become disillusioned with the leadership of the military and the Prime Ministers and will assume complete control of the government."
+JAP.4.a:0 "Tennōheika Banzai!"
+
+# US, UK, and Dutch Embargo
+
+JAP.5.t:0 "United States, United Kingdom, and Netherlands Embargo"
+JAP.5.desc:0 "The United States under Franklin D. Roosevelt has embargoed us to protest the aggression we are showing in Asia. The United Kindom and the Netherlands shortly issued a statement that they are following the United States lead."
+JAP.5.a:0 "They will pay for this!"
+
+JAP.6.t:0 "Hideki Tojo Assumes Prime Minister"
+JAP.6.desc:0 "On the eve of the Second World War's expansion into Asia and the Pacific, Tojo was an outspoken advocate for a preemptive attack on the United States and its European allies. Konoe is opposed to this war and has therefore been replaced."
+JAP.6.a:0 "To war!"
+
+# Wang Jingwei
+
+JAP.7.t:0 "Wang Jingwei's Regime"
+JAP.7.desc:0 "Wang Jingwei, a rival of Chiang Kai-shek and member of the pro-peace faction of the KMT, defected to the Japanese side and formed a collaborationist government, the Reorganized National Government of the Republic of China, in occupied Nanjing. This government would be a puppet to us. Do we want to do this?"
+JAP.7.a:0 "Yes, set up the new government"
+JAP.7.b:0 "No, we stand alone"
+
+# Nanking
+
+JAP.8.t:0 "Sack of Nanjing"
+JAP.8.desc:0 "Nanjing is the capital of the Republic of China and it has been captured by Imperial Japanese Army. After the intial battle and the city has been taken, intense looting, razing, and civilian casualties have occured. This sacking of Nanjing has become infamous on the world stage. How should we respond?"
+JAP.8.a:0 "We did what was necessary"
+JAP.8.b:0 "Reprimand the generals"
+
+# Winter Training
+
+JAP.9.t:0 "Winter Training in Finland"
+JAP.9.desc:0 "The Finns are historical enemies of the Russians. We will negotiate with them to assist us with our attack on the Soviets, despite their claimed neutrality. Let us offer to protect them if the Soviets invade for winter training for our soldiers. This will assist our march to Moscow."
+JAP.9.a:0 "To Finland!"
+
+# Korean Defense State
+
+JAP.10.t:0 "A New Korean Shogunate"
+JAP.10.desc:0 "The Koreans were conquered by us in 1910. We have been slowly japanizing their culture and now we have released them as the 'Korean Shogunate'. They will be the extension of our Shogunate on the mainland to defend us from and fight the Soviets. Yi Un, last Imperial Crown Prince of Korea, shall be named shogun of this new Korea."
+JAP.10.a:0 "Welcome the Korean Shogunate"
+
+# Poland Alliance
+
+JAP.11.t:0 "Tokyo-Warsaw Pact"
+JAP.11.desc:0 "We have supported and been supported by the Poles for years. Poland is in a precarious position and will most likely be accepting of this alliance. We also desire to take Soviet land and the Poles will be a natural ally."
+JAP.11.a:0 "Our friends, the Polish"
+
+# Ask
+
+JAP.12.t:0 "Japan invites us to the Tokyo-Warsaw Pact"
+JAP.12.desc:0 "Japan has reached out and invited us to an alliance which they are heading, the Tokyo-Warsaw Pact. They stated that given both of our close proximity to the Soviets, and close relations, we would be natural allies against our enemies. How should we respond?"
+JAP.12.a:0 "Join the Alliance"
+JAP.12.b:0 "Decline the Alliance"
+
+# Yes
+
+JAP.13.t:0 "Poland joins the Tokyo-Warsaw Pact"
+JAP.13.desc:0 "Poland has informed us that they will join the Tokyo-Warsaw Pact and look forward to further co-ooperation. The Poles feel that an alliance between our countries will safeguard us from our enemies and further our goals."
+JAP.13.a:0 "Excellent"
+
+# No
+
+JAP.14.t:0 "Poland declines the Tokyo-Warsaw Pact"
+JAP.14.desc:0 "Poland has informed us that they will not be joining the Tokyo-Warsaw Pact. They have indicated that they do not feel it would be beneficial for Poland to seek an official alliance with us."
+JAP.14.a:0 "The fools!"
+
+# News of Polish Alliance
+
+JAP.15.t:0 "The Japanese and Polish Announce Alliance"
+JAP.15.desc:0 "Japan and Poland have formalized an alliance known as the Tokyo-Warsaw Pact. Ambassadors from both nations gathered in a historic ceremony to announce the agreement, signaling a new era of cooperation between East Asia and Central Europe.\n\nAt the core of the Tokyo-Warsaw Pact is a mutual defense agreement against the Soviet Union and growing German Reich, outlining provisions for joint military exercises and intelligence-sharing."
+JAP.15.a:0 "Understood"
+
+# Hitler is mad
+
+JAP.16.t:0 "Hitler Condemns Tokyo-Warsaw Pact"
+JAP.16.desc:0 "Adolf Hitler, the Chancellor of Germany, delivered a fervent public speech today denouncing the recently formed Tokyo-Warsaw Pact, an alliance between Japan and Poland. He asserted that such alliances were in direct opposition to the interests of the German Reich and its allies.\n\n"Japan and Poland have chosen a perilous path that endangers the peace and stability of Europe and Asia," declared Hitler, his voice resonating through the grand venue. The Chancellor went on to criticize the motives behind the pact. He warned that Germany would closely monitor the situation and take necessary measures to safeguard its interests and those of its allies."
+JAP.16.a:0 "Tensions are rising"
+
+# Puyi and Hirohito Meet
+
+JAP.18.t:0 "Hirohito Meets with Puyi"
+JAP.18.desc:0 "Puyi has recieved very little respect since being crowned Emperor of Qing China. While the meeting between the two will not remedy this or change Japan's position, it will foster more positive relations."
+JAP.18.a:0 "To a long relationship."
+
+################################### OTHER\n                     \n      §H§!
+ 
+JAP_faction_power_balance:0 "Interservice Rivalry"
+JAP_faction_power_balance_desc:0 "Balance between the Army and Navy."
+JAP_Army_Side:0 "Army"
+JAP_Navy_Side:0 "Navy"
+JAP_balance_range:0 "Imperial Control"
+
+JAP_low_Army_dominance:0 "Low Army Dominance"
+JAP_moderate_Army_dominance:0 "Moderate Army Dominance"
+JAP_high_Army_dominance:0 "High Army Dominance"
+JAP_total_Army_dominance:0 "Total Army Dominance"
+
+JAP_low_Naval_dominance:0 "Low Naval Dominance"
+JAP_moderate_Naval_dominance:0 "Moderate Naval Dominance"
+JAP_high_Naval_dominance:0 "High Naval Dominance"
+JAP_total_Naval_dominance:0 "Total Naval Dominance"
+
+JAP_Nanjing:0 "Sack of Nanjing"
+
+JAP_Occupation_Tooltip:0 "Provinces in China held by Japan will have the §YJapanese Occupation§! modifier."
+JAP_Pan_Asian_Propaganda_Tooltip:0 "Provinces in China held by Japan will have the §YPan-Asian Propaganda§! modifier which grants: Compliance Growth Speed: §G+20%§!"
+JAP_Japanese_Subjugation_Tooltip:0 "Provinces in China held by Japan will have the §YJapanese Subjugation§! modifier which grants: Non-core Manpower: §G+25%§!, Compliance Growth Speed: §R-25%§!"
+
+
+
+jap_pol_alliance:0 "Tokyo-Warsaw Pact"
+imperial_visit:0 "Imperial Visit"
+
+################################# CHARACTERS
+
+JAP_Fumimaro_Konoe:0 "Fumimaro Konoe"
+JAP_emperor_hirohito:0 "Emperor Hirohito"
+JAP_okinori_kaya:0 "Okinori Kaya"
+JAP_ichizo_kobayashi:0 "Ichizō Kobayashi"
+JAP_shumei_okawa:0"Shūmei Ōkawa"
+JAP_yoshisuke_aikawa:0 "Yoshisuke Aikawa"
+JAP_yosuke_matsuoka:0 "Yōsuke Matsuoka"
+
+################################# COUNTRIES
+
+#MAL_PROTECTORATE:0 "Imperial Protectorate Malaya"
+#VIN_PROTECTORATE:0 "Imperial Protectorate Vietnam"
+#CAM_PROTECTORATE:0 "Imperial Protectorate Khmer"
+#LAO_PROTECTORATE:0 "Imperial Protectorate Laos"
+#INS_PROTECTORATE:0 "Imperial Protectorate East Indies"
+#BRM_PROTECTORATE:0 "Imperial Protectorate Burma"
+
+CHO_neutrality:1 "Korean Shogunate"
+CHO_neutrality_DEF:1 "the Korean Shogunate"
+CHO_neutrality_ADJ:0 "Korean"
+CHO:0 "Korea"
+CHO_DEF:0 "Korea"
+CHO_ADJ:0 "Korean"
+
+#Protectorates
+
+ KOR_fascism:0 "Korean State"
+ KOR_fascism_DEF:0 "the Korean State"
+ KOR_democratic:0 "People's Republic of Korea"
+ KOR_democratic_DEF:0 "the People's Republic of Korea"
+ KOR_neutrality:1 "Korean Empire"
+ KOR_neutrality_DEF:1 "the Korean Empire"
+ KOR_communism:0 "Democratic People's Republic of Korea"
+ KOR_communism_DEF:0 "the Democratic People's Republic of Korea"
+ KOR_fascism_ADJ:0 "Korean"
+ KOR_democratic_ADJ:0 "Korean"
+ KOR_neutrality_ADJ:0 "Korean"
+ KOR_communism_ADJ:0 "Korean"
+ KOR:0 "Korea"
+ KOR_DEF:0 "Korea"
+ KOR_ADJ:0 "Korean"
+ 
+ MEN_fascism:0 "Mengjiang"
+ MEN_fascism_DEF:0 "Mengjiang"
+ MEN_democratic:0 "Republic of Mengjiang"
+ MEN_democratic_DEF:0 "the Republic of Mengjiang"
+ MEN_neutrality:0 "Mengjiang"
+ MEN_neutrality_DEF:0 "Mengjiang"
+ MEN_communism:0 "People's Mengjiang"
+ MEN_communism_DEF:0 "the People's Mengjiang"
+ MEN_fascism_ADJ:0 "Mengjiang"
+ MEN_democratic_ADJ:0 "Mengjiang"
+ MEN_neutrality_ADJ:0 "Mengjiang"
+ MEN_communism_ADJ:0 "Mengjiang"
+ MEN:0 "Mengjiang"
+ MEN_DEF:0 "Mengjiang"
+ MEN_ADJ:0 "Mengjiang"
+ 
+ IPM_fascism:0 "Hui Autonomous Region"
+ IPM_fascism_DEF:0 "Hui Autonomous Region"
+ IPM_democratic:0 "Xibei San Ma"
+ IPM_democratic_DEF:0 "Xibei San Ma"
+ IPM_neutrality:0 "Xibei San Ma"
+ IPM_neutrality_DEF:0 "Xibei San Ma"
+ IPM_communism:0 "Xibei San Ma"
+ IPM_communism_DEF:0 "Xibei San Ma"
+ IPM_fascism_ADJ:0 "Chinese"
+ IPM_democratic_ADJ:0 "Chinese"
+ IPM_neutrality_ADJ:0 "Chinese"
+ IPM_communism_ADJ:0 "Chinese"
+ IPM:0 "China"
+ IPM_DEF:0 "China"
+ IPM_ADJ:0 "Hui Chinese"
+ 
+ IPG_fascism:0 "Liangguang State"
+ IPG_fascism_DEF:0 "the State of Liangguang"
+ IPG_democratic:0 "Liangguang Republic"
+ IPG_democratic_DEF:0 "Liangguang Republic"
+ IPG_neutrality:0 "Guangxi Clique"
+ IPG_neutrality_DEF:0 "Guangxi Clique"
+ IPG_communism:0 "People's Republic of Liangguang"
+ IPG_communism_DEF:0 "People's Republic of Liangguang"
+ IPG_fascism_ADJ:0 "Chinese"
+ IPG_democratic_ADJ:0 "Chinese"
+ IPG_neutrality_ADJ:0 "Chinese"
+ IPG_communism_ADJ:0 "Chinese"
+ IPG:0 "China"
+ IPG_DEF:0 "China"
+ IPG_ADJ:0 "Chinese"
+ 
+ IPY_fascism:0 "Yunnan State"
+ IPY_fascism_DEF:0 "the State of Yunnan"
+ IPY_democratic:0 "Yunnan Republic"
+ IPY_democratic_DEF:0 "Yunnan Republic"
+ IPY_neutrality:0 "Yunnan"
+ IPY_neutrality_DEF:0 "Yunnan"
+ IPY_communism:0 "People's Republic of Yunnan"
+ IPY_communism_DEF:0 "People's Republic of Yunnan"
+ IPY_fascism_ADJ:0 "Chinese"
+ IPY_democratic_ADJ:0 "Chinese"
+ IPY_neutrality_ADJ:0 "Chinese"
+ IPY_communism_ADJ:0 "Chinese"
+ IPY:0 "China"
+ IPY_DEF:0 "China"
+ IPY_ADJ:0 "Chinese"
+ 
+ TBG_fascism:0 "Tibet Autonomous Region"
+ TBG_fascism_DEF:0 "Tibet Autonomous Region"
+ TBG_democratic:0 "Tibet Republic"
+ TBG_democratic_DEF:0 "Tibet Republic"
+ TBG_neutrality:0 "Tibet"
+ TBG_neutrality_DEF:0 "Tibet"
+ TBG_communism:0 "People's Republic of Tibet"
+ TBG_communism_DEF:0 "People's Republic of Tibet"
+ TBG_fascism_ADJ:0 "Tibetan"
+ TBG_democratic_ADJ:0 "Tibetan"
+ TBG_neutrality_ADJ:0 "Tibetan"
+ TBG_communism_ADJ:0 "Tibetan"
+ TBG:0 "Tibet"
+ TBG_DEF:0 "Tibet"
+ TBG_ADJ:0 "Tibetan"
+ 
+ IPS_fascism:0 "North China HQ"
+ IPS_fascism_DEF:0 "the North China Bandit Suppression Headquarters"
+ IPS_democratic:0 "Beiyang Republic"
+ IPS_democratic_DEF:0 "Beiyang Republic"
+ IPS_neutrality:0 "Jin"
+ IPS_neutrality_DEF:0 "Jin"
+ IPS_communism:0 "People's Republic of Beiyang"
+ IPS_communism_DEF:0 "People's Republic of Beiyang"
+ IPS_fascism_ADJ:0 "Chinese"
+ IPS_democratic_ADJ:0 "Chinese"
+ IPS_neutrality_ADJ:0 "Chinese"
+ IPS_communism_ADJ:0 "Chinese"
+ IPS:0 "China"
+ IPS_DEF:0 "China"
+ IPS_ADJ:0 "Chinese"

@@ -1,0 +1,23 @@
+######################
+#### Annex miniors####
+######################
+
+annex_miniors = {
+	allowed = {
+		original_tag = GER
+	}
+	priority = 1
+}
+
+annex_miniors_eng = {
+	allowed = {
+		original_tag = ENG
+	}
+	priority = 1
+}
+annex_miniors_jap = {
+	allowed = {
+		original_tag = JAP
+	}
+	priority = 1
+}

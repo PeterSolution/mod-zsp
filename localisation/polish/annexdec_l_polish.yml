@@ -1,0 +1,32 @@
+l_polish:
+ annex_miniors: "Decyzje do aneksji panstw"
+ annex_miniors_eng: "Decyzje do aneksji panstw"
+ annex_miniors_usa: "Decyzje do aneksji panstw"
+ annex_miniors_jap: "Decyzje do aneksji panstw"
+ 
+ annex_hun: "Zaanektuj węgry"
+ annex_bul: "Zaanektuj bulgarie"
+ annex_rom: "Zaanektuj rumunie"
+ annex_bul_to_ita: "Zaanektuj bulgarie do wloch"
+ annex_rom_to_ita: "Zaanektuj rumunie to wloch"
+ annex_bul_to_rom: "Zaanektuj bulgarie do rumunii"
+ annex_rom_to_bul: "Zaanektuj rumunie to bulgarii"
+ 
+ annex_manchuko: "Zaanektuj manchuko"
+ annex_siam: "Zaanektuj siam"
+ 
+ annex_mexico: "Zaanektuj meksyk"
+ 
+ annex_can: "Zaanektuj kanade"
+ annex_saf: "Zaanektuj poludniowa afryke"
+ annex_saf_to_raj: "Zaanektuj poludniowa afryke do indii"
+ annex_saf_to_ast: "Zaanektuj poludniowa afryke do australii"
+ annex_raj: "Zaanektuj indie"
+ annex_raj_to_ast: "Zaanektuj indie do australii"
+ annex_ast: "Zaanektuj australie"
+ annex_ast_to_raj: "Zaanektuj australie do indii"
+ annex_nzl: "Zaanektuj nowa zelandie"
+ annex_nzl_to_raj: "Zaanektuj nowa zelandie do indii"
+ annex_nzl_to_ast: "Zaanektuj nowa zelandie do australii"
+ annex_mengjiang: "Zaanektuj mengjiang"
+ take_indochinaaa: "Zabierz francuska kolonie"

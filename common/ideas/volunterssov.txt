@@ -1,0 +1,19 @@
+ideas = {
+	
+	country= {
+
+	   volunters_for_spain = {
+			name = trotskyite_plot
+
+			removal_cost = 40
+
+			picture = trotskyite_plot
+
+			allowed = {
+				always = no
+			}
+
+			can_send_volunteers = yes
+		}
+	}
+}

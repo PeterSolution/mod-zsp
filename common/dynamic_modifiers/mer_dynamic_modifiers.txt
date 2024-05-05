@@ -1,0 +1,12 @@
+
+ITA_supply_from_germans = {
+	enable = { always = yes }
+
+	icon = GFX_idea_generic_manpower_bonus
+	
+    no_supply_grace = 72
+	out_of_supply_factor = -0.1
+	supply_consumption_factor = -0.15
+	
+}
+

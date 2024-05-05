@@ -1,0 +1,20 @@
+ideas = {
+	country = {
+	
+		annexed_industry = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+	
+
+			targeted_modifier = {
+				tag = GER
+				cic_to_target_factor = 1.0
+				mic_to_target_factor = 1.0
+			}
+		}
+		
+	}
+}

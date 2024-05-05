@@ -1,0 +1,31 @@
+l_english:
+ annex_miniors: "Annex country decisions"
+ annex_miniors_eng: "Annex country decisions"
+ annex_miniors_usa: "Annex country decisions"
+ annex_miniors_jap: "Annex country decisions"
+ 
+ annex_hun: "Annex hungary"
+ annex_bul: "Annex bulgaria"
+ annex_rom: "Annex romania"
+ annex_bul_to_ita: "Annex bulgaria to italy"
+ annex_rom_to_ita: "Annex romania to italy"
+ annex_bul_to_rom: "Annex bulgaria to romania"
+ annex_rom_to_bul: "Annex romania to bulgaria"
+ 
+ annex_manchuko: "Annex manchuko"
+ annex_siam: "Annex siam"
+ 
+ annex_mexico: "Annex mexico"
+ 
+ annex_can: "Annex canada"
+ annex_saf: "Annex south africa"
+ annex_saf_to_raj: "Annex south africa to india"
+ annex_saf_to_ast: "Annex south africa to australia"
+ annex_raj: "Annex india"
+ annex_raj_to_ast: "Annex india to australia"
+ annex_ast: "Annex australia"
+ annex_ast_to_raj: "Annex australia to india"
+ annex_nzl: "Annex new zeland"
+ annex_nzl_to_raj: "Annex new zeland to india"
+ annex_nzl_to_ast: "Annex new zeland to australia"
+ annex_mengjiang: "Annex mengjiang"

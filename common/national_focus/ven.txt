@@ -1,0 +1,1095 @@
+focus_tree = {
+	id = ven
+	continuous_focus_position = { x = 240 y = 1960 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = VEN
+		}
+	}
+
+	#Rewrite the constitution
+	focus = {
+		id = VEN_rewrite_the_constitution
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 6
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 1000 }
+		completion_reward = {
+			add_political_power = 120
+			
+			
+			add_stability = 0.05
+			
+			
+		}
+    }
+    	#Support the league of nations
+	focus = {
+		id = VEN_support_the_league_of_nations
+		icon = GFX_goal_tripartite_pact
+		x = 4
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VEN_rewrite_the_constitution  }
+
+        completion_reward = {
+			add_ideas = VEN_league_of_nations_supporter
+        }
+    }
+		#create agency
+	focus = {
+		id = VEN_create_agency
+		icon = GFX_VEN_create_agency-613719
+		x = 4
+		y = 3
+		cost = 5
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		prerequisite = { focus = VEN_support_the_league_of_nations  }
+
+		completion_reward = {
+			create_intelligence_agency = yes
+		    add_ideas = VEN_modern_agency	
+			
+		}
+	}
+		#Improve relations with USA
+	focus = {
+		id = VEN_improve_relations_with_usa
+		icon = GFX_focus_chi_mission_to_the_us
+		x = 6
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VEN_support_the_league_of_nations  }
+		completion_reward = {
+			add_opinion_modifier = {
+			    target = USA
+			    modifier = CHI_mission_to_the_us
+			}
+			
+			
+			add_stability = 0.1
+			
+			add_popularity = {
+			    ideology = democratic
+			    popularity = 0.15
+			}
+			
+			
+			
+		}
+	}
+		#Open up free elections
+	focus = {
+		id = VEN_open_up_free_elections
+		icon = GFX_VEN_open_up_free_elections
+		x = 6
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VEN_improve_relations_with_usa  }
+
+		available = {
+			democratic > 0.1
+		}
+
+		completion_reward = {
+			
+			set_politics = {
+				ruling_party = democratic
+			        elections_allowed = yes
+			}
+			        
+			add_popularity = {
+			    ideology = democratic
+			    popularity = 0.35
+			}
+			
+			
+			
+		}
+	}
+		### Allow Full Freedom of Speech ###
+	focus = {
+		id = VEN_allow_full_freedom_of_speech
+		icon = GFX_goal_support_democracy
+		x = -2
+		y =1
+		cost = 7.2
+		relative_position_id = VEN_open_up_free_elections
+		prerequisite = { focus = VEN_open_up_free_elections }
+
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.03
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.15
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
+			}
+		}
+
+	}
+		#woman right to vote
+	focus = {
+		id = VEN_woman_right_to_vote
+		icon = GFX_VEN_woman_right_to_vote-262028
+		x = 2
+		y = 1
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		prerequisite = { focus = VEN_open_up_free_elections  }
+		relative_position_id = VEN_open_up_free_elections
+		completion_reward = {
+			add_ideas = VEN_woman_right_for_voting
+		}
+
+
+
+	}
+	focus = {
+	    id = VEN_neutrality_act
+		icon = GFX_goal_generic_neutrality_focus
+		x = 6
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VEN_woman_right_to_vote }
+		prerequisite = { focus = VEN_allow_full_freedom_of_speech }
+
+		completion_reward = {
+			add_political_power = 250
+
+			add_stability = 0.05
+
+			add_ideas = VEN_neutrality_act
+		}
+
+
+
+	}	
+	focus = {
+		id = VEN_prepare_home_defence
+		icon = GFX_VEN_prepare_home_defense
+		x = 6
+		y = 7
+	
+		prerequisite = { focus = VEN_neutrality_act }
+
+		
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_ideas = VEN_home_defence	
+		}
+	}	
+	focus = {
+		id = VEN_support_the_allies_in_the_war
+		icon = GFX_VEN_support_allies
+		x = -2
+		y = 1
+
+		prerequisite = { focus = VEN_prepare_home_defence }
+		available = {
+			date > 1940.01.01
+		}
+		relative_position_id = VEN_prepare_home_defence
+		
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_opinion_modifier = {
+				target = GER
+				modifier = VEN_relacjeniemiec_2
+			}
+    	}
+	}
+	focus = {
+		id = VEN_embargo_axis
+		icon = GFX_VEN_embargo_axis
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = VEN_support_the_allies_in_the_war }
+		available = {
+			date > 1941.01.01
+		}
+		relative_position_id = VEN_support_the_allies_in_the_war
+		
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			send_embargo = GER
+			send_embargo = ITA
+			send_embargo = JAP
+			custom_effect_tooltip = embargo_relation_tt		
+		}
+	}
+		#send volunteers to allies
+	focus = {
+		id = VEN_send_volunteers_to_allies
+		icon = GFX_VEN_send_volounteers_to_allies
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = VEN_embargo_axis }
+		relative_position_id = VEN_embargo_axis
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_ideas = VEN_allied_expedition_bonus	
+	    }
+	}
+		#join allies
+	focus = {
+		id = VEN_join_allies
+		icon = GFX_VEN_join_allies-613781
+		x = 5
+		y = 10
+		cost = 10
+		prerequisite = { focus = VEN_embargo_axis }
+        
+		available = {
+			date > 1942.01.01
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			join_allies_effect = yes
+	    }
+	}
+	focus = {
+		id = VEN_learn_from_the_allies
+		icon = GFX_VEN_learn_from_allies
+		x = 2
+		y = 1
+		cost = 10
+		prerequisite = { focus = VEN_prepare_home_defence }
+		relative_position_id = VEN_prepare_home_defence
+
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+				add_doctrine_cost_reduction = {
+				name = VEN_allied_learn #land_doc_bonus
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+				
+			}
+		}
+	}
+	focus = {
+		id = VEN_additional_conscription
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		x = -2
+		y = 1
+		cost = 10
+		prerequisite = { focus = VEN_learn_from_the_allies }
+		relative_position_id = VEN_learn_from_the_allies
+		
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			if = {
+                limit = {
+                    has_idea = VEN_home_defence
+                }
+                swap_ideas = {
+                    remove_idea = VEN_home_defence
+                    add_idea = VEN_home_defence1
+                }
+            }
+		}
+	}
+	focus = {
+		id = VEN_wartime_industry
+		icon = GFX_VEN_wartime
+		x = 0
+		y = 2
+		prerequisite = { 
+			focus = VEN_learn_from_the_allies
+		}
+		relative_position_id = VEN_learn_from_the_allies
+		
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			if = {
+                limit = {
+                    has_idea = civilian_economy
+                }
+                swap_ideas = {
+                    remove_idea = civilian_economy
+                    add_idea = war_economy
+                }
+            }
+            if = {
+                limit = {
+                    has_idea = low_economic_mobilisation
+                }
+                swap_ideas = {
+                    remove_idea = low_economic_mobilisation
+                    add_idea = war_economy
+                }
+            }
+            if = {
+                limit = {
+                    has_idea = partial_economic_mobilisation
+                }
+                swap_ideas = {
+                    remove_idea = partial_economic_mobilisation
+                    add_idea = war_economy
+                }
+            }
+		}
+	}
+		#Anti-illiteracy program
+	focus = {
+		id = VEN_antiilliteracy_program
+		icon = GFX_focus_research
+		x = 9
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = VEN_rewrite_the_constitution  }
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+		#University of caracas
+	focus = {
+		id = VEN_university_of_caracas
+		icon = GFX_focus_research2
+		x = 9
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = VEN_antiilliteracy_program  }
+		available = {
+			num_of_factories > 25
+			
+			
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+    focus = {
+		id = VEN_secure_oil_trade_with_america
+		icon = GFX_goal_generic_oil_refinery
+		x = 20
+		y = 0
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			489 = {
+                add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+		    }
+		}
+	}
+	focus = {
+		id = VEN_develop_oil_fields
+		icon = GFX_goal_generic_oil_refinery
+		x = -2
+		y = 1
+		prerequisite = { 
+			focus = VEN_secure_oil_trade_with_america
+		}
+		relative_position_id = VEN_secure_oil_trade_with_america
+		
+		cost = 10
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			unlock_decision_category_tooltip = VEN_develop_oil_fields
+		}
+	}
+	focus = {
+		id = VEN_industrialize_the_nation
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 0
+		y = 1
+		prerequisite = { 
+			focus = VEN_secure_oil_trade_with_america
+		}
+		relative_position_id = VEN_secure_oil_trade_with_america
+		
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			488 = {
+                add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+		    }
+		}
+	}
+		#develop mines
+	focus = {
+		id = VEN_develop_mines
+		icon = GFX_251215
+		x = -5
+		y = 2
+		cost = 5
+		relative_position_id = VEN_industrialize_the_nation
+		prerequisite = { 
+			focus = VEN_industrialize_the_nation
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			307 = {
+                add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+		    }
+		}	
+	}
+		#fight corruption
+	focus = {
+		id = VEN_fight_the_crisis_after_crash
+		icon = GFX_focus_mex_privatisation
+		x = 17
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VEN_industrialize_the_nation }
+		completion_reward = {
+			unlock_decision_category_tooltip = VEN_fight_the_crisis_after_crash
+		}	
+	}
+		#Build a steel mill in caracas
+	focus = {
+		id = VEN_build_a_steel_mill_in_caracas
+		icon = GFX_focus_generic_steel
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		relative_position_id = VEN_develop_mines
+		prerequisite = { focus = VEN_develop_mines }
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_resource = {
+					type = steel
+					amount = 16
+				}
+			}
+		}
+	}
+		#Build chromium
+	focus = {
+		id = VEN_start_mining_chromium
+		icon = GFX_goal_generic_production2
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		relative_position_id = VEN_build_a_steel_mill_in_caracas
+		prerequisite = { focus = VEN_build_a_steel_mill_in_caracas }
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_resource = {
+					type = chromium
+					amount = 24
+				}
+			}
+		}
+	}
+		#Create coffee plantations
+	focus = {
+		id = VEN_new_industrial_era
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 20
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VEN_industrialize_the_nation }
+		completion_reward = {
+			489 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes	
+				}
+			}
+		}
+	}
+		#improve labor law
+	focus = {
+		id = VEN_improve_labor_law
+		icon = GFX_VEN_improve_labor_law-613777
+		x = -2
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VEN_new_industrial_era  }
+		relative_position_id = VEN_new_industrial_era
+		completion_reward = {
+			add_ideas = VEN_modern_labor_law
+		}
+	}
+		#attract American investors
+	focus = {
+		id = VEN_attract_american_investors
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VEN_improve_labor_law }
+		relative_position_id = VEN_improve_labor_law
+		completion_reward = {
+			307 = {
+                add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+		    }
+		}	
+	}
+		#Diversification of the economy
+	focus = {
+		id = VEN_diversification_of_the_economy
+		icon = GFX_focus_spa_the_spanish_miracle
+		x = 18
+		y = 6
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VEN_attract_american_investors  }
+			completion_reward = {
+			488 = {
+                add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+				}
+		    }
+		}
+	}
+		#Build more roads
+	focus = {
+		id = VEN_build_more_roads
+		icon = GFX_VEN_industrialize_nation
+		x = 23
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VEN_new_industrial_era }
+		completion_reward = {
+			489 = {
+                add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+				}
+			}
+			488 = {
+                add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
+		    }
+			307 = {
+                add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+				}
+		    }
+		}
+	}
+		#expand building slots
+	focus = {
+		id = VEN_expand_building_slots
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 23
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VEN_build_more_roads  }
+		completion_reward = {
+			489 = {
+                add_extra_state_shared_building_slots = 3
+			}
+			488 = {
+                add_extra_state_shared_building_slots = 2
+			}
+			307 = {
+                add_extra_state_shared_building_slots = 4
+			}
+		}
+	}
+		#modernize fiscal policy
+	focus = {
+		id = VEN_modernize_fiscal_policy
+		icon = GFX_focus_generic_treaty
+		x = 0
+		y = 1
+		cost = 7.2
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VEN_new_industrial_era }
+		relative_position_id = VEN_new_industrial_era
+			completion_reward = {
+				add_ideas = VEN_fiscal_policy
+		}
+	}	
+		#modernize the bolivar region
+	focus = {
+		id = VEN_modernize_the_bolivar_region
+		icon = GFX_focus_generic_industry_2
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = VEN_modernize_fiscal_policy  }
+		relative_position_id = VEN_modernize_fiscal_policy
+		completion_reward = {
+			488 = {
+            	add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+
+				}
+			}
+		}
+	}
+		#start military rearmament
+	focus = {
+		id = VEN_start_military_rearmament
+		icon = GFX_goal_generic_axis_build_infantry
+		x = 18
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+		}
+	}
+		#expand Caracas industries
+	focus = {
+		id = VEN_expand_caracas_industries
+		icon = GFX_goal_generic_construct_mil_factory
+		x = -1
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		relative_position_id = VEN_start_military_rearmament
+		prerequisite = { focus = VEN_start_military_rearmament  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+		}
+	}
+		#Standarized production lines
+	focus = {
+		id = VEN_Venezuelan_military_production
+		icon = GFX_standarized_production
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		relative_position_id = VEN_expand_caracas_industries
+		prerequisite = { focus = VEN_expand_caracas_industries  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+		}
+	}
+	focus = {
+		id = VEN_kickstart_navy_production
+		icon = GFX_GER_Plan_Z
+		x = -4
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		relative_position_id = VEN_start_military_rearmament
+		prerequisite = { focus = VEN_start_military_rearmament  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+			type = dockyard
+			level = 2
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+		}
+	}
+	focus = {
+		id = VEN_build_convoy_escorts
+		icon = GFX_focus_generic_destroyer
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		relative_position_id = VEN_kickstart_navy_production
+		prerequisite = { focus = VEN_kickstart_navy_production  }
+		completion_reward = {
+			if = {
+	   			limit = { has_dlc = "Man the Guns" }
+                   create_equipment_variant = {
+					name = "Sabre Class"
+					type = ship_hull_cruiser_2
+					allow_without_tech = yes
+					parent_version = 0
+					modules = {
+						fixed_ship_battery_slot = ship_light_medium_battery_2
+						fixed_ship_anti_air_slot = ship_anti_air_1
+						fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+						fixed_ship_radar_slot = empty
+						fixed_ship_engine_slot = cruiser_ship_engine_2
+						fixed_ship_armor_slot = ship_armor_cruiser_3
+						fixed_ship_secondaries_slot = dp_ship_secondaries_1
+						front_1_custom_slot = ship_light_medium_battery_2
+						mid_1_custom_slot = ship_airplane_launcher_1
+						mid_2_custom_slot = ship_light_medium_battery_2
+						rear_1_custom_slot = ship_light_medium_battery_2
+					}
+				} 
+			}
+		}
+	}
+		#Venezuela rules the waves
+	focus = {
+		id = VEN_venezuela_rules_the_waves
+		icon = GFX_rules_the
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = VEN_build_convoy_escorts  }
+		available = {
+			date > 1940.01.01
+		}
+		relative_position_id = VEN_build_convoy_escorts		
+		completion_reward = {
+			add_political_power = -100
+			navy_experience = 250
+		}
+	}
+		#army modernisation
+	focus = {
+		id = VEN_army_modernisation
+		icon = GFX_goal_generic_axis_build_infantry
+		x = 20
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = VEN_start_military_rearmament  }
+		completion_reward = {
+			army_experience = 75
+		}
+	}
+		#better doctrines
+	focus = {
+		id = VEN_better_doctrines
+		icon = GFX_goal_generic_army_doctrines
+		x = 20
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = VEN_army_modernisation  }
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = USA_louisiana_maneuvers
+				cost_reduction = 0.5
+				uses = 4
+				category = land_doctrine
+			}
+		}
+	}
+		#train moutaniers
+	focus = {
+		id = VEN_train_moutaniers
+		icon = GFX_focus_GRE_a_land_of_mountains
+		x = 22
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = VEN_start_military_rearmament  }
+		completion_reward = {
+			add_tech_bonus = {
+			name = special_bonus
+			bonus = 1.0
+			uses = 3
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+				technology = tech_mountaineers3
+			}
+		}
+	}
+		#moutaniers doctrine
+	focus = {
+		id = VEN_moutaniers_doctrine
+		icon = GFX_goal_generic_air_doctrine
+		x = 22
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = VEN_train_moutaniers  }
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = VEN_moutaniers_doctrine
+				cost_reduction = 0.5
+				uses = 2
+				category = special_forces_doctrine
+			}	
+		}
+	}
+		#truck effort
+	focus = {
+		id = VEN_truck_effort
+		icon = GFX_goal_generic_army_motorized
+		x = 24
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MEX_CHURCH_AUTHORITY
+		}
+		prerequisite = { focus = VEN_start_military_rearmament  }
+	
+	    completion_reward = {
+			add_tech_bonus = {
+				name = special_bonus
+				bonus = 1.0
+	 	    	uses = 3
+				category = motorized_equipment
+			}
+		}
+	}
+	focus = {
+		id = VEN_prussia_of_south_america
+		icon = GFX_focus_generic_military_academy
+		x = 26
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = VEN_start_military_rearmament  }
+		completion_reward = {
+			add_ideas = VEN_new_military_academy_idea
+		}
+	}
+		#buy tanks blueprints
+	focus = {
+		id = VEN_buy_tanks_blueprints
+		icon = GFX_focus_generic_tank_production
+		x = 25
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = VEN_truck_effort  } 
+		prerequisite = { focus = VEN_prussia_of_south_america  }
+		available = {
+			date > 1937.08.01
+		}
+		completion_reward = {
+			create_equipment_variant = {
+						name = "Sherman"
+						type = medium_tank_chassis_1
+						allow_without_tech = yes
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_medium_cannon
+							turret_type_slot = tank_medium_three_man_tank_turret
+							suspension_type_slot = tank_christie_suspension
+							armor_type_slot = tank_riveted_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = smoke_launchers
+							special_type_slot_3 = wet_ammo_storage
+							special_type_slot_4 = additional_machine_guns
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 6
+							tank_nsb_armor_upgrade = 9
+						}
+						icon = "GFX_USA_medium_ACB_camo"
+			}
+		}
+	}
+		#modernization of airforce
+	focus = {
+		id = VEN_modernization_of_airforce
+		icon = GFX_goal_generic_air_fighter
+		x = 28
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = VEN_start_military_rearmament  }
+		completion_reward = {
+			air_experience = 25
+			random_state = {				
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_doctrine_cost_reduction = {
+				name = VEN_modernization_of_airforce
+				cost_reduction = 0.5
+				uses = 4
+				category = air_doctrine
+			}
+			add_ideas = air_war_plans_division_focus
+		}
+	}
+}
+
+		
+	
+
+
+
+
+
+
+	
+
+
+	

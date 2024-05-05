@@ -1,0 +1,28 @@
+###########################
+# VEN Events
+###########################
+
+add_namespace = ven
+
+
+country_event = {
+	id = ven.4
+	title = Buy_Fleet_From_Usa
+	desc = Buy_Fleet_From_Usa
+	picture = GFX_report_event_usa_british_sailors_destroyers
+
+	is_triggered_only = yes
+	
+	option = {
+		name = Buy_Fleet_From_Usa
+		hidden_effect = {
+			if = {
+				limit = { not = { has_dlc = "Man the Guns" } }
+				VEN = {	load_oob = "Buy_1" }
+			}
+			else = {
+				VEN = {	load_oob = "Buy_MTG" }
+			}
+		}
+	}
+}
